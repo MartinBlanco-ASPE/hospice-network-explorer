@@ -1,0 +1,20 @@
+{
+  "snapshot_date": "2026-11-03",
+  "source_dashboard_sha256": "b190c037838a9dbb0d6f26d5d414c5592d086c38f9f161443fc739861d40eb10",
+  "source_rows": 67594,
+  "canonical_assigned_ccns": 6486,
+  "publication_scope": "Dashboard, descriptive methodology, implementation, and validation only; no policy analysis",
+  "embedded_declarations": [
+    "DATA",
+    "PILOT",
+    "CODING",
+    "READ",
+    "SEVERITY"
+  ],
+  "source_data_excluded": [
+    "original workbook",
+    "full narrative corpus",
+    "internal notes",
+    "policy reports and synthesis"
+  ]
+}

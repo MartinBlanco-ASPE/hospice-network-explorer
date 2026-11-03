@@ -1,0 +1,2629 @@
+﻿phrase_A,phrase_B,coassignment_fraction
+care plan,assessment,0.9753086419753086
+care plan,reassessment,0.024691358024691357
+care plan,patient goals,1.0
+care plan,visit frequency,0.037037037037037035
+care plan,skilled nursing,0.38271604938271603
+care plan,hospice aide,0.18518518518518517
+care plan,aide supervision,0.18518518518518517
+care plan,competency evaluation,0.0
+care plan,staff training,0.012345679012345678
+care plan,physician order,0.0
+care plan,medication profile,0.0
+care plan,medication reconciliation,0.0
+care plan,medication dose,0.024691358024691357
+care plan,drug interaction,0.0
+care plan,oxygen,0.0
+care plan,wound care,0.8765432098765432
+care plan,pain assessment,0.0
+care plan,symptom management,0.0
+care plan,infection control,0.0
+care plan,hand hygiene,0.0
+care plan,protective equipment,0.0
+care plan,equipment cleaning,0.0
+care plan,caregiver education,0.0
+care plan,return demonstration,0.691358024691358
+care plan,communication,0.037037037037037035
+care plan,discharge summary,0.0
+care plan,attending physician,0.0
+care plan,interdisciplinary group,0.2222222222222222
+care plan,medical director,0.0
+care plan,electronic record,0.0
+care plan,documentation,0.024691358024691357
+care plan,copied documentation,0.0
+care plan,advance directive,0.0
+care plan,patient rights,0.0
+care plan,consent,0.0
+care plan,spiritual care,0.06172839506172839
+care plan,bereavement care,0.06172839506172839
+care plan,social work,0.037037037037037035
+care plan,volunteer services,0.0
+care plan,quality improvement,0.0
+care plan,governing body,0.0
+care plan,administrator,0.024691358024691357
+care plan,background check,0.0
+care plan,supplies,0.0
+care plan,medical equipment,0.0
+care plan,on-call response,0.0
+care plan,service coordination,0.037037037037037035
+care plan,care refusal,0.037037037037037035
+care plan,fall risk,1.0
+care plan,aspiration risk,1.0
+care plan,skin integrity,0.9876543209876543
+care plan,catheter care,0.6296296296296297
+care plan,terminal certification,0.0
+care plan,change in condition,0.037037037037037035
+care plan,missed visits,0.037037037037037035
+care plan,physician notification,0.037037037037037035
+care plan,signed orders,0.0
+care plan,drug storage,0.0
+care plan,plan revision,1.0
+care plan,assessment timeliness,0.18518518518518517
+care plan,performance monitoring,0.0
+care plan,pain medication,0.0
+care plan,patient choice,0.8271604938271605
+care plan,Abuse,0.024691358024691357
+care plan,Neglect,0.024691358024691357
+care plan,Sexual / assault,0.024691358024691357
+care plan,Exploitation / theft / diversion,0.024691358024691357
+care plan,Restraint / seclusion,0.0
+care plan,Injury,0.024691358024691357
+care plan,Harm,0.0
+care plan,Elopement / overdose,0.0
+care plan,Grievance,0.024691358024691357
+assessment,reassessment,0.04938271604938271
+assessment,patient goals,0.9753086419753086
+assessment,visit frequency,0.037037037037037035
+assessment,skilled nursing,0.38271604938271603
+assessment,hospice aide,0.18518518518518517
+assessment,aide supervision,0.18518518518518517
+assessment,competency evaluation,0.0
+assessment,staff training,0.012345679012345678
+assessment,physician order,0.0
+assessment,medication profile,0.0
+assessment,medication reconciliation,0.0
+assessment,medication dose,0.024691358024691357
+assessment,drug interaction,0.0
+assessment,oxygen,0.0
+assessment,wound care,0.8518518518518519
+assessment,pain assessment,0.024691358024691357
+assessment,symptom management,0.024691358024691357
+assessment,infection control,0.0
+assessment,hand hygiene,0.0
+assessment,protective equipment,0.0
+assessment,equipment cleaning,0.0
+assessment,caregiver education,0.024691358024691357
+assessment,return demonstration,0.6666666666666666
+assessment,communication,0.037037037037037035
+assessment,discharge summary,0.0
+assessment,attending physician,0.0
+assessment,interdisciplinary group,0.2222222222222222
+assessment,medical director,0.0
+assessment,electronic record,0.0
+assessment,documentation,0.024691358024691357
+assessment,copied documentation,0.0
+assessment,advance directive,0.0
+assessment,patient rights,0.0
+assessment,consent,0.0
+assessment,spiritual care,0.06172839506172839
+assessment,bereavement care,0.06172839506172839
+assessment,social work,0.037037037037037035
+assessment,volunteer services,0.0
+assessment,quality improvement,0.0
+assessment,governing body,0.0
+assessment,administrator,0.0
+assessment,background check,0.0
+assessment,supplies,0.0
+assessment,medical equipment,0.0
+assessment,on-call response,0.0
+assessment,service coordination,0.037037037037037035
+assessment,care refusal,0.037037037037037035
+assessment,fall risk,0.9753086419753086
+assessment,aspiration risk,0.9753086419753086
+assessment,skin integrity,0.9629629629629629
+assessment,catheter care,0.6296296296296297
+assessment,terminal certification,0.0
+assessment,change in condition,0.037037037037037035
+assessment,missed visits,0.037037037037037035
+assessment,physician notification,0.037037037037037035
+assessment,signed orders,0.0
+assessment,drug storage,0.0
+assessment,plan revision,0.9753086419753086
+assessment,assessment timeliness,0.18518518518518517
+assessment,performance monitoring,0.0
+assessment,pain medication,0.024691358024691357
+assessment,patient choice,0.8271604938271605
+assessment,Abuse,0.0
+assessment,Neglect,0.0
+assessment,Sexual / assault,0.0
+assessment,Exploitation / theft / diversion,0.0
+assessment,Restraint / seclusion,0.0
+assessment,Injury,0.0
+assessment,Harm,0.0
+assessment,Elopement / overdose,0.024691358024691357
+assessment,Grievance,0.0
+reassessment,patient goals,0.024691358024691357
+reassessment,visit frequency,0.1728395061728395
+reassessment,skilled nursing,0.3333333333333333
+reassessment,hospice aide,0.07407407407407407
+reassessment,aide supervision,0.07407407407407407
+reassessment,competency evaluation,0.04938271604938271
+reassessment,staff training,0.0
+reassessment,physician order,0.08641975308641975
+reassessment,medication profile,0.7407407407407407
+reassessment,medication reconciliation,0.7407407407407407
+reassessment,medication dose,0.7283950617283951
+reassessment,drug interaction,0.7407407407407407
+reassessment,oxygen,0.2962962962962963
+reassessment,wound care,0.024691358024691357
+reassessment,pain assessment,0.9259259259259259
+reassessment,symptom management,0.9259259259259259
+reassessment,infection control,0.0
+reassessment,hand hygiene,0.0
+reassessment,protective equipment,0.0
+reassessment,equipment cleaning,0.0
+reassessment,caregiver education,0.9259259259259259
+reassessment,return demonstration,0.024691358024691357
+reassessment,communication,0.16049382716049382
+reassessment,discharge summary,0.06172839506172839
+reassessment,attending physician,0.0
+reassessment,interdisciplinary group,0.19753086419753085
+reassessment,medical director,0.0
+reassessment,electronic record,0.0
+reassessment,documentation,0.13580246913580246
+reassessment,copied documentation,0.0
+reassessment,advance directive,0.0
+reassessment,patient rights,0.0
+reassessment,consent,0.0
+reassessment,spiritual care,0.14814814814814814
+reassessment,bereavement care,0.14814814814814814
+reassessment,social work,0.1728395061728395
+reassessment,volunteer services,0.04938271604938271
+reassessment,quality improvement,0.0
+reassessment,governing body,0.0
+reassessment,administrator,0.0
+reassessment,background check,0.0
+reassessment,supplies,0.0
+reassessment,medical equipment,0.0
+reassessment,on-call response,0.4567901234567901
+reassessment,service coordination,0.16049382716049382
+reassessment,care refusal,0.19753086419753085
+reassessment,fall risk,0.024691358024691357
+reassessment,aspiration risk,0.024691358024691357
+reassessment,skin integrity,0.024691358024691357
+reassessment,catheter care,0.024691358024691357
+reassessment,terminal certification,0.0
+reassessment,change in condition,0.19753086419753085
+reassessment,missed visits,0.1728395061728395
+reassessment,physician notification,0.19753086419753085
+reassessment,signed orders,0.07407407407407407
+reassessment,drug storage,0.2962962962962963
+reassessment,plan revision,0.024691358024691357
+reassessment,assessment timeliness,0.07407407407407407
+reassessment,performance monitoring,0.0
+reassessment,pain medication,0.9259259259259259
+reassessment,patient choice,0.024691358024691357
+reassessment,Abuse,0.0
+reassessment,Neglect,0.0
+reassessment,Sexual / assault,0.0
+reassessment,Exploitation / theft / diversion,0.0
+reassessment,Restraint / seclusion,0.0
+reassessment,Injury,0.0
+reassessment,Harm,0.0
+reassessment,Elopement / overdose,0.9259259259259259
+reassessment,Grievance,0.0
+patient goals,visit frequency,0.037037037037037035
+patient goals,skilled nursing,0.38271604938271603
+patient goals,hospice aide,0.18518518518518517
+patient goals,aide supervision,0.18518518518518517
+patient goals,competency evaluation,0.0
+patient goals,staff training,0.012345679012345678
+patient goals,physician order,0.0
+patient goals,medication profile,0.0
+patient goals,medication reconciliation,0.0
+patient goals,medication dose,0.024691358024691357
+patient goals,drug interaction,0.0
+patient goals,oxygen,0.0
+patient goals,wound care,0.8765432098765432
+patient goals,pain assessment,0.0
+patient goals,symptom management,0.0
+patient goals,infection control,0.0
+patient goals,hand hygiene,0.0
+patient goals,protective equipment,0.0
+patient goals,equipment cleaning,0.0
+patient goals,caregiver education,0.0
+patient goals,return demonstration,0.691358024691358
+patient goals,communication,0.037037037037037035
+patient goals,discharge summary,0.0
+patient goals,attending physician,0.0
+patient goals,interdisciplinary group,0.2222222222222222
+patient goals,medical director,0.0
+patient goals,electronic record,0.0
+patient goals,documentation,0.024691358024691357
+patient goals,copied documentation,0.0
+patient goals,advance directive,0.0
+patient goals,patient rights,0.0
+patient goals,consent,0.0
+patient goals,spiritual care,0.06172839506172839
+patient goals,bereavement care,0.06172839506172839
+patient goals,social work,0.037037037037037035
+patient goals,volunteer services,0.0
+patient goals,quality improvement,0.0
+patient goals,governing body,0.0
+patient goals,administrator,0.024691358024691357
+patient goals,background check,0.0
+patient goals,supplies,0.0
+patient goals,medical equipment,0.0
+patient goals,on-call response,0.0
+patient goals,service coordination,0.037037037037037035
+patient goals,care refusal,0.037037037037037035
+patient goals,fall risk,1.0
+patient goals,aspiration risk,1.0
+patient goals,skin integrity,0.9876543209876543
+patient goals,catheter care,0.6296296296296297
+patient goals,terminal certification,0.0
+patient goals,change in condition,0.037037037037037035
+patient goals,missed visits,0.037037037037037035
+patient goals,physician notification,0.037037037037037035
+patient goals,signed orders,0.0
+patient goals,drug storage,0.0
+patient goals,plan revision,1.0
+patient goals,assessment timeliness,0.18518518518518517
+patient goals,performance monitoring,0.0
+patient goals,pain medication,0.0
+patient goals,patient choice,0.8271604938271605
+patient goals,Abuse,0.024691358024691357
+patient goals,Neglect,0.024691358024691357
+patient goals,Sexual / assault,0.024691358024691357
+patient goals,Exploitation / theft / diversion,0.024691358024691357
+patient goals,Restraint / seclusion,0.0
+patient goals,Injury,0.024691358024691357
+patient goals,Harm,0.0
+patient goals,Elopement / overdose,0.0
+patient goals,Grievance,0.024691358024691357
+visit frequency,skilled nursing,0.3333333333333333
+visit frequency,hospice aide,0.024691358024691357
+visit frequency,aide supervision,0.024691358024691357
+visit frequency,competency evaluation,0.35802469135802467
+visit frequency,staff training,0.0
+visit frequency,physician order,0.1728395061728395
+visit frequency,medication profile,0.19753086419753085
+visit frequency,medication reconciliation,0.19753086419753085
+visit frequency,medication dose,0.2839506172839506
+visit frequency,drug interaction,0.19753086419753085
+visit frequency,oxygen,0.0
+visit frequency,wound care,0.0
+visit frequency,pain assessment,0.19753086419753085
+visit frequency,symptom management,0.19753086419753085
+visit frequency,infection control,0.0
+visit frequency,hand hygiene,0.0
+visit frequency,protective equipment,0.0
+visit frequency,equipment cleaning,0.0
+visit frequency,caregiver education,0.19753086419753085
+visit frequency,return demonstration,0.0
+visit frequency,communication,0.9382716049382716
+visit frequency,discharge summary,0.14814814814814814
+visit frequency,attending physician,0.06172839506172839
+visit frequency,interdisciplinary group,0.6419753086419753
+visit frequency,medical director,0.06172839506172839
+visit frequency,electronic record,0.06172839506172839
+visit frequency,documentation,0.654320987654321
+visit frequency,copied documentation,0.04938271604938271
+visit frequency,advance directive,0.0
+visit frequency,patient rights,0.0
+visit frequency,consent,0.0
+visit frequency,spiritual care,0.7037037037037037
+visit frequency,bereavement care,0.7037037037037037
+visit frequency,social work,0.7777777777777778
+visit frequency,volunteer services,0.35802469135802467
+visit frequency,quality improvement,0.0
+visit frequency,governing body,0.0
+visit frequency,administrator,0.0
+visit frequency,background check,0.0
+visit frequency,supplies,0.0
+visit frequency,medical equipment,0.0
+visit frequency,on-call response,0.7160493827160493
+visit frequency,service coordination,0.9382716049382716
+visit frequency,care refusal,0.9753086419753086
+visit frequency,fall risk,0.037037037037037035
+visit frequency,aspiration risk,0.037037037037037035
+visit frequency,skin integrity,0.037037037037037035
+visit frequency,catheter care,0.0
+visit frequency,terminal certification,0.06172839506172839
+visit frequency,change in condition,0.9753086419753086
+visit frequency,missed visits,1.0
+visit frequency,physician notification,0.9753086419753086
+visit frequency,signed orders,0.13580246913580246
+visit frequency,drug storage,0.0
+visit frequency,plan revision,0.037037037037037035
+visit frequency,assessment timeliness,0.024691358024691357
+visit frequency,performance monitoring,0.0
+visit frequency,pain medication,0.19753086419753085
+visit frequency,patient choice,0.037037037037037035
+visit frequency,Abuse,0.0
+visit frequency,Neglect,0.0
+visit frequency,Sexual / assault,0.0
+visit frequency,Exploitation / theft / diversion,0.0
+visit frequency,Restraint / seclusion,0.0
+visit frequency,Injury,0.0
+visit frequency,Harm,0.0
+visit frequency,Elopement / overdose,0.19753086419753085
+visit frequency,Grievance,0.0
+skilled nursing,hospice aide,0.14814814814814814
+skilled nursing,aide supervision,0.14814814814814814
+skilled nursing,competency evaluation,0.0
+skilled nursing,staff training,0.0
+skilled nursing,physician order,0.1111111111111111
+skilled nursing,medication profile,0.5185185185185185
+skilled nursing,medication reconciliation,0.5185185185185185
+skilled nursing,medication dose,0.6049382716049383
+skilled nursing,drug interaction,0.5185185185185185
+skilled nursing,oxygen,0.12345679012345678
+skilled nursing,wound care,0.345679012345679
+skilled nursing,pain assessment,0.4074074074074074
+skilled nursing,symptom management,0.4074074074074074
+skilled nursing,infection control,0.0
+skilled nursing,hand hygiene,0.0
+skilled nursing,protective equipment,0.0
+skilled nursing,equipment cleaning,0.0
+skilled nursing,caregiver education,0.4074074074074074
+skilled nursing,return demonstration,0.345679012345679
+skilled nursing,communication,0.2962962962962963
+skilled nursing,discharge summary,0.08641975308641975
+skilled nursing,attending physician,0.0
+skilled nursing,interdisciplinary group,0.4567901234567901
+skilled nursing,medical director,0.0
+skilled nursing,electronic record,0.0
+skilled nursing,documentation,0.2222222222222222
+skilled nursing,copied documentation,0.0
+skilled nursing,advance directive,0.0
+skilled nursing,patient rights,0.0
+skilled nursing,consent,0.0
+skilled nursing,spiritual care,0.25925925925925924
+skilled nursing,bereavement care,0.25925925925925924
+skilled nursing,social work,0.3333333333333333
+skilled nursing,volunteer services,0.0
+skilled nursing,quality improvement,0.0
+skilled nursing,governing body,0.0
+skilled nursing,administrator,0.0
+skilled nursing,background check,0.0
+skilled nursing,supplies,0.0
+skilled nursing,medical equipment,0.0
+skilled nursing,on-call response,0.41975308641975306
+skilled nursing,service coordination,0.2962962962962963
+skilled nursing,care refusal,0.35802469135802467
+skilled nursing,fall risk,0.38271604938271603
+skilled nursing,aspiration risk,0.38271604938271603
+skilled nursing,skin integrity,0.38271604938271603
+skilled nursing,catheter care,0.19753086419753085
+skilled nursing,terminal certification,0.0
+skilled nursing,change in condition,0.35802469135802467
+skilled nursing,missed visits,0.3333333333333333
+skilled nursing,physician notification,0.35802469135802467
+skilled nursing,signed orders,0.07407407407407407
+skilled nursing,drug storage,0.12345679012345678
+skilled nursing,plan revision,0.38271604938271603
+skilled nursing,assessment timeliness,0.14814814814814814
+skilled nursing,performance monitoring,0.0
+skilled nursing,pain medication,0.4074074074074074
+skilled nursing,patient choice,0.30864197530864196
+skilled nursing,Abuse,0.0
+skilled nursing,Neglect,0.0
+skilled nursing,Sexual / assault,0.0
+skilled nursing,Exploitation / theft / diversion,0.0
+skilled nursing,Restraint / seclusion,0.0
+skilled nursing,Injury,0.0
+skilled nursing,Harm,0.0
+skilled nursing,Elopement / overdose,0.4074074074074074
+skilled nursing,Grievance,0.0
+hospice aide,aide supervision,1.0
+hospice aide,competency evaluation,0.6419753086419753
+hospice aide,staff training,0.5802469135802469
+hospice aide,physician order,0.07407407407407407
+hospice aide,medication profile,0.0
+hospice aide,medication reconciliation,0.0
+hospice aide,medication dose,0.0
+hospice aide,drug interaction,0.0
+hospice aide,oxygen,0.0
+hospice aide,wound care,0.19753086419753085
+hospice aide,pain assessment,0.0
+hospice aide,symptom management,0.0
+hospice aide,infection control,0.0
+hospice aide,hand hygiene,0.0
+hospice aide,protective equipment,0.0
+hospice aide,equipment cleaning,0.0
+hospice aide,caregiver education,0.0
+hospice aide,return demonstration,0.18518518518518517
+hospice aide,communication,0.0
+hospice aide,discharge summary,0.07407407407407407
+hospice aide,attending physician,0.07407407407407407
+hospice aide,interdisciplinary group,0.38271604938271603
+hospice aide,medical director,0.07407407407407407
+hospice aide,electronic record,0.07407407407407407
+hospice aide,documentation,0.012345679012345678
+hospice aide,copied documentation,0.04938271604938271
+hospice aide,advance directive,0.012345679012345678
+hospice aide,patient rights,0.012345679012345678
+hospice aide,consent,0.012345679012345678
+hospice aide,spiritual care,0.09876543209876543
+hospice aide,bereavement care,0.09876543209876543
+hospice aide,social work,0.024691358024691357
+hospice aide,volunteer services,0.6419753086419753
+hospice aide,quality improvement,0.24691358024691357
+hospice aide,governing body,0.24691358024691357
+hospice aide,administrator,0.012345679012345678
+hospice aide,background check,0.012345679012345678
+hospice aide,supplies,0.0
+hospice aide,medical equipment,0.0
+hospice aide,on-call response,0.0
+hospice aide,service coordination,0.0
+hospice aide,care refusal,0.0
+hospice aide,fall risk,0.18518518518518517
+hospice aide,aspiration risk,0.18518518518518517
+hospice aide,skin integrity,0.1728395061728395
+hospice aide,catheter care,0.12345679012345678
+hospice aide,terminal certification,0.07407407407407407
+hospice aide,change in condition,0.0
+hospice aide,missed visits,0.024691358024691357
+hospice aide,physician notification,0.0
+hospice aide,signed orders,0.07407407407407407
+hospice aide,drug storage,0.0
+hospice aide,plan revision,0.18518518518518517
+hospice aide,assessment timeliness,0.9259259259259259
+hospice aide,performance monitoring,0.24691358024691357
+hospice aide,pain medication,0.0
+hospice aide,patient choice,0.35802469135802467
+hospice aide,Abuse,0.012345679012345678
+hospice aide,Neglect,0.012345679012345678
+hospice aide,Sexual / assault,0.012345679012345678
+hospice aide,Exploitation / theft / diversion,0.012345679012345678
+hospice aide,Restraint / seclusion,0.012345679012345678
+hospice aide,Injury,0.012345679012345678
+hospice aide,Harm,0.012345679012345678
+hospice aide,Elopement / overdose,0.0
+hospice aide,Grievance,0.012345679012345678
+aide supervision,competency evaluation,0.6419753086419753
+aide supervision,staff training,0.5802469135802469
+aide supervision,physician order,0.07407407407407407
+aide supervision,medication profile,0.0
+aide supervision,medication reconciliation,0.0
+aide supervision,medication dose,0.0
+aide supervision,drug interaction,0.0
+aide supervision,oxygen,0.0
+aide supervision,wound care,0.19753086419753085
+aide supervision,pain assessment,0.0
+aide supervision,symptom management,0.0
+aide supervision,infection control,0.0
+aide supervision,hand hygiene,0.0
+aide supervision,protective equipment,0.0
+aide supervision,equipment cleaning,0.0
+aide supervision,caregiver education,0.0
+aide supervision,return demonstration,0.18518518518518517
+aide supervision,communication,0.0
+aide supervision,discharge summary,0.07407407407407407
+aide supervision,attending physician,0.07407407407407407
+aide supervision,interdisciplinary group,0.38271604938271603
+aide supervision,medical director,0.07407407407407407
+aide supervision,electronic record,0.07407407407407407
+aide supervision,documentation,0.012345679012345678
+aide supervision,copied documentation,0.04938271604938271
+aide supervision,advance directive,0.012345679012345678
+aide supervision,patient rights,0.012345679012345678
+aide supervision,consent,0.012345679012345678
+aide supervision,spiritual care,0.09876543209876543
+aide supervision,bereavement care,0.09876543209876543
+aide supervision,social work,0.024691358024691357
+aide supervision,volunteer services,0.6419753086419753
+aide supervision,quality improvement,0.24691358024691357
+aide supervision,governing body,0.24691358024691357
+aide supervision,administrator,0.012345679012345678
+aide supervision,background check,0.012345679012345678
+aide supervision,supplies,0.0
+aide supervision,medical equipment,0.0
+aide supervision,on-call response,0.0
+aide supervision,service coordination,0.0
+aide supervision,care refusal,0.0
+aide supervision,fall risk,0.18518518518518517
+aide supervision,aspiration risk,0.18518518518518517
+aide supervision,skin integrity,0.1728395061728395
+aide supervision,catheter care,0.12345679012345678
+aide supervision,terminal certification,0.07407407407407407
+aide supervision,change in condition,0.0
+aide supervision,missed visits,0.024691358024691357
+aide supervision,physician notification,0.0
+aide supervision,signed orders,0.07407407407407407
+aide supervision,drug storage,0.0
+aide supervision,plan revision,0.18518518518518517
+aide supervision,assessment timeliness,0.9259259259259259
+aide supervision,performance monitoring,0.24691358024691357
+aide supervision,pain medication,0.0
+aide supervision,patient choice,0.35802469135802467
+aide supervision,Abuse,0.012345679012345678
+aide supervision,Neglect,0.012345679012345678
+aide supervision,Sexual / assault,0.012345679012345678
+aide supervision,Exploitation / theft / diversion,0.012345679012345678
+aide supervision,Restraint / seclusion,0.012345679012345678
+aide supervision,Injury,0.012345679012345678
+aide supervision,Harm,0.012345679012345678
+aide supervision,Elopement / overdose,0.0
+aide supervision,Grievance,0.012345679012345678
+competency evaluation,staff training,0.49382716049382713
+competency evaluation,physician order,0.07407407407407407
+competency evaluation,medication profile,0.0
+competency evaluation,medication reconciliation,0.0
+competency evaluation,medication dose,0.0
+competency evaluation,drug interaction,0.0
+competency evaluation,oxygen,0.0
+competency evaluation,wound care,0.024691358024691357
+competency evaluation,pain assessment,0.0
+competency evaluation,symptom management,0.0
+competency evaluation,infection control,0.0
+competency evaluation,hand hygiene,0.0
+competency evaluation,protective equipment,0.0
+competency evaluation,equipment cleaning,0.0
+competency evaluation,caregiver education,0.0
+competency evaluation,return demonstration,0.012345679012345678
+competency evaluation,communication,0.3333333333333333
+competency evaluation,discharge summary,0.07407407407407407
+competency evaluation,attending physician,0.07407407407407407
+competency evaluation,interdisciplinary group,0.024691358024691357
+competency evaluation,medical director,0.07407407407407407
+competency evaluation,electronic record,0.07407407407407407
+competency evaluation,documentation,0.2345679012345679
+competency evaluation,copied documentation,0.04938271604938271
+competency evaluation,advance directive,0.012345679012345678
+competency evaluation,patient rights,0.012345679012345678
+competency evaluation,consent,0.012345679012345678
+competency evaluation,spiritual care,0.18518518518518517
+competency evaluation,bereavement care,0.18518518518518517
+competency evaluation,social work,0.13580246913580246
+competency evaluation,volunteer services,1.0
+competency evaluation,quality improvement,0.2716049382716049
+competency evaluation,governing body,0.2716049382716049
+competency evaluation,administrator,0.012345679012345678
+competency evaluation,background check,0.012345679012345678
+competency evaluation,supplies,0.0
+competency evaluation,medical equipment,0.0
+competency evaluation,on-call response,0.3333333333333333
+competency evaluation,service coordination,0.3333333333333333
+competency evaluation,care refusal,0.3333333333333333
+competency evaluation,fall risk,0.0
+competency evaluation,aspiration risk,0.0
+competency evaluation,skin integrity,0.0
+competency evaluation,catheter care,0.024691358024691357
+competency evaluation,terminal certification,0.07407407407407407
+competency evaluation,change in condition,0.3333333333333333
+competency evaluation,missed visits,0.35802469135802467
+competency evaluation,physician notification,0.3333333333333333
+competency evaluation,signed orders,0.07407407407407407
+competency evaluation,drug storage,0.0
+competency evaluation,plan revision,0.0
+competency evaluation,assessment timeliness,0.5679012345679012
+competency evaluation,performance monitoring,0.2716049382716049
+competency evaluation,pain medication,0.0
+competency evaluation,patient choice,0.0
+competency evaluation,Abuse,0.012345679012345678
+competency evaluation,Neglect,0.012345679012345678
+competency evaluation,Sexual / assault,0.012345679012345678
+competency evaluation,Exploitation / theft / diversion,0.012345679012345678
+competency evaluation,Restraint / seclusion,0.012345679012345678
+competency evaluation,Injury,0.012345679012345678
+competency evaluation,Harm,0.012345679012345678
+competency evaluation,Elopement / overdose,0.0
+competency evaluation,Grievance,0.012345679012345678
+staff training,physician order,0.0
+staff training,medication profile,0.0
+staff training,medication reconciliation,0.0
+staff training,medication dose,0.0
+staff training,drug interaction,0.0
+staff training,oxygen,0.0
+staff training,wound care,0.0
+staff training,pain assessment,0.0
+staff training,symptom management,0.0
+staff training,infection control,0.04938271604938271
+staff training,hand hygiene,0.04938271604938271
+staff training,protective equipment,0.04938271604938271
+staff training,equipment cleaning,0.04938271604938271
+staff training,caregiver education,0.0
+staff training,return demonstration,0.08641975308641975
+staff training,communication,0.0
+staff training,discharge summary,0.0
+staff training,attending physician,0.0
+staff training,interdisciplinary group,0.1111111111111111
+staff training,medical director,0.0
+staff training,electronic record,0.0
+staff training,documentation,0.0
+staff training,copied documentation,0.0
+staff training,advance directive,0.13580246913580246
+staff training,patient rights,0.13580246913580246
+staff training,consent,0.13580246913580246
+staff training,spiritual care,0.04938271604938271
+staff training,bereavement care,0.04938271604938271
+staff training,social work,0.0
+staff training,volunteer services,0.49382716049382713
+staff training,quality improvement,0.5925925925925926
+staff training,governing body,0.5925925925925926
+staff training,administrator,0.13580246913580246
+staff training,background check,0.13580246913580246
+staff training,supplies,0.04938271604938271
+staff training,medical equipment,0.04938271604938271
+staff training,on-call response,0.0
+staff training,service coordination,0.0
+staff training,care refusal,0.0
+staff training,fall risk,0.012345679012345678
+staff training,aspiration risk,0.012345679012345678
+staff training,skin integrity,0.0
+staff training,catheter care,0.0
+staff training,terminal certification,0.0
+staff training,change in condition,0.0
+staff training,missed visits,0.0
+staff training,physician notification,0.0
+staff training,signed orders,0.0
+staff training,drug storage,0.024691358024691357
+staff training,plan revision,0.012345679012345678
+staff training,assessment timeliness,0.5061728395061729
+staff training,performance monitoring,0.5925925925925926
+staff training,pain medication,0.0
+staff training,patient choice,0.1111111111111111
+staff training,Abuse,0.13580246913580246
+staff training,Neglect,0.13580246913580246
+staff training,Sexual / assault,0.13580246913580246
+staff training,Exploitation / theft / diversion,0.13580246913580246
+staff training,Restraint / seclusion,0.13580246913580246
+staff training,Injury,0.13580246913580246
+staff training,Harm,0.13580246913580246
+staff training,Elopement / overdose,0.0
+staff training,Grievance,0.13580246913580246
+physician order,medication profile,0.1111111111111111
+physician order,medication reconciliation,0.1111111111111111
+physician order,medication dose,0.1111111111111111
+physician order,drug interaction,0.1111111111111111
+physician order,oxygen,0.0
+physician order,wound care,0.1111111111111111
+physician order,pain assessment,0.1111111111111111
+physician order,symptom management,0.1111111111111111
+physician order,infection control,0.0
+physician order,hand hygiene,0.0
+physician order,protective equipment,0.0
+physician order,equipment cleaning,0.0
+physician order,caregiver education,0.1111111111111111
+physician order,return demonstration,0.0
+physician order,communication,0.2345679012345679
+physician order,discharge summary,0.9753086419753086
+physician order,attending physician,0.8888888888888888
+physician order,interdisciplinary group,0.14814814814814814
+physician order,medical director,0.8888888888888888
+physician order,electronic record,0.8888888888888888
+physician order,documentation,0.1111111111111111
+physician order,copied documentation,0.5679012345679012
+physician order,advance directive,0.0
+physician order,patient rights,0.0
+physician order,consent,0.0
+physician order,spiritual care,0.14814814814814814
+physician order,bereavement care,0.14814814814814814
+physician order,social work,0.1728395061728395
+physician order,volunteer services,0.07407407407407407
+physician order,quality improvement,0.0
+physician order,governing body,0.0
+physician order,administrator,0.0
+physician order,background check,0.3333333333333333
+physician order,supplies,0.0
+physician order,medical equipment,0.0
+physician order,on-call response,0.1728395061728395
+physician order,service coordination,0.2345679012345679
+physician order,care refusal,0.1728395061728395
+physician order,fall risk,0.0
+physician order,aspiration risk,0.0
+physician order,skin integrity,0.0
+physician order,catheter care,0.1111111111111111
+physician order,terminal certification,0.8888888888888888
+physician order,change in condition,0.1728395061728395
+physician order,missed visits,0.1728395061728395
+physician order,physician notification,0.1728395061728395
+physician order,signed orders,0.9629629629629629
+physician order,drug storage,0.0
+physician order,plan revision,0.0
+physician order,assessment timeliness,0.07407407407407407
+physician order,performance monitoring,0.0
+physician order,pain medication,0.1111111111111111
+physician order,patient choice,0.0
+physician order,Abuse,0.0
+physician order,Neglect,0.0
+physician order,Sexual / assault,0.0
+physician order,Exploitation / theft / diversion,0.0
+physician order,Restraint / seclusion,0.38271604938271603
+physician order,Injury,0.0
+physician order,Harm,0.37037037037037035
+physician order,Elopement / overdose,0.1111111111111111
+physician order,Grievance,0.0
+medication profile,medication reconciliation,1.0
+medication profile,medication dose,0.8395061728395061
+medication profile,drug interaction,1.0
+medication profile,oxygen,0.2716049382716049
+medication profile,wound care,0.0
+medication profile,pain assessment,0.8148148148148148
+medication profile,symptom management,0.8148148148148148
+medication profile,infection control,0.0
+medication profile,hand hygiene,0.0
+medication profile,protective equipment,0.0
+medication profile,equipment cleaning,0.0
+medication profile,caregiver education,0.8148148148148148
+medication profile,return demonstration,0.0
+medication profile,communication,0.18518518518518517
+medication profile,discharge summary,0.08641975308641975
+medication profile,attending physician,0.0
+medication profile,interdisciplinary group,0.1728395061728395
+medication profile,medical director,0.0
+medication profile,electronic record,0.0
+medication profile,documentation,0.13580246913580246
+medication profile,copied documentation,0.0
+medication profile,advance directive,0.0
+medication profile,patient rights,0.0
+medication profile,consent,0.0
+medication profile,spiritual care,0.12345679012345678
+medication profile,bereavement care,0.12345679012345678
+medication profile,social work,0.19753086419753085
+medication profile,volunteer services,0.0
+medication profile,quality improvement,0.0
+medication profile,governing body,0.0
+medication profile,administrator,0.0
+medication profile,background check,0.0
+medication profile,supplies,0.0
+medication profile,medical equipment,0.0
+medication profile,on-call response,0.48148148148148145
+medication profile,service coordination,0.18518518518518517
+medication profile,care refusal,0.2222222222222222
+medication profile,fall risk,0.0
+medication profile,aspiration risk,0.0
+medication profile,skin integrity,0.0
+medication profile,catheter care,0.0
+medication profile,terminal certification,0.0
+medication profile,change in condition,0.2222222222222222
+medication profile,missed visits,0.19753086419753085
+medication profile,physician notification,0.2222222222222222
+medication profile,signed orders,0.07407407407407407
+medication profile,drug storage,0.2716049382716049
+medication profile,plan revision,0.0
+medication profile,assessment timeliness,0.0
+medication profile,performance monitoring,0.0
+medication profile,pain medication,0.8148148148148148
+medication profile,patient choice,0.0
+medication profile,Abuse,0.0
+medication profile,Neglect,0.0
+medication profile,Sexual / assault,0.0
+medication profile,Exploitation / theft / diversion,0.0
+medication profile,Restraint / seclusion,0.0
+medication profile,Injury,0.0
+medication profile,Harm,0.0
+medication profile,Elopement / overdose,0.8148148148148148
+medication profile,Grievance,0.0
+medication reconciliation,medication dose,0.8395061728395061
+medication reconciliation,drug interaction,1.0
+medication reconciliation,oxygen,0.2716049382716049
+medication reconciliation,wound care,0.0
+medication reconciliation,pain assessment,0.8148148148148148
+medication reconciliation,symptom management,0.8148148148148148
+medication reconciliation,infection control,0.0
+medication reconciliation,hand hygiene,0.0
+medication reconciliation,protective equipment,0.0
+medication reconciliation,equipment cleaning,0.0
+medication reconciliation,caregiver education,0.8148148148148148
+medication reconciliation,return demonstration,0.0
+medication reconciliation,communication,0.18518518518518517
+medication reconciliation,discharge summary,0.08641975308641975
+medication reconciliation,attending physician,0.0
+medication reconciliation,interdisciplinary group,0.1728395061728395
+medication reconciliation,medical director,0.0
+medication reconciliation,electronic record,0.0
+medication reconciliation,documentation,0.13580246913580246
+medication reconciliation,copied documentation,0.0
+medication reconciliation,advance directive,0.0
+medication reconciliation,patient rights,0.0
+medication reconciliation,consent,0.0
+medication reconciliation,spiritual care,0.12345679012345678
+medication reconciliation,bereavement care,0.12345679012345678
+medication reconciliation,social work,0.19753086419753085
+medication reconciliation,volunteer services,0.0
+medication reconciliation,quality improvement,0.0
+medication reconciliation,governing body,0.0
+medication reconciliation,administrator,0.0
+medication reconciliation,background check,0.0
+medication reconciliation,supplies,0.0
+medication reconciliation,medical equipment,0.0
+medication reconciliation,on-call response,0.48148148148148145
+medication reconciliation,service coordination,0.18518518518518517
+medication reconciliation,care refusal,0.2222222222222222
+medication reconciliation,fall risk,0.0
+medication reconciliation,aspiration risk,0.0
+medication reconciliation,skin integrity,0.0
+medication reconciliation,catheter care,0.0
+medication reconciliation,terminal certification,0.0
+medication reconciliation,change in condition,0.2222222222222222
+medication reconciliation,missed visits,0.19753086419753085
+medication reconciliation,physician notification,0.2222222222222222
+medication reconciliation,signed orders,0.07407407407407407
+medication reconciliation,drug storage,0.2716049382716049
+medication reconciliation,plan revision,0.0
+medication reconciliation,assessment timeliness,0.0
+medication reconciliation,performance monitoring,0.0
+medication reconciliation,pain medication,0.8148148148148148
+medication reconciliation,patient choice,0.0
+medication reconciliation,Abuse,0.0
+medication reconciliation,Neglect,0.0
+medication reconciliation,Sexual / assault,0.0
+medication reconciliation,Exploitation / theft / diversion,0.0
+medication reconciliation,Restraint / seclusion,0.0
+medication reconciliation,Injury,0.0
+medication reconciliation,Harm,0.0
+medication reconciliation,Elopement / overdose,0.8148148148148148
+medication reconciliation,Grievance,0.0
+medication dose,drug interaction,0.8395061728395061
+medication dose,oxygen,0.345679012345679
+medication dose,wound care,0.0
+medication dose,pain assessment,0.8024691358024691
+medication dose,symptom management,0.8024691358024691
+medication dose,infection control,0.0
+medication dose,hand hygiene,0.0
+medication dose,protective equipment,0.0
+medication dose,equipment cleaning,0.0
+medication dose,caregiver education,0.8024691358024691
+medication dose,return demonstration,0.0
+medication dose,communication,0.25925925925925924
+medication dose,discharge summary,0.08641975308641975
+medication dose,attending physician,0.0
+medication dose,interdisciplinary group,0.25925925925925924
+medication dose,medical director,0.0
+medication dose,electronic record,0.0
+medication dose,documentation,0.2222222222222222
+medication dose,copied documentation,0.0
+medication dose,advance directive,0.0
+medication dose,patient rights,0.0
+medication dose,consent,0.0
+medication dose,spiritual care,0.20987654320987653
+medication dose,bereavement care,0.20987654320987653
+medication dose,social work,0.2839506172839506
+medication dose,volunteer services,0.0
+medication dose,quality improvement,0.0
+medication dose,governing body,0.0
+medication dose,administrator,0.0
+medication dose,background check,0.0
+medication dose,supplies,0.0
+medication dose,medical equipment,0.0
+medication dose,on-call response,0.5185185185185185
+medication dose,service coordination,0.25925925925925924
+medication dose,care refusal,0.30864197530864196
+medication dose,fall risk,0.024691358024691357
+medication dose,aspiration risk,0.024691358024691357
+medication dose,skin integrity,0.024691358024691357
+medication dose,catheter care,0.0
+medication dose,terminal certification,0.0
+medication dose,change in condition,0.30864197530864196
+medication dose,missed visits,0.2839506172839506
+medication dose,physician notification,0.30864197530864196
+medication dose,signed orders,0.07407407407407407
+medication dose,drug storage,0.345679012345679
+medication dose,plan revision,0.024691358024691357
+medication dose,assessment timeliness,0.0
+medication dose,performance monitoring,0.0
+medication dose,pain medication,0.8024691358024691
+medication dose,patient choice,0.024691358024691357
+medication dose,Abuse,0.0
+medication dose,Neglect,0.0
+medication dose,Sexual / assault,0.0
+medication dose,Exploitation / theft / diversion,0.0
+medication dose,Restraint / seclusion,0.0
+medication dose,Injury,0.0
+medication dose,Harm,0.0
+medication dose,Elopement / overdose,0.8024691358024691
+medication dose,Grievance,0.0
+drug interaction,oxygen,0.2716049382716049
+drug interaction,wound care,0.0
+drug interaction,pain assessment,0.8148148148148148
+drug interaction,symptom management,0.8148148148148148
+drug interaction,infection control,0.0
+drug interaction,hand hygiene,0.0
+drug interaction,protective equipment,0.0
+drug interaction,equipment cleaning,0.0
+drug interaction,caregiver education,0.8148148148148148
+drug interaction,return demonstration,0.0
+drug interaction,communication,0.18518518518518517
+drug interaction,discharge summary,0.08641975308641975
+drug interaction,attending physician,0.0
+drug interaction,interdisciplinary group,0.1728395061728395
+drug interaction,medical director,0.0
+drug interaction,electronic record,0.0
+drug interaction,documentation,0.13580246913580246
+drug interaction,copied documentation,0.0
+drug interaction,advance directive,0.0
+drug interaction,patient rights,0.0
+drug interaction,consent,0.0
+drug interaction,spiritual care,0.12345679012345678
+drug interaction,bereavement care,0.12345679012345678
+drug interaction,social work,0.19753086419753085
+drug interaction,volunteer services,0.0
+drug interaction,quality improvement,0.0
+drug interaction,governing body,0.0
+drug interaction,administrator,0.0
+drug interaction,background check,0.0
+drug interaction,supplies,0.0
+drug interaction,medical equipment,0.0
+drug interaction,on-call response,0.48148148148148145
+drug interaction,service coordination,0.18518518518518517
+drug interaction,care refusal,0.2222222222222222
+drug interaction,fall risk,0.0
+drug interaction,aspiration risk,0.0
+drug interaction,skin integrity,0.0
+drug interaction,catheter care,0.0
+drug interaction,terminal certification,0.0
+drug interaction,change in condition,0.2222222222222222
+drug interaction,missed visits,0.19753086419753085
+drug interaction,physician notification,0.2222222222222222
+drug interaction,signed orders,0.07407407407407407
+drug interaction,drug storage,0.2716049382716049
+drug interaction,plan revision,0.0
+drug interaction,assessment timeliness,0.0
+drug interaction,performance monitoring,0.0
+drug interaction,pain medication,0.8148148148148148
+drug interaction,patient choice,0.0
+drug interaction,Abuse,0.0
+drug interaction,Neglect,0.0
+drug interaction,Sexual / assault,0.0
+drug interaction,Exploitation / theft / diversion,0.0
+drug interaction,Restraint / seclusion,0.0
+drug interaction,Injury,0.0
+drug interaction,Harm,0.0
+drug interaction,Elopement / overdose,0.8148148148148148
+drug interaction,Grievance,0.0
+oxygen,wound care,0.0
+oxygen,pain assessment,0.345679012345679
+oxygen,symptom management,0.345679012345679
+oxygen,infection control,0.654320987654321
+oxygen,hand hygiene,0.654320987654321
+oxygen,protective equipment,0.654320987654321
+oxygen,equipment cleaning,0.654320987654321
+oxygen,caregiver education,0.345679012345679
+oxygen,return demonstration,0.0
+oxygen,communication,0.0
+oxygen,discharge summary,0.0
+oxygen,attending physician,0.0
+oxygen,interdisciplinary group,0.0
+oxygen,medical director,0.0
+oxygen,electronic record,0.0
+oxygen,documentation,0.0
+oxygen,copied documentation,0.0
+oxygen,advance directive,0.0
+oxygen,patient rights,0.0
+oxygen,consent,0.0
+oxygen,spiritual care,0.0
+oxygen,bereavement care,0.0
+oxygen,social work,0.0
+oxygen,volunteer services,0.0
+oxygen,quality improvement,0.25925925925925924
+oxygen,governing body,0.25925925925925924
+oxygen,administrator,0.0
+oxygen,background check,0.0
+oxygen,supplies,0.654320987654321
+oxygen,medical equipment,0.654320987654321
+oxygen,on-call response,0.07407407407407407
+oxygen,service coordination,0.0
+oxygen,care refusal,0.0
+oxygen,fall risk,0.0
+oxygen,aspiration risk,0.0
+oxygen,skin integrity,0.0
+oxygen,catheter care,0.1111111111111111
+oxygen,terminal certification,0.0
+oxygen,change in condition,0.0
+oxygen,missed visits,0.0
+oxygen,physician notification,0.0
+oxygen,signed orders,0.0
+oxygen,drug storage,0.9629629629629629
+oxygen,plan revision,0.0
+oxygen,assessment timeliness,0.0
+oxygen,performance monitoring,0.25925925925925924
+oxygen,pain medication,0.345679012345679
+oxygen,patient choice,0.0
+oxygen,Abuse,0.0
+oxygen,Neglect,0.0
+oxygen,Sexual / assault,0.0
+oxygen,Exploitation / theft / diversion,0.0
+oxygen,Restraint / seclusion,0.0
+oxygen,Injury,0.0
+oxygen,Harm,0.0
+oxygen,Elopement / overdose,0.345679012345679
+oxygen,Grievance,0.0
+wound care,pain assessment,0.0
+wound care,symptom management,0.0
+wound care,infection control,0.0
+wound care,hand hygiene,0.0
+wound care,protective equipment,0.0
+wound care,equipment cleaning,0.0
+wound care,caregiver education,0.0
+wound care,return demonstration,0.7037037037037037
+wound care,communication,0.0
+wound care,discharge summary,0.1111111111111111
+wound care,attending physician,0.1111111111111111
+wound care,interdisciplinary group,0.1728395061728395
+wound care,medical director,0.1111111111111111
+wound care,electronic record,0.1111111111111111
+wound care,documentation,0.0
+wound care,copied documentation,0.0
+wound care,advance directive,0.012345679012345678
+wound care,patient rights,0.012345679012345678
+wound care,consent,0.012345679012345678
+wound care,spiritual care,0.024691358024691357
+wound care,bereavement care,0.024691358024691357
+wound care,social work,0.0
+wound care,volunteer services,0.024691358024691357
+wound care,quality improvement,0.0
+wound care,governing body,0.0
+wound care,administrator,0.037037037037037035
+wound care,background check,0.0
+wound care,supplies,0.0
+wound care,medical equipment,0.0
+wound care,on-call response,0.0
+wound care,service coordination,0.0
+wound care,care refusal,0.0
+wound care,fall risk,0.8765432098765432
+wound care,aspiration risk,0.8765432098765432
+wound care,skin integrity,0.8888888888888888
+wound care,catheter care,0.7407407407407407
+wound care,terminal certification,0.1111111111111111
+wound care,change in condition,0.0
+wound care,missed visits,0.0
+wound care,physician notification,0.0
+wound care,signed orders,0.1111111111111111
+wound care,drug storage,0.0
+wound care,plan revision,0.8765432098765432
+wound care,assessment timeliness,0.19753086419753085
+wound care,performance monitoring,0.0
+wound care,pain medication,0.0
+wound care,patient choice,0.7037037037037037
+wound care,Abuse,0.037037037037037035
+wound care,Neglect,0.037037037037037035
+wound care,Sexual / assault,0.037037037037037035
+wound care,Exploitation / theft / diversion,0.037037037037037035
+wound care,Restraint / seclusion,0.037037037037037035
+wound care,Injury,0.037037037037037035
+wound care,Harm,0.037037037037037035
+wound care,Elopement / overdose,0.0
+wound care,Grievance,0.037037037037037035
+pain assessment,symptom management,1.0
+pain assessment,infection control,0.0
+pain assessment,hand hygiene,0.0
+pain assessment,protective equipment,0.0
+pain assessment,equipment cleaning,0.0
+pain assessment,caregiver education,1.0
+pain assessment,return demonstration,0.0
+pain assessment,communication,0.18518518518518517
+pain assessment,discharge summary,0.08641975308641975
+pain assessment,attending physician,0.0
+pain assessment,interdisciplinary group,0.1728395061728395
+pain assessment,medical director,0.0
+pain assessment,electronic record,0.0
+pain assessment,documentation,0.13580246913580246
+pain assessment,copied documentation,0.0
+pain assessment,advance directive,0.0
+pain assessment,patient rights,0.0
+pain assessment,consent,0.0
+pain assessment,spiritual care,0.12345679012345678
+pain assessment,bereavement care,0.12345679012345678
+pain assessment,social work,0.19753086419753085
+pain assessment,volunteer services,0.0
+pain assessment,quality improvement,0.0
+pain assessment,governing body,0.0
+pain assessment,administrator,0.0
+pain assessment,background check,0.0
+pain assessment,supplies,0.0
+pain assessment,medical equipment,0.0
+pain assessment,on-call response,0.48148148148148145
+pain assessment,service coordination,0.18518518518518517
+pain assessment,care refusal,0.2222222222222222
+pain assessment,fall risk,0.0
+pain assessment,aspiration risk,0.0
+pain assessment,skin integrity,0.0
+pain assessment,catheter care,0.0
+pain assessment,terminal certification,0.0
+pain assessment,change in condition,0.2222222222222222
+pain assessment,missed visits,0.19753086419753085
+pain assessment,physician notification,0.2222222222222222
+pain assessment,signed orders,0.07407407407407407
+pain assessment,drug storage,0.345679012345679
+pain assessment,plan revision,0.0
+pain assessment,assessment timeliness,0.0
+pain assessment,performance monitoring,0.0
+pain assessment,pain medication,1.0
+pain assessment,patient choice,0.0
+pain assessment,Abuse,0.0
+pain assessment,Neglect,0.0
+pain assessment,Sexual / assault,0.0
+pain assessment,Exploitation / theft / diversion,0.0
+pain assessment,Restraint / seclusion,0.0
+pain assessment,Injury,0.0
+pain assessment,Harm,0.0
+pain assessment,Elopement / overdose,1.0
+pain assessment,Grievance,0.0
+symptom management,infection control,0.0
+symptom management,hand hygiene,0.0
+symptom management,protective equipment,0.0
+symptom management,equipment cleaning,0.0
+symptom management,caregiver education,1.0
+symptom management,return demonstration,0.0
+symptom management,communication,0.18518518518518517
+symptom management,discharge summary,0.08641975308641975
+symptom management,attending physician,0.0
+symptom management,interdisciplinary group,0.1728395061728395
+symptom management,medical director,0.0
+symptom management,electronic record,0.0
+symptom management,documentation,0.13580246913580246
+symptom management,copied documentation,0.0
+symptom management,advance directive,0.0
+symptom management,patient rights,0.0
+symptom management,consent,0.0
+symptom management,spiritual care,0.12345679012345678
+symptom management,bereavement care,0.12345679012345678
+symptom management,social work,0.19753086419753085
+symptom management,volunteer services,0.0
+symptom management,quality improvement,0.0
+symptom management,governing body,0.0
+symptom management,administrator,0.0
+symptom management,background check,0.0
+symptom management,supplies,0.0
+symptom management,medical equipment,0.0
+symptom management,on-call response,0.48148148148148145
+symptom management,service coordination,0.18518518518518517
+symptom management,care refusal,0.2222222222222222
+symptom management,fall risk,0.0
+symptom management,aspiration risk,0.0
+symptom management,skin integrity,0.0
+symptom management,catheter care,0.0
+symptom management,terminal certification,0.0
+symptom management,change in condition,0.2222222222222222
+symptom management,missed visits,0.19753086419753085
+symptom management,physician notification,0.2222222222222222
+symptom management,signed orders,0.07407407407407407
+symptom management,drug storage,0.345679012345679
+symptom management,plan revision,0.0
+symptom management,assessment timeliness,0.0
+symptom management,performance monitoring,0.0
+symptom management,pain medication,1.0
+symptom management,patient choice,0.0
+symptom management,Abuse,0.0
+symptom management,Neglect,0.0
+symptom management,Sexual / assault,0.0
+symptom management,Exploitation / theft / diversion,0.0
+symptom management,Restraint / seclusion,0.0
+symptom management,Injury,0.0
+symptom management,Harm,0.0
+symptom management,Elopement / overdose,1.0
+symptom management,Grievance,0.0
+infection control,hand hygiene,1.0
+infection control,protective equipment,1.0
+infection control,equipment cleaning,1.0
+infection control,caregiver education,0.0
+infection control,return demonstration,0.0
+infection control,communication,0.0
+infection control,discharge summary,0.0
+infection control,attending physician,0.0
+infection control,interdisciplinary group,0.0
+infection control,medical director,0.0
+infection control,electronic record,0.0
+infection control,documentation,0.0
+infection control,copied documentation,0.0
+infection control,advance directive,0.0
+infection control,patient rights,0.0
+infection control,consent,0.0
+infection control,spiritual care,0.0
+infection control,bereavement care,0.0
+infection control,social work,0.0
+infection control,volunteer services,0.0
+infection control,quality improvement,0.30864197530864196
+infection control,governing body,0.30864197530864196
+infection control,administrator,0.0
+infection control,background check,0.0
+infection control,supplies,1.0
+infection control,medical equipment,1.0
+infection control,on-call response,0.0
+infection control,service coordination,0.0
+infection control,care refusal,0.0
+infection control,fall risk,0.0
+infection control,aspiration risk,0.0
+infection control,skin integrity,0.0
+infection control,catheter care,0.25925925925925924
+infection control,terminal certification,0.0
+infection control,change in condition,0.0
+infection control,missed visits,0.0
+infection control,physician notification,0.0
+infection control,signed orders,0.0
+infection control,drug storage,0.6172839506172839
+infection control,plan revision,0.0
+infection control,assessment timeliness,0.0
+infection control,performance monitoring,0.30864197530864196
+infection control,pain medication,0.0
+infection control,patient choice,0.0
+infection control,Abuse,0.0
+infection control,Neglect,0.0
+infection control,Sexual / assault,0.0
+infection control,Exploitation / theft / diversion,0.0
+infection control,Restraint / seclusion,0.0
+infection control,Injury,0.0
+infection control,Harm,0.0
+infection control,Elopement / overdose,0.0
+infection control,Grievance,0.0
+hand hygiene,protective equipment,1.0
+hand hygiene,equipment cleaning,1.0
+hand hygiene,caregiver education,0.0
+hand hygiene,return demonstration,0.0
+hand hygiene,communication,0.0
+hand hygiene,discharge summary,0.0
+hand hygiene,attending physician,0.0
+hand hygiene,interdisciplinary group,0.0
+hand hygiene,medical director,0.0
+hand hygiene,electronic record,0.0
+hand hygiene,documentation,0.0
+hand hygiene,copied documentation,0.0
+hand hygiene,advance directive,0.0
+hand hygiene,patient rights,0.0
+hand hygiene,consent,0.0
+hand hygiene,spiritual care,0.0
+hand hygiene,bereavement care,0.0
+hand hygiene,social work,0.0
+hand hygiene,volunteer services,0.0
+hand hygiene,quality improvement,0.30864197530864196
+hand hygiene,governing body,0.30864197530864196
+hand hygiene,administrator,0.0
+hand hygiene,background check,0.0
+hand hygiene,supplies,1.0
+hand hygiene,medical equipment,1.0
+hand hygiene,on-call response,0.0
+hand hygiene,service coordination,0.0
+hand hygiene,care refusal,0.0
+hand hygiene,fall risk,0.0
+hand hygiene,aspiration risk,0.0
+hand hygiene,skin integrity,0.0
+hand hygiene,catheter care,0.25925925925925924
+hand hygiene,terminal certification,0.0
+hand hygiene,change in condition,0.0
+hand hygiene,missed visits,0.0
+hand hygiene,physician notification,0.0
+hand hygiene,signed orders,0.0
+hand hygiene,drug storage,0.6172839506172839
+hand hygiene,plan revision,0.0
+hand hygiene,assessment timeliness,0.0
+hand hygiene,performance monitoring,0.30864197530864196
+hand hygiene,pain medication,0.0
+hand hygiene,patient choice,0.0
+hand hygiene,Abuse,0.0
+hand hygiene,Neglect,0.0
+hand hygiene,Sexual / assault,0.0
+hand hygiene,Exploitation / theft / diversion,0.0
+hand hygiene,Restraint / seclusion,0.0
+hand hygiene,Injury,0.0
+hand hygiene,Harm,0.0
+hand hygiene,Elopement / overdose,0.0
+hand hygiene,Grievance,0.0
+protective equipment,equipment cleaning,1.0
+protective equipment,caregiver education,0.0
+protective equipment,return demonstration,0.0
+protective equipment,communication,0.0
+protective equipment,discharge summary,0.0
+protective equipment,attending physician,0.0
+protective equipment,interdisciplinary group,0.0
+protective equipment,medical director,0.0
+protective equipment,electronic record,0.0
+protective equipment,documentation,0.0
+protective equipment,copied documentation,0.0
+protective equipment,advance directive,0.0
+protective equipment,patient rights,0.0
+protective equipment,consent,0.0
+protective equipment,spiritual care,0.0
+protective equipment,bereavement care,0.0
+protective equipment,social work,0.0
+protective equipment,volunteer services,0.0
+protective equipment,quality improvement,0.30864197530864196
+protective equipment,governing body,0.30864197530864196
+protective equipment,administrator,0.0
+protective equipment,background check,0.0
+protective equipment,supplies,1.0
+protective equipment,medical equipment,1.0
+protective equipment,on-call response,0.0
+protective equipment,service coordination,0.0
+protective equipment,care refusal,0.0
+protective equipment,fall risk,0.0
+protective equipment,aspiration risk,0.0
+protective equipment,skin integrity,0.0
+protective equipment,catheter care,0.25925925925925924
+protective equipment,terminal certification,0.0
+protective equipment,change in condition,0.0
+protective equipment,missed visits,0.0
+protective equipment,physician notification,0.0
+protective equipment,signed orders,0.0
+protective equipment,drug storage,0.6172839506172839
+protective equipment,plan revision,0.0
+protective equipment,assessment timeliness,0.0
+protective equipment,performance monitoring,0.30864197530864196
+protective equipment,pain medication,0.0
+protective equipment,patient choice,0.0
+protective equipment,Abuse,0.0
+protective equipment,Neglect,0.0
+protective equipment,Sexual / assault,0.0
+protective equipment,Exploitation / theft / diversion,0.0
+protective equipment,Restraint / seclusion,0.0
+protective equipment,Injury,0.0
+protective equipment,Harm,0.0
+protective equipment,Elopement / overdose,0.0
+protective equipment,Grievance,0.0
+equipment cleaning,caregiver education,0.0
+equipment cleaning,return demonstration,0.0
+equipment cleaning,communication,0.0
+equipment cleaning,discharge summary,0.0
+equipment cleaning,attending physician,0.0
+equipment cleaning,interdisciplinary group,0.0
+equipment cleaning,medical director,0.0
+equipment cleaning,electronic record,0.0
+equipment cleaning,documentation,0.0
+equipment cleaning,copied documentation,0.0
+equipment cleaning,advance directive,0.0
+equipment cleaning,patient rights,0.0
+equipment cleaning,consent,0.0
+equipment cleaning,spiritual care,0.0
+equipment cleaning,bereavement care,0.0
+equipment cleaning,social work,0.0
+equipment cleaning,volunteer services,0.0
+equipment cleaning,quality improvement,0.30864197530864196
+equipment cleaning,governing body,0.30864197530864196
+equipment cleaning,administrator,0.0
+equipment cleaning,background check,0.0
+equipment cleaning,supplies,1.0
+equipment cleaning,medical equipment,1.0
+equipment cleaning,on-call response,0.0
+equipment cleaning,service coordination,0.0
+equipment cleaning,care refusal,0.0
+equipment cleaning,fall risk,0.0
+equipment cleaning,aspiration risk,0.0
+equipment cleaning,skin integrity,0.0
+equipment cleaning,catheter care,0.25925925925925924
+equipment cleaning,terminal certification,0.0
+equipment cleaning,change in condition,0.0
+equipment cleaning,missed visits,0.0
+equipment cleaning,physician notification,0.0
+equipment cleaning,signed orders,0.0
+equipment cleaning,drug storage,0.6172839506172839
+equipment cleaning,plan revision,0.0
+equipment cleaning,assessment timeliness,0.0
+equipment cleaning,performance monitoring,0.30864197530864196
+equipment cleaning,pain medication,0.0
+equipment cleaning,patient choice,0.0
+equipment cleaning,Abuse,0.0
+equipment cleaning,Neglect,0.0
+equipment cleaning,Sexual / assault,0.0
+equipment cleaning,Exploitation / theft / diversion,0.0
+equipment cleaning,Restraint / seclusion,0.0
+equipment cleaning,Injury,0.0
+equipment cleaning,Harm,0.0
+equipment cleaning,Elopement / overdose,0.0
+equipment cleaning,Grievance,0.0
+caregiver education,return demonstration,0.0
+caregiver education,communication,0.18518518518518517
+caregiver education,discharge summary,0.08641975308641975
+caregiver education,attending physician,0.0
+caregiver education,interdisciplinary group,0.1728395061728395
+caregiver education,medical director,0.0
+caregiver education,electronic record,0.0
+caregiver education,documentation,0.13580246913580246
+caregiver education,copied documentation,0.0
+caregiver education,advance directive,0.0
+caregiver education,patient rights,0.0
+caregiver education,consent,0.0
+caregiver education,spiritual care,0.12345679012345678
+caregiver education,bereavement care,0.12345679012345678
+caregiver education,social work,0.19753086419753085
+caregiver education,volunteer services,0.0
+caregiver education,quality improvement,0.0
+caregiver education,governing body,0.0
+caregiver education,administrator,0.0
+caregiver education,background check,0.0
+caregiver education,supplies,0.0
+caregiver education,medical equipment,0.0
+caregiver education,on-call response,0.48148148148148145
+caregiver education,service coordination,0.18518518518518517
+caregiver education,care refusal,0.2222222222222222
+caregiver education,fall risk,0.0
+caregiver education,aspiration risk,0.0
+caregiver education,skin integrity,0.0
+caregiver education,catheter care,0.0
+caregiver education,terminal certification,0.0
+caregiver education,change in condition,0.2222222222222222
+caregiver education,missed visits,0.19753086419753085
+caregiver education,physician notification,0.2222222222222222
+caregiver education,signed orders,0.07407407407407407
+caregiver education,drug storage,0.345679012345679
+caregiver education,plan revision,0.0
+caregiver education,assessment timeliness,0.0
+caregiver education,performance monitoring,0.0
+caregiver education,pain medication,1.0
+caregiver education,patient choice,0.0
+caregiver education,Abuse,0.0
+caregiver education,Neglect,0.0
+caregiver education,Sexual / assault,0.0
+caregiver education,Exploitation / theft / diversion,0.0
+caregiver education,Restraint / seclusion,0.0
+caregiver education,Injury,0.0
+caregiver education,Harm,0.0
+caregiver education,Elopement / overdose,1.0
+caregiver education,Grievance,0.0
+return demonstration,communication,0.0
+return demonstration,discharge summary,0.0
+return demonstration,attending physician,0.0
+return demonstration,interdisciplinary group,0.1728395061728395
+return demonstration,medical director,0.0
+return demonstration,electronic record,0.0
+return demonstration,documentation,0.0
+return demonstration,copied documentation,0.0
+return demonstration,advance directive,0.2345679012345679
+return demonstration,patient rights,0.2345679012345679
+return demonstration,consent,0.2345679012345679
+return demonstration,spiritual care,0.024691358024691357
+return demonstration,bereavement care,0.024691358024691357
+return demonstration,social work,0.0
+return demonstration,volunteer services,0.012345679012345678
+return demonstration,quality improvement,0.0
+return demonstration,governing body,0.0
+return demonstration,administrator,0.3333333333333333
+return demonstration,background check,0.2222222222222222
+return demonstration,supplies,0.0
+return demonstration,medical equipment,0.0
+return demonstration,on-call response,0.0
+return demonstration,service coordination,0.0
+return demonstration,care refusal,0.0
+return demonstration,fall risk,0.691358024691358
+return demonstration,aspiration risk,0.691358024691358
+return demonstration,skin integrity,0.7037037037037037
+return demonstration,catheter care,0.5185185185185185
+return demonstration,terminal certification,0.0
+return demonstration,change in condition,0.0
+return demonstration,missed visits,0.0
+return demonstration,physician notification,0.0
+return demonstration,signed orders,0.0
+return demonstration,drug storage,0.037037037037037035
+return demonstration,plan revision,0.691358024691358
+return demonstration,assessment timeliness,0.18518518518518517
+return demonstration,performance monitoring,0.0
+return demonstration,pain medication,0.0
+return demonstration,patient choice,0.5925925925925926
+return demonstration,Abuse,0.3333333333333333
+return demonstration,Neglect,0.3333333333333333
+return demonstration,Sexual / assault,0.3333333333333333
+return demonstration,Exploitation / theft / diversion,0.3333333333333333
+return demonstration,Restraint / seclusion,0.1728395061728395
+return demonstration,Injury,0.3333333333333333
+return demonstration,Harm,0.18518518518518517
+return demonstration,Elopement / overdose,0.0
+return demonstration,Grievance,0.3333333333333333
+communication,discharge summary,0.20987654320987653
+communication,attending physician,0.12345679012345678
+communication,interdisciplinary group,0.5802469135802469
+communication,medical director,0.12345679012345678
+communication,electronic record,0.12345679012345678
+communication,documentation,0.6296296296296297
+communication,copied documentation,0.04938271604938271
+communication,advance directive,0.0
+communication,patient rights,0.0
+communication,consent,0.0
+communication,spiritual care,0.6419753086419753
+communication,bereavement care,0.6419753086419753
+communication,social work,0.7160493827160493
+communication,volunteer services,0.3333333333333333
+communication,quality improvement,0.0
+communication,governing body,0.0
+communication,administrator,0.0
+communication,background check,0.0
+communication,supplies,0.0
+communication,medical equipment,0.0
+communication,on-call response,0.6790123456790124
+communication,service coordination,1.0
+communication,care refusal,0.9382716049382716
+communication,fall risk,0.037037037037037035
+communication,aspiration risk,0.037037037037037035
+communication,skin integrity,0.037037037037037035
+communication,catheter care,0.0
+communication,terminal certification,0.12345679012345678
+communication,change in condition,0.9382716049382716
+communication,missed visits,0.9382716049382716
+communication,physician notification,0.9382716049382716
+communication,signed orders,0.19753086419753085
+communication,drug storage,0.0
+communication,plan revision,0.037037037037037035
+communication,assessment timeliness,0.0
+communication,performance monitoring,0.0
+communication,pain medication,0.18518518518518517
+communication,patient choice,0.037037037037037035
+communication,Abuse,0.0
+communication,Neglect,0.0
+communication,Sexual / assault,0.0
+communication,Exploitation / theft / diversion,0.0
+communication,Restraint / seclusion,0.012345679012345678
+communication,Injury,0.0
+communication,Harm,0.0
+communication,Elopement / overdose,0.18518518518518517
+communication,Grievance,0.0
+discharge summary,attending physician,0.9135802469135802
+discharge summary,interdisciplinary group,0.12345679012345678
+discharge summary,medical director,0.9135802469135802
+discharge summary,electronic record,0.9135802469135802
+discharge summary,documentation,0.08641975308641975
+discharge summary,copied documentation,0.5925925925925926
+discharge summary,advance directive,0.024691358024691357
+discharge summary,patient rights,0.024691358024691357
+discharge summary,consent,0.024691358024691357
+discharge summary,spiritual care,0.12345679012345678
+discharge summary,bereavement care,0.12345679012345678
+discharge summary,social work,0.14814814814814814
+discharge summary,volunteer services,0.07407407407407407
+discharge summary,quality improvement,0.0
+discharge summary,governing body,0.0
+discharge summary,administrator,0.024691358024691357
+discharge summary,background check,0.35802469135802467
+discharge summary,supplies,0.0
+discharge summary,medical equipment,0.0
+discharge summary,on-call response,0.14814814814814814
+discharge summary,service coordination,0.20987654320987653
+discharge summary,care refusal,0.14814814814814814
+discharge summary,fall risk,0.0
+discharge summary,aspiration risk,0.0
+discharge summary,skin integrity,0.0
+discharge summary,catheter care,0.1111111111111111
+discharge summary,terminal certification,0.9135802469135802
+discharge summary,change in condition,0.14814814814814814
+discharge summary,missed visits,0.14814814814814814
+discharge summary,physician notification,0.14814814814814814
+discharge summary,signed orders,0.9382716049382716
+discharge summary,drug storage,0.0
+discharge summary,plan revision,0.0
+discharge summary,assessment timeliness,0.09876543209876543
+discharge summary,performance monitoring,0.0
+discharge summary,pain medication,0.08641975308641975
+discharge summary,patient choice,0.0
+discharge summary,Abuse,0.024691358024691357
+discharge summary,Neglect,0.024691358024691357
+discharge summary,Sexual / assault,0.024691358024691357
+discharge summary,Exploitation / theft / diversion,0.024691358024691357
+discharge summary,Restraint / seclusion,0.4074074074074074
+discharge summary,Injury,0.024691358024691357
+discharge summary,Harm,0.3950617283950617
+discharge summary,Elopement / overdose,0.08641975308641975
+discharge summary,Grievance,0.024691358024691357
+attending physician,interdisciplinary group,0.06172839506172839
+attending physician,medical director,1.0
+attending physician,electronic record,1.0
+attending physician,documentation,0.06172839506172839
+attending physician,copied documentation,0.6666666666666666
+attending physician,advance directive,0.07407407407407407
+attending physician,patient rights,0.07407407407407407
+attending physician,consent,0.07407407407407407
+attending physician,spiritual care,0.06172839506172839
+attending physician,bereavement care,0.06172839506172839
+attending physician,social work,0.06172839506172839
+attending physician,volunteer services,0.07407407407407407
+attending physician,quality improvement,0.0
+attending physician,governing body,0.0
+attending physician,administrator,0.07407407407407407
+attending physician,background check,0.4074074074074074
+attending physician,supplies,0.0
+attending physician,medical equipment,0.0
+attending physician,on-call response,0.06172839506172839
+attending physician,service coordination,0.12345679012345678
+attending physician,care refusal,0.06172839506172839
+attending physician,fall risk,0.0
+attending physician,aspiration risk,0.0
+attending physician,skin integrity,0.0
+attending physician,catheter care,0.1111111111111111
+attending physician,terminal certification,1.0
+attending physician,change in condition,0.06172839506172839
+attending physician,missed visits,0.06172839506172839
+attending physician,physician notification,0.06172839506172839
+attending physician,signed orders,0.9259259259259259
+attending physician,drug storage,0.0
+attending physician,plan revision,0.0
+attending physician,assessment timeliness,0.14814814814814814
+attending physician,performance monitoring,0.0
+attending physician,pain medication,0.0
+attending physician,patient choice,0.0
+attending physician,Abuse,0.07407407407407407
+attending physician,Neglect,0.07407407407407407
+attending physician,Sexual / assault,0.07407407407407407
+attending physician,Exploitation / theft / diversion,0.07407407407407407
+attending physician,Restraint / seclusion,0.4567901234567901
+attending physician,Injury,0.07407407407407407
+attending physician,Harm,0.4444444444444444
+attending physician,Elopement / overdose,0.0
+attending physician,Grievance,0.07407407407407407
+interdisciplinary group,medical director,0.06172839506172839
+interdisciplinary group,electronic record,0.06172839506172839
+interdisciplinary group,documentation,0.43209876543209874
+interdisciplinary group,copied documentation,0.04938271604938271
+interdisciplinary group,advance directive,0.0
+interdisciplinary group,patient rights,0.0
+interdisciplinary group,consent,0.0
+interdisciplinary group,spiritual care,0.6172839506172839
+interdisciplinary group,bereavement care,0.6172839506172839
+interdisciplinary group,social work,0.6419753086419753
+interdisciplinary group,volunteer services,0.024691358024691357
+interdisciplinary group,quality improvement,0.0
+interdisciplinary group,governing body,0.0
+interdisciplinary group,administrator,0.0
+interdisciplinary group,background check,0.0
+interdisciplinary group,supplies,0.0
+interdisciplinary group,medical equipment,0.0
+interdisciplinary group,on-call response,0.35802469135802467
+interdisciplinary group,service coordination,0.5802469135802469
+interdisciplinary group,care refusal,0.6172839506172839
+interdisciplinary group,fall risk,0.2222222222222222
+interdisciplinary group,aspiration risk,0.2222222222222222
+interdisciplinary group,skin integrity,0.20987654320987653
+interdisciplinary group,catheter care,0.09876543209876543
+interdisciplinary group,terminal certification,0.06172839506172839
+interdisciplinary group,change in condition,0.6172839506172839
+interdisciplinary group,missed visits,0.6419753086419753
+interdisciplinary group,physician notification,0.6172839506172839
+interdisciplinary group,signed orders,0.13580246913580246
+interdisciplinary group,drug storage,0.0
+interdisciplinary group,plan revision,0.2222222222222222
+interdisciplinary group,assessment timeliness,0.38271604938271603
+interdisciplinary group,performance monitoring,0.0
+interdisciplinary group,pain medication,0.1728395061728395
+interdisciplinary group,patient choice,0.3950617283950617
+interdisciplinary group,Abuse,0.0
+interdisciplinary group,Neglect,0.0
+interdisciplinary group,Sexual / assault,0.0
+interdisciplinary group,Exploitation / theft / diversion,0.0
+interdisciplinary group,Restraint / seclusion,0.0
+interdisciplinary group,Injury,0.0
+interdisciplinary group,Harm,0.0
+interdisciplinary group,Elopement / overdose,0.1728395061728395
+interdisciplinary group,Grievance,0.0
+medical director,electronic record,1.0
+medical director,documentation,0.06172839506172839
+medical director,copied documentation,0.6666666666666666
+medical director,advance directive,0.07407407407407407
+medical director,patient rights,0.07407407407407407
+medical director,consent,0.07407407407407407
+medical director,spiritual care,0.06172839506172839
+medical director,bereavement care,0.06172839506172839
+medical director,social work,0.06172839506172839
+medical director,volunteer services,0.07407407407407407
+medical director,quality improvement,0.0
+medical director,governing body,0.0
+medical director,administrator,0.07407407407407407
+medical director,background check,0.4074074074074074
+medical director,supplies,0.0
+medical director,medical equipment,0.0
+medical director,on-call response,0.06172839506172839
+medical director,service coordination,0.12345679012345678
+medical director,care refusal,0.06172839506172839
+medical director,fall risk,0.0
+medical director,aspiration risk,0.0
+medical director,skin integrity,0.0
+medical director,catheter care,0.1111111111111111
+medical director,terminal certification,1.0
+medical director,change in condition,0.06172839506172839
+medical director,missed visits,0.06172839506172839
+medical director,physician notification,0.06172839506172839
+medical director,signed orders,0.9259259259259259
+medical director,drug storage,0.0
+medical director,plan revision,0.0
+medical director,assessment timeliness,0.14814814814814814
+medical director,performance monitoring,0.0
+medical director,pain medication,0.0
+medical director,patient choice,0.0
+medical director,Abuse,0.07407407407407407
+medical director,Neglect,0.07407407407407407
+medical director,Sexual / assault,0.07407407407407407
+medical director,Exploitation / theft / diversion,0.07407407407407407
+medical director,Restraint / seclusion,0.4567901234567901
+medical director,Injury,0.07407407407407407
+medical director,Harm,0.4444444444444444
+medical director,Elopement / overdose,0.0
+medical director,Grievance,0.07407407407407407
+electronic record,documentation,0.06172839506172839
+electronic record,copied documentation,0.6666666666666666
+electronic record,advance directive,0.07407407407407407
+electronic record,patient rights,0.07407407407407407
+electronic record,consent,0.07407407407407407
+electronic record,spiritual care,0.06172839506172839
+electronic record,bereavement care,0.06172839506172839
+electronic record,social work,0.06172839506172839
+electronic record,volunteer services,0.07407407407407407
+electronic record,quality improvement,0.0
+electronic record,governing body,0.0
+electronic record,administrator,0.07407407407407407
+electronic record,background check,0.4074074074074074
+electronic record,supplies,0.0
+electronic record,medical equipment,0.0
+electronic record,on-call response,0.06172839506172839
+electronic record,service coordination,0.12345679012345678
+electronic record,care refusal,0.06172839506172839
+electronic record,fall risk,0.0
+electronic record,aspiration risk,0.0
+electronic record,skin integrity,0.0
+electronic record,catheter care,0.1111111111111111
+electronic record,terminal certification,1.0
+electronic record,change in condition,0.06172839506172839
+electronic record,missed visits,0.06172839506172839
+electronic record,physician notification,0.06172839506172839
+electronic record,signed orders,0.9259259259259259
+electronic record,drug storage,0.0
+electronic record,plan revision,0.0
+electronic record,assessment timeliness,0.14814814814814814
+electronic record,performance monitoring,0.0
+electronic record,pain medication,0.0
+electronic record,patient choice,0.0
+electronic record,Abuse,0.07407407407407407
+electronic record,Neglect,0.07407407407407407
+electronic record,Sexual / assault,0.07407407407407407
+electronic record,Exploitation / theft / diversion,0.07407407407407407
+electronic record,Restraint / seclusion,0.4567901234567901
+electronic record,Injury,0.07407407407407407
+electronic record,Harm,0.4444444444444444
+electronic record,Elopement / overdose,0.0
+electronic record,Grievance,0.07407407407407407
+documentation,copied documentation,0.04938271604938271
+documentation,advance directive,0.0
+documentation,patient rights,0.0
+documentation,consent,0.0
+documentation,spiritual care,0.4567901234567901
+documentation,bereavement care,0.4567901234567901
+documentation,social work,0.5061728395061729
+documentation,volunteer services,0.2345679012345679
+documentation,quality improvement,0.0
+documentation,governing body,0.0
+documentation,administrator,0.0
+documentation,background check,0.0
+documentation,supplies,0.0
+documentation,medical equipment,0.0
+documentation,on-call response,0.48148148148148145
+documentation,service coordination,0.6296296296296297
+documentation,care refusal,0.654320987654321
+documentation,fall risk,0.024691358024691357
+documentation,aspiration risk,0.024691358024691357
+documentation,skin integrity,0.024691358024691357
+documentation,catheter care,0.0
+documentation,terminal certification,0.06172839506172839
+documentation,change in condition,0.654320987654321
+documentation,missed visits,0.654320987654321
+documentation,physician notification,0.654320987654321
+documentation,signed orders,0.1111111111111111
+documentation,drug storage,0.0
+documentation,plan revision,0.024691358024691357
+documentation,assessment timeliness,0.012345679012345678
+documentation,performance monitoring,0.0
+documentation,pain medication,0.13580246913580246
+documentation,patient choice,0.024691358024691357
+documentation,Abuse,0.0
+documentation,Neglect,0.0
+documentation,Sexual / assault,0.0
+documentation,Exploitation / theft / diversion,0.0
+documentation,Restraint / seclusion,0.0
+documentation,Injury,0.0
+documentation,Harm,0.0
+documentation,Elopement / overdose,0.13580246913580246
+documentation,Grievance,0.0
+copied documentation,advance directive,0.07407407407407407
+copied documentation,patient rights,0.07407407407407407
+copied documentation,consent,0.07407407407407407
+copied documentation,spiritual care,0.04938271604938271
+copied documentation,bereavement care,0.04938271604938271
+copied documentation,social work,0.04938271604938271
+copied documentation,volunteer services,0.04938271604938271
+copied documentation,quality improvement,0.0
+copied documentation,governing body,0.0
+copied documentation,administrator,0.07407407407407407
+copied documentation,background check,0.2962962962962963
+copied documentation,supplies,0.0
+copied documentation,medical equipment,0.0
+copied documentation,on-call response,0.04938271604938271
+copied documentation,service coordination,0.04938271604938271
+copied documentation,care refusal,0.04938271604938271
+copied documentation,fall risk,0.0
+copied documentation,aspiration risk,0.0
+copied documentation,skin integrity,0.0
+copied documentation,catheter care,0.0
+copied documentation,terminal certification,0.6666666666666666
+copied documentation,change in condition,0.04938271604938271
+copied documentation,missed visits,0.04938271604938271
+copied documentation,physician notification,0.04938271604938271
+copied documentation,signed orders,0.5925925925925926
+copied documentation,drug storage,0.0
+copied documentation,plan revision,0.0
+copied documentation,assessment timeliness,0.12345679012345678
+copied documentation,performance monitoring,0.0
+copied documentation,pain medication,0.0
+copied documentation,patient choice,0.0
+copied documentation,Abuse,0.07407407407407407
+copied documentation,Neglect,0.07407407407407407
+copied documentation,Sexual / assault,0.07407407407407407
+copied documentation,Exploitation / theft / diversion,0.07407407407407407
+copied documentation,Restraint / seclusion,0.2962962962962963
+copied documentation,Injury,0.07407407407407407
+copied documentation,Harm,0.2962962962962963
+copied documentation,Elopement / overdose,0.0
+copied documentation,Grievance,0.07407407407407407
+advance directive,patient rights,1.0
+advance directive,consent,1.0
+advance directive,spiritual care,0.0
+advance directive,bereavement care,0.0
+advance directive,social work,0.0
+advance directive,volunteer services,0.012345679012345678
+advance directive,quality improvement,0.04938271604938271
+advance directive,governing body,0.04938271604938271
+advance directive,administrator,0.8271604938271605
+advance directive,background check,0.6666666666666666
+advance directive,supplies,0.0
+advance directive,medical equipment,0.0
+advance directive,on-call response,0.0
+advance directive,service coordination,0.0
+advance directive,care refusal,0.0
+advance directive,fall risk,0.0
+advance directive,aspiration risk,0.0
+advance directive,skin integrity,0.012345679012345678
+advance directive,catheter care,0.0
+advance directive,terminal certification,0.07407407407407407
+advance directive,change in condition,0.0
+advance directive,missed visits,0.0
+advance directive,physician notification,0.0
+advance directive,signed orders,0.0
+advance directive,drug storage,0.037037037037037035
+advance directive,plan revision,0.0
+advance directive,assessment timeliness,0.08641975308641975
+advance directive,performance monitoring,0.04938271604938271
+advance directive,pain medication,0.0
+advance directive,patient choice,0.0
+advance directive,Abuse,0.8271604938271605
+advance directive,Neglect,0.8271604938271605
+advance directive,Sexual / assault,0.8271604938271605
+advance directive,Exploitation / theft / diversion,0.8271604938271605
+advance directive,Restraint / seclusion,0.6172839506172839
+advance directive,Injury,0.8271604938271605
+advance directive,Harm,0.6296296296296297
+advance directive,Elopement / overdose,0.0
+advance directive,Grievance,0.8271604938271605
+patient rights,consent,1.0
+patient rights,spiritual care,0.0
+patient rights,bereavement care,0.0
+patient rights,social work,0.0
+patient rights,volunteer services,0.012345679012345678
+patient rights,quality improvement,0.04938271604938271
+patient rights,governing body,0.04938271604938271
+patient rights,administrator,0.8271604938271605
+patient rights,background check,0.6666666666666666
+patient rights,supplies,0.0
+patient rights,medical equipment,0.0
+patient rights,on-call response,0.0
+patient rights,service coordination,0.0
+patient rights,care refusal,0.0
+patient rights,fall risk,0.0
+patient rights,aspiration risk,0.0
+patient rights,skin integrity,0.012345679012345678
+patient rights,catheter care,0.0
+patient rights,terminal certification,0.07407407407407407
+patient rights,change in condition,0.0
+patient rights,missed visits,0.0
+patient rights,physician notification,0.0
+patient rights,signed orders,0.0
+patient rights,drug storage,0.037037037037037035
+patient rights,plan revision,0.0
+patient rights,assessment timeliness,0.08641975308641975
+patient rights,performance monitoring,0.04938271604938271
+patient rights,pain medication,0.0
+patient rights,patient choice,0.0
+patient rights,Abuse,0.8271604938271605
+patient rights,Neglect,0.8271604938271605
+patient rights,Sexual / assault,0.8271604938271605
+patient rights,Exploitation / theft / diversion,0.8271604938271605
+patient rights,Restraint / seclusion,0.6172839506172839
+patient rights,Injury,0.8271604938271605
+patient rights,Harm,0.6296296296296297
+patient rights,Elopement / overdose,0.0
+patient rights,Grievance,0.8271604938271605
+consent,spiritual care,0.0
+consent,bereavement care,0.0
+consent,social work,0.0
+consent,volunteer services,0.012345679012345678
+consent,quality improvement,0.04938271604938271
+consent,governing body,0.04938271604938271
+consent,administrator,0.8271604938271605
+consent,background check,0.6666666666666666
+consent,supplies,0.0
+consent,medical equipment,0.0
+consent,on-call response,0.0
+consent,service coordination,0.0
+consent,care refusal,0.0
+consent,fall risk,0.0
+consent,aspiration risk,0.0
+consent,skin integrity,0.012345679012345678
+consent,catheter care,0.0
+consent,terminal certification,0.07407407407407407
+consent,change in condition,0.0
+consent,missed visits,0.0
+consent,physician notification,0.0
+consent,signed orders,0.0
+consent,drug storage,0.037037037037037035
+consent,plan revision,0.0
+consent,assessment timeliness,0.08641975308641975
+consent,performance monitoring,0.04938271604938271
+consent,pain medication,0.0
+consent,patient choice,0.0
+consent,Abuse,0.8271604938271605
+consent,Neglect,0.8271604938271605
+consent,Sexual / assault,0.8271604938271605
+consent,Exploitation / theft / diversion,0.8271604938271605
+consent,Restraint / seclusion,0.6172839506172839
+consent,Injury,0.8271604938271605
+consent,Harm,0.6296296296296297
+consent,Elopement / overdose,0.0
+consent,Grievance,0.8271604938271605
+spiritual care,bereavement care,1.0
+spiritual care,social work,0.9259259259259259
+spiritual care,volunteer services,0.18518518518518517
+spiritual care,quality improvement,0.04938271604938271
+spiritual care,governing body,0.04938271604938271
+spiritual care,administrator,0.0
+spiritual care,background check,0.0
+spiritual care,supplies,0.0
+spiritual care,medical equipment,0.0
+spiritual care,on-call response,0.41975308641975306
+spiritual care,service coordination,0.6419753086419753
+spiritual care,care refusal,0.6790123456790124
+spiritual care,fall risk,0.06172839506172839
+spiritual care,aspiration risk,0.06172839506172839
+spiritual care,skin integrity,0.06172839506172839
+spiritual care,catheter care,0.024691358024691357
+spiritual care,terminal certification,0.06172839506172839
+spiritual care,change in condition,0.6790123456790124
+spiritual care,missed visits,0.7037037037037037
+spiritual care,physician notification,0.6790123456790124
+spiritual care,signed orders,0.13580246913580246
+spiritual care,drug storage,0.0
+spiritual care,plan revision,0.06172839506172839
+spiritual care,assessment timeliness,0.09876543209876543
+spiritual care,performance monitoring,0.04938271604938271
+spiritual care,pain medication,0.12345679012345678
+spiritual care,patient choice,0.06172839506172839
+spiritual care,Abuse,0.0
+spiritual care,Neglect,0.0
+spiritual care,Sexual / assault,0.0
+spiritual care,Exploitation / theft / diversion,0.0
+spiritual care,Restraint / seclusion,0.0
+spiritual care,Injury,0.0
+spiritual care,Harm,0.0
+spiritual care,Elopement / overdose,0.12345679012345678
+spiritual care,Grievance,0.0
+bereavement care,social work,0.9259259259259259
+bereavement care,volunteer services,0.18518518518518517
+bereavement care,quality improvement,0.04938271604938271
+bereavement care,governing body,0.04938271604938271
+bereavement care,administrator,0.0
+bereavement care,background check,0.0
+bereavement care,supplies,0.0
+bereavement care,medical equipment,0.0
+bereavement care,on-call response,0.41975308641975306
+bereavement care,service coordination,0.6419753086419753
+bereavement care,care refusal,0.6790123456790124
+bereavement care,fall risk,0.06172839506172839
+bereavement care,aspiration risk,0.06172839506172839
+bereavement care,skin integrity,0.06172839506172839
+bereavement care,catheter care,0.024691358024691357
+bereavement care,terminal certification,0.06172839506172839
+bereavement care,change in condition,0.6790123456790124
+bereavement care,missed visits,0.7037037037037037
+bereavement care,physician notification,0.6790123456790124
+bereavement care,signed orders,0.13580246913580246
+bereavement care,drug storage,0.0
+bereavement care,plan revision,0.06172839506172839
+bereavement care,assessment timeliness,0.09876543209876543
+bereavement care,performance monitoring,0.04938271604938271
+bereavement care,pain medication,0.12345679012345678
+bereavement care,patient choice,0.06172839506172839
+bereavement care,Abuse,0.0
+bereavement care,Neglect,0.0
+bereavement care,Sexual / assault,0.0
+bereavement care,Exploitation / theft / diversion,0.0
+bereavement care,Restraint / seclusion,0.0
+bereavement care,Injury,0.0
+bereavement care,Harm,0.0
+bereavement care,Elopement / overdose,0.12345679012345678
+bereavement care,Grievance,0.0
+social work,volunteer services,0.13580246913580246
+social work,quality improvement,0.0
+social work,governing body,0.0
+social work,administrator,0.0
+social work,background check,0.0
+social work,supplies,0.0
+social work,medical equipment,0.0
+social work,on-call response,0.49382716049382713
+social work,service coordination,0.7160493827160493
+social work,care refusal,0.7530864197530864
+social work,fall risk,0.037037037037037035
+social work,aspiration risk,0.037037037037037035
+social work,skin integrity,0.037037037037037035
+social work,catheter care,0.0
+social work,terminal certification,0.06172839506172839
+social work,change in condition,0.7530864197530864
+social work,missed visits,0.7777777777777778
+social work,physician notification,0.7530864197530864
+social work,signed orders,0.13580246913580246
+social work,drug storage,0.0
+social work,plan revision,0.037037037037037035
+social work,assessment timeliness,0.024691358024691357
+social work,performance monitoring,0.0
+social work,pain medication,0.19753086419753085
+social work,patient choice,0.037037037037037035
+social work,Abuse,0.0
+social work,Neglect,0.0
+social work,Sexual / assault,0.0
+social work,Exploitation / theft / diversion,0.0
+social work,Restraint / seclusion,0.0
+social work,Injury,0.0
+social work,Harm,0.0
+social work,Elopement / overdose,0.19753086419753085
+social work,Grievance,0.0
+volunteer services,quality improvement,0.2716049382716049
+volunteer services,governing body,0.2716049382716049
+volunteer services,administrator,0.012345679012345678
+volunteer services,background check,0.012345679012345678
+volunteer services,supplies,0.0
+volunteer services,medical equipment,0.0
+volunteer services,on-call response,0.3333333333333333
+volunteer services,service coordination,0.3333333333333333
+volunteer services,care refusal,0.3333333333333333
+volunteer services,fall risk,0.0
+volunteer services,aspiration risk,0.0
+volunteer services,skin integrity,0.0
+volunteer services,catheter care,0.024691358024691357
+volunteer services,terminal certification,0.07407407407407407
+volunteer services,change in condition,0.3333333333333333
+volunteer services,missed visits,0.35802469135802467
+volunteer services,physician notification,0.3333333333333333
+volunteer services,signed orders,0.07407407407407407
+volunteer services,drug storage,0.0
+volunteer services,plan revision,0.0
+volunteer services,assessment timeliness,0.5679012345679012
+volunteer services,performance monitoring,0.2716049382716049
+volunteer services,pain medication,0.0
+volunteer services,patient choice,0.0
+volunteer services,Abuse,0.012345679012345678
+volunteer services,Neglect,0.012345679012345678
+volunteer services,Sexual / assault,0.012345679012345678
+volunteer services,Exploitation / theft / diversion,0.012345679012345678
+volunteer services,Restraint / seclusion,0.012345679012345678
+volunteer services,Injury,0.012345679012345678
+volunteer services,Harm,0.012345679012345678
+volunteer services,Elopement / overdose,0.0
+volunteer services,Grievance,0.012345679012345678
+quality improvement,governing body,1.0
+quality improvement,administrator,0.04938271604938271
+quality improvement,background check,0.04938271604938271
+quality improvement,supplies,0.30864197530864196
+quality improvement,medical equipment,0.30864197530864196
+quality improvement,on-call response,0.0
+quality improvement,service coordination,0.0
+quality improvement,care refusal,0.0
+quality improvement,fall risk,0.0
+quality improvement,aspiration risk,0.0
+quality improvement,skin integrity,0.0
+quality improvement,catheter care,0.0
+quality improvement,terminal certification,0.0
+quality improvement,change in condition,0.0
+quality improvement,missed visits,0.0
+quality improvement,physician notification,0.0
+quality improvement,signed orders,0.0
+quality improvement,drug storage,0.2222222222222222
+quality improvement,plan revision,0.0
+quality improvement,assessment timeliness,0.24691358024691357
+quality improvement,performance monitoring,1.0
+quality improvement,pain medication,0.0
+quality improvement,patient choice,0.0
+quality improvement,Abuse,0.04938271604938271
+quality improvement,Neglect,0.04938271604938271
+quality improvement,Sexual / assault,0.04938271604938271
+quality improvement,Exploitation / theft / diversion,0.04938271604938271
+quality improvement,Restraint / seclusion,0.04938271604938271
+quality improvement,Injury,0.04938271604938271
+quality improvement,Harm,0.04938271604938271
+quality improvement,Elopement / overdose,0.0
+quality improvement,Grievance,0.04938271604938271
+governing body,administrator,0.04938271604938271
+governing body,background check,0.04938271604938271
+governing body,supplies,0.30864197530864196
+governing body,medical equipment,0.30864197530864196
+governing body,on-call response,0.0
+governing body,service coordination,0.0
+governing body,care refusal,0.0
+governing body,fall risk,0.0
+governing body,aspiration risk,0.0
+governing body,skin integrity,0.0
+governing body,catheter care,0.0
+governing body,terminal certification,0.0
+governing body,change in condition,0.0
+governing body,missed visits,0.0
+governing body,physician notification,0.0
+governing body,signed orders,0.0
+governing body,drug storage,0.2222222222222222
+governing body,plan revision,0.0
+governing body,assessment timeliness,0.24691358024691357
+governing body,performance monitoring,1.0
+governing body,pain medication,0.0
+governing body,patient choice,0.0
+governing body,Abuse,0.04938271604938271
+governing body,Neglect,0.04938271604938271
+governing body,Sexual / assault,0.04938271604938271
+governing body,Exploitation / theft / diversion,0.04938271604938271
+governing body,Restraint / seclusion,0.04938271604938271
+governing body,Injury,0.04938271604938271
+governing body,Harm,0.04938271604938271
+governing body,Elopement / overdose,0.0
+governing body,Grievance,0.04938271604938271
+administrator,background check,0.6666666666666666
+administrator,supplies,0.0
+administrator,medical equipment,0.0
+administrator,on-call response,0.0
+administrator,service coordination,0.0
+administrator,care refusal,0.0
+administrator,fall risk,0.024691358024691357
+administrator,aspiration risk,0.024691358024691357
+administrator,skin integrity,0.037037037037037035
+administrator,catheter care,0.0
+administrator,terminal certification,0.07407407407407407
+administrator,change in condition,0.0
+administrator,missed visits,0.0
+administrator,physician notification,0.0
+administrator,signed orders,0.0
+administrator,drug storage,0.037037037037037035
+administrator,plan revision,0.024691358024691357
+administrator,assessment timeliness,0.08641975308641975
+administrator,performance monitoring,0.04938271604938271
+administrator,pain medication,0.0
+administrator,patient choice,0.0
+administrator,Abuse,1.0
+administrator,Neglect,1.0
+administrator,Sexual / assault,1.0
+administrator,Exploitation / theft / diversion,1.0
+administrator,Restraint / seclusion,0.6172839506172839
+administrator,Injury,1.0
+administrator,Harm,0.6296296296296297
+administrator,Elopement / overdose,0.0
+administrator,Grievance,1.0
+background check,supplies,0.0
+background check,medical equipment,0.0
+background check,on-call response,0.0
+background check,service coordination,0.0
+background check,care refusal,0.0
+background check,fall risk,0.0
+background check,aspiration risk,0.0
+background check,skin integrity,0.0
+background check,catheter care,0.0
+background check,terminal certification,0.4074074074074074
+background check,change in condition,0.0
+background check,missed visits,0.0
+background check,physician notification,0.0
+background check,signed orders,0.3333333333333333
+background check,drug storage,0.037037037037037035
+background check,plan revision,0.0
+background check,assessment timeliness,0.08641975308641975
+background check,performance monitoring,0.04938271604938271
+background check,pain medication,0.0
+background check,patient choice,0.0
+background check,Abuse,0.6666666666666666
+background check,Neglect,0.6666666666666666
+background check,Sexual / assault,0.6666666666666666
+background check,Exploitation / theft / diversion,0.6666666666666666
+background check,Restraint / seclusion,0.9506172839506173
+background check,Injury,0.6666666666666666
+background check,Harm,0.9629629629629629
+background check,Elopement / overdose,0.0
+background check,Grievance,0.6666666666666666
+supplies,medical equipment,1.0
+supplies,on-call response,0.0
+supplies,service coordination,0.0
+supplies,care refusal,0.0
+supplies,fall risk,0.0
+supplies,aspiration risk,0.0
+supplies,skin integrity,0.0
+supplies,catheter care,0.25925925925925924
+supplies,terminal certification,0.0
+supplies,change in condition,0.0
+supplies,missed visits,0.0
+supplies,physician notification,0.0
+supplies,signed orders,0.0
+supplies,drug storage,0.6172839506172839
+supplies,plan revision,0.0
+supplies,assessment timeliness,0.0
+supplies,performance monitoring,0.30864197530864196
+supplies,pain medication,0.0
+supplies,patient choice,0.0
+supplies,Abuse,0.0
+supplies,Neglect,0.0
+supplies,Sexual / assault,0.0
+supplies,Exploitation / theft / diversion,0.0
+supplies,Restraint / seclusion,0.0
+supplies,Injury,0.0
+supplies,Harm,0.0
+supplies,Elopement / overdose,0.0
+supplies,Grievance,0.0
+medical equipment,on-call response,0.0
+medical equipment,service coordination,0.0
+medical equipment,care refusal,0.0
+medical equipment,fall risk,0.0
+medical equipment,aspiration risk,0.0
+medical equipment,skin integrity,0.0
+medical equipment,catheter care,0.25925925925925924
+medical equipment,terminal certification,0.0
+medical equipment,change in condition,0.0
+medical equipment,missed visits,0.0
+medical equipment,physician notification,0.0
+medical equipment,signed orders,0.0
+medical equipment,drug storage,0.6172839506172839
+medical equipment,plan revision,0.0
+medical equipment,assessment timeliness,0.0
+medical equipment,performance monitoring,0.30864197530864196
+medical equipment,pain medication,0.0
+medical equipment,patient choice,0.0
+medical equipment,Abuse,0.0
+medical equipment,Neglect,0.0
+medical equipment,Sexual / assault,0.0
+medical equipment,Exploitation / theft / diversion,0.0
+medical equipment,Restraint / seclusion,0.0
+medical equipment,Injury,0.0
+medical equipment,Harm,0.0
+medical equipment,Elopement / overdose,0.0
+medical equipment,Grievance,0.0
+on-call response,service coordination,0.6790123456790124
+on-call response,care refusal,0.7407407407407407
+on-call response,fall risk,0.0
+on-call response,aspiration risk,0.0
+on-call response,skin integrity,0.0
+on-call response,catheter care,0.0
+on-call response,terminal certification,0.06172839506172839
+on-call response,change in condition,0.7407407407407407
+on-call response,missed visits,0.7160493827160493
+on-call response,physician notification,0.7407407407407407
+on-call response,signed orders,0.13580246913580246
+on-call response,drug storage,0.07407407407407407
+on-call response,plan revision,0.0
+on-call response,assessment timeliness,0.0
+on-call response,performance monitoring,0.0
+on-call response,pain medication,0.48148148148148145
+on-call response,patient choice,0.0
+on-call response,Abuse,0.0
+on-call response,Neglect,0.0
+on-call response,Sexual / assault,0.0
+on-call response,Exploitation / theft / diversion,0.0
+on-call response,Restraint / seclusion,0.0
+on-call response,Injury,0.0
+on-call response,Harm,0.0
+on-call response,Elopement / overdose,0.48148148148148145
+on-call response,Grievance,0.0
+service coordination,care refusal,0.9382716049382716
+service coordination,fall risk,0.037037037037037035
+service coordination,aspiration risk,0.037037037037037035
+service coordination,skin integrity,0.037037037037037035
+service coordination,catheter care,0.0
+service coordination,terminal certification,0.12345679012345678
+service coordination,change in condition,0.9382716049382716
+service coordination,missed visits,0.9382716049382716
+service coordination,physician notification,0.9382716049382716
+service coordination,signed orders,0.19753086419753085
+service coordination,drug storage,0.0
+service coordination,plan revision,0.037037037037037035
+service coordination,assessment timeliness,0.0
+service coordination,performance monitoring,0.0
+service coordination,pain medication,0.18518518518518517
+service coordination,patient choice,0.037037037037037035
+service coordination,Abuse,0.0
+service coordination,Neglect,0.0
+service coordination,Sexual / assault,0.0
+service coordination,Exploitation / theft / diversion,0.0
+service coordination,Restraint / seclusion,0.012345679012345678
+service coordination,Injury,0.0
+service coordination,Harm,0.0
+service coordination,Elopement / overdose,0.18518518518518517
+service coordination,Grievance,0.0
+care refusal,fall risk,0.037037037037037035
+care refusal,aspiration risk,0.037037037037037035
+care refusal,skin integrity,0.037037037037037035
+care refusal,catheter care,0.0
+care refusal,terminal certification,0.06172839506172839
+care refusal,change in condition,1.0
+care refusal,missed visits,0.9753086419753086
+care refusal,physician notification,1.0
+care refusal,signed orders,0.13580246913580246
+care refusal,drug storage,0.0
+care refusal,plan revision,0.037037037037037035
+care refusal,assessment timeliness,0.0
+care refusal,performance monitoring,0.0
+care refusal,pain medication,0.2222222222222222
+care refusal,patient choice,0.037037037037037035
+care refusal,Abuse,0.0
+care refusal,Neglect,0.0
+care refusal,Sexual / assault,0.0
+care refusal,Exploitation / theft / diversion,0.0
+care refusal,Restraint / seclusion,0.0
+care refusal,Injury,0.0
+care refusal,Harm,0.0
+care refusal,Elopement / overdose,0.2222222222222222
+care refusal,Grievance,0.0
+fall risk,aspiration risk,1.0
+fall risk,skin integrity,0.9876543209876543
+fall risk,catheter care,0.6296296296296297
+fall risk,terminal certification,0.0
+fall risk,change in condition,0.037037037037037035
+fall risk,missed visits,0.037037037037037035
+fall risk,physician notification,0.037037037037037035
+fall risk,signed orders,0.0
+fall risk,drug storage,0.0
+fall risk,plan revision,1.0
+fall risk,assessment timeliness,0.18518518518518517
+fall risk,performance monitoring,0.0
+fall risk,pain medication,0.0
+fall risk,patient choice,0.8271604938271605
+fall risk,Abuse,0.024691358024691357
+fall risk,Neglect,0.024691358024691357
+fall risk,Sexual / assault,0.024691358024691357
+fall risk,Exploitation / theft / diversion,0.024691358024691357
+fall risk,Restraint / seclusion,0.0
+fall risk,Injury,0.024691358024691357
+fall risk,Harm,0.0
+fall risk,Elopement / overdose,0.0
+fall risk,Grievance,0.024691358024691357
+aspiration risk,skin integrity,0.9876543209876543
+aspiration risk,catheter care,0.6296296296296297
+aspiration risk,terminal certification,0.0
+aspiration risk,change in condition,0.037037037037037035
+aspiration risk,missed visits,0.037037037037037035
+aspiration risk,physician notification,0.037037037037037035
+aspiration risk,signed orders,0.0
+aspiration risk,drug storage,0.0
+aspiration risk,plan revision,1.0
+aspiration risk,assessment timeliness,0.18518518518518517
+aspiration risk,performance monitoring,0.0
+aspiration risk,pain medication,0.0
+aspiration risk,patient choice,0.8271604938271605
+aspiration risk,Abuse,0.024691358024691357
+aspiration risk,Neglect,0.024691358024691357
+aspiration risk,Sexual / assault,0.024691358024691357
+aspiration risk,Exploitation / theft / diversion,0.024691358024691357
+aspiration risk,Restraint / seclusion,0.0
+aspiration risk,Injury,0.024691358024691357
+aspiration risk,Harm,0.0
+aspiration risk,Elopement / overdose,0.0
+aspiration risk,Grievance,0.024691358024691357
+skin integrity,catheter care,0.6296296296296297
+skin integrity,terminal certification,0.0
+skin integrity,change in condition,0.037037037037037035
+skin integrity,missed visits,0.037037037037037035
+skin integrity,physician notification,0.037037037037037035
+skin integrity,signed orders,0.0
+skin integrity,drug storage,0.0
+skin integrity,plan revision,0.9876543209876543
+skin integrity,assessment timeliness,0.1728395061728395
+skin integrity,performance monitoring,0.0
+skin integrity,pain medication,0.0
+skin integrity,patient choice,0.8148148148148148
+skin integrity,Abuse,0.037037037037037035
+skin integrity,Neglect,0.037037037037037035
+skin integrity,Sexual / assault,0.037037037037037035
+skin integrity,Exploitation / theft / diversion,0.037037037037037035
+skin integrity,Restraint / seclusion,0.0
+skin integrity,Injury,0.037037037037037035
+skin integrity,Harm,0.0
+skin integrity,Elopement / overdose,0.0
+skin integrity,Grievance,0.037037037037037035
+catheter care,terminal certification,0.1111111111111111
+catheter care,change in condition,0.0
+catheter care,missed visits,0.0
+catheter care,physician notification,0.0
+catheter care,signed orders,0.1111111111111111
+catheter care,drug storage,0.1111111111111111
+catheter care,plan revision,0.6296296296296297
+catheter care,assessment timeliness,0.12345679012345678
+catheter care,performance monitoring,0.0
+catheter care,pain medication,0.0
+catheter care,patient choice,0.6296296296296297
+catheter care,Abuse,0.0
+catheter care,Neglect,0.0
+catheter care,Sexual / assault,0.0
+catheter care,Exploitation / theft / diversion,0.0
+catheter care,Restraint / seclusion,0.037037037037037035
+catheter care,Injury,0.0
+catheter care,Harm,0.037037037037037035
+catheter care,Elopement / overdose,0.0
+catheter care,Grievance,0.0
+terminal certification,change in condition,0.06172839506172839
+terminal certification,missed visits,0.06172839506172839
+terminal certification,physician notification,0.06172839506172839
+terminal certification,signed orders,0.9259259259259259
+terminal certification,drug storage,0.0
+terminal certification,plan revision,0.0
+terminal certification,assessment timeliness,0.14814814814814814
+terminal certification,performance monitoring,0.0
+terminal certification,pain medication,0.0
+terminal certification,patient choice,0.0
+terminal certification,Abuse,0.07407407407407407
+terminal certification,Neglect,0.07407407407407407
+terminal certification,Sexual / assault,0.07407407407407407
+terminal certification,Exploitation / theft / diversion,0.07407407407407407
+terminal certification,Restraint / seclusion,0.4567901234567901
+terminal certification,Injury,0.07407407407407407
+terminal certification,Harm,0.4444444444444444
+terminal certification,Elopement / overdose,0.0
+terminal certification,Grievance,0.07407407407407407
+change in condition,missed visits,0.9753086419753086
+change in condition,physician notification,1.0
+change in condition,signed orders,0.13580246913580246
+change in condition,drug storage,0.0
+change in condition,plan revision,0.037037037037037035
+change in condition,assessment timeliness,0.0
+change in condition,performance monitoring,0.0
+change in condition,pain medication,0.2222222222222222
+change in condition,patient choice,0.037037037037037035
+change in condition,Abuse,0.0
+change in condition,Neglect,0.0
+change in condition,Sexual / assault,0.0
+change in condition,Exploitation / theft / diversion,0.0
+change in condition,Restraint / seclusion,0.0
+change in condition,Injury,0.0
+change in condition,Harm,0.0
+change in condition,Elopement / overdose,0.2222222222222222
+change in condition,Grievance,0.0
+missed visits,physician notification,0.9753086419753086
+missed visits,signed orders,0.13580246913580246
+missed visits,drug storage,0.0
+missed visits,plan revision,0.037037037037037035
+missed visits,assessment timeliness,0.024691358024691357
+missed visits,performance monitoring,0.0
+missed visits,pain medication,0.19753086419753085
+missed visits,patient choice,0.037037037037037035
+missed visits,Abuse,0.0
+missed visits,Neglect,0.0
+missed visits,Sexual / assault,0.0
+missed visits,Exploitation / theft / diversion,0.0
+missed visits,Restraint / seclusion,0.0
+missed visits,Injury,0.0
+missed visits,Harm,0.0
+missed visits,Elopement / overdose,0.19753086419753085
+missed visits,Grievance,0.0
+physician notification,signed orders,0.13580246913580246
+physician notification,drug storage,0.0
+physician notification,plan revision,0.037037037037037035
+physician notification,assessment timeliness,0.0
+physician notification,performance monitoring,0.0
+physician notification,pain medication,0.2222222222222222
+physician notification,patient choice,0.037037037037037035
+physician notification,Abuse,0.0
+physician notification,Neglect,0.0
+physician notification,Sexual / assault,0.0
+physician notification,Exploitation / theft / diversion,0.0
+physician notification,Restraint / seclusion,0.0
+physician notification,Injury,0.0
+physician notification,Harm,0.0
+physician notification,Elopement / overdose,0.2222222222222222
+physician notification,Grievance,0.0
+signed orders,drug storage,0.0
+signed orders,plan revision,0.0
+signed orders,assessment timeliness,0.07407407407407407
+signed orders,performance monitoring,0.0
+signed orders,pain medication,0.07407407407407407
+signed orders,patient choice,0.0
+signed orders,Abuse,0.0
+signed orders,Neglect,0.0
+signed orders,Sexual / assault,0.0
+signed orders,Exploitation / theft / diversion,0.0
+signed orders,Restraint / seclusion,0.38271604938271603
+signed orders,Injury,0.0
+signed orders,Harm,0.37037037037037035
+signed orders,Elopement / overdose,0.07407407407407407
+signed orders,Grievance,0.0
+drug storage,plan revision,0.0
+drug storage,assessment timeliness,0.0
+drug storage,performance monitoring,0.2222222222222222
+drug storage,pain medication,0.345679012345679
+drug storage,patient choice,0.0
+drug storage,Abuse,0.037037037037037035
+drug storage,Neglect,0.037037037037037035
+drug storage,Sexual / assault,0.037037037037037035
+drug storage,Exploitation / theft / diversion,0.037037037037037035
+drug storage,Restraint / seclusion,0.037037037037037035
+drug storage,Injury,0.037037037037037035
+drug storage,Harm,0.037037037037037035
+drug storage,Elopement / overdose,0.345679012345679
+drug storage,Grievance,0.037037037037037035
+plan revision,assessment timeliness,0.18518518518518517
+plan revision,performance monitoring,0.0
+plan revision,pain medication,0.0
+plan revision,patient choice,0.8271604938271605
+plan revision,Abuse,0.024691358024691357
+plan revision,Neglect,0.024691358024691357
+plan revision,Sexual / assault,0.024691358024691357
+plan revision,Exploitation / theft / diversion,0.024691358024691357
+plan revision,Restraint / seclusion,0.0
+plan revision,Injury,0.024691358024691357
+plan revision,Harm,0.0
+plan revision,Elopement / overdose,0.0
+plan revision,Grievance,0.024691358024691357
+assessment timeliness,performance monitoring,0.24691358024691357
+assessment timeliness,pain medication,0.0
+assessment timeliness,patient choice,0.35802469135802467
+assessment timeliness,Abuse,0.08641975308641975
+assessment timeliness,Neglect,0.08641975308641975
+assessment timeliness,Sexual / assault,0.08641975308641975
+assessment timeliness,Exploitation / theft / diversion,0.08641975308641975
+assessment timeliness,Restraint / seclusion,0.08641975308641975
+assessment timeliness,Injury,0.08641975308641975
+assessment timeliness,Harm,0.08641975308641975
+assessment timeliness,Elopement / overdose,0.0
+assessment timeliness,Grievance,0.08641975308641975
+performance monitoring,pain medication,0.0
+performance monitoring,patient choice,0.0
+performance monitoring,Abuse,0.04938271604938271
+performance monitoring,Neglect,0.04938271604938271
+performance monitoring,Sexual / assault,0.04938271604938271
+performance monitoring,Exploitation / theft / diversion,0.04938271604938271
+performance monitoring,Restraint / seclusion,0.04938271604938271
+performance monitoring,Injury,0.04938271604938271
+performance monitoring,Harm,0.04938271604938271
+performance monitoring,Elopement / overdose,0.0
+performance monitoring,Grievance,0.04938271604938271
+pain medication,patient choice,0.0
+pain medication,Abuse,0.0
+pain medication,Neglect,0.0
+pain medication,Sexual / assault,0.0
+pain medication,Exploitation / theft / diversion,0.0
+pain medication,Restraint / seclusion,0.0
+pain medication,Injury,0.0
+pain medication,Harm,0.0
+pain medication,Elopement / overdose,1.0
+pain medication,Grievance,0.0
+patient choice,Abuse,0.0
+patient choice,Neglect,0.0
+patient choice,Sexual / assault,0.0
+patient choice,Exploitation / theft / diversion,0.0
+patient choice,Restraint / seclusion,0.0
+patient choice,Injury,0.0
+patient choice,Harm,0.0
+patient choice,Elopement / overdose,0.0
+patient choice,Grievance,0.0
+Abuse,Neglect,1.0
+Abuse,Sexual / assault,1.0
+Abuse,Exploitation / theft / diversion,1.0
+Abuse,Restraint / seclusion,0.6172839506172839
+Abuse,Injury,1.0
+Abuse,Harm,0.6296296296296297
+Abuse,Elopement / overdose,0.0
+Abuse,Grievance,1.0
+Neglect,Sexual / assault,1.0
+Neglect,Exploitation / theft / diversion,1.0
+Neglect,Restraint / seclusion,0.6172839506172839
+Neglect,Injury,1.0
+Neglect,Harm,0.6296296296296297
+Neglect,Elopement / overdose,0.0
+Neglect,Grievance,1.0
+Sexual / assault,Exploitation / theft / diversion,1.0
+Sexual / assault,Restraint / seclusion,0.6172839506172839
+Sexual / assault,Injury,1.0
+Sexual / assault,Harm,0.6296296296296297
+Sexual / assault,Elopement / overdose,0.0
+Sexual / assault,Grievance,1.0
+Exploitation / theft / diversion,Restraint / seclusion,0.6172839506172839
+Exploitation / theft / diversion,Injury,1.0
+Exploitation / theft / diversion,Harm,0.6296296296296297
+Exploitation / theft / diversion,Elopement / overdose,0.0
+Exploitation / theft / diversion,Grievance,1.0
+Restraint / seclusion,Injury,0.6172839506172839
+Restraint / seclusion,Harm,0.9876543209876543
+Restraint / seclusion,Elopement / overdose,0.0
+Restraint / seclusion,Grievance,0.6172839506172839
+Injury,Harm,0.6296296296296297
+Injury,Elopement / overdose,0.0
+Injury,Grievance,1.0
+Harm,Elopement / overdose,0.0
+Harm,Grievance,0.6296296296296297
+Elopement / overdose,Grievance,0.0

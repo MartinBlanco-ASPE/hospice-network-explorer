@@ -1,0 +1,273 @@
+{
+  "version": "wording-groups-v1",
+  "date": "2026-11-03",
+  "algorithm": "weighted greedy modularity; deterministic ties; resolution 1 by default",
+  "scope": "Computational correctness and construction sensitivity on current corpus; no human theme validation, no bootstrap confidence intervals",
+  "views": {
+    "general": {
+      "base_edges": 172,
+      "visible_nodes": 64,
+      "groups": [
+        {
+          "group": 0,
+          "members": [
+            "visit frequency",
+            "skilled nursing",
+            "communication",
+            "interdisciplinary group",
+            "documentation",
+            "spiritual care",
+            "bereavement care",
+            "social work",
+            "service coordination",
+            "care refusal",
+            "change in condition",
+            "missed visits",
+            "physician notification"
+          ],
+          "severity_families": [],
+          "intact_fraction_across_construction_checks": 0.32098765432098764
+        },
+        {
+          "group": 1,
+          "members": [
+            "care plan",
+            "assessment",
+            "patient goals",
+            "wound care",
+            "return demonstration",
+            "fall risk",
+            "aspiration risk",
+            "skin integrity",
+            "catheter care",
+            "plan revision",
+            "patient choice"
+          ],
+          "severity_families": [],
+          "intact_fraction_across_construction_checks": 0.41975308641975306
+        },
+        {
+          "group": 2,
+          "members": [
+            "hospice aide",
+            "aide supervision",
+            "competency evaluation",
+            "staff training",
+            "volunteer services",
+            "quality improvement",
+            "governing body",
+            "administrator",
+            "background check",
+            "assessment timeliness",
+            "performance monitoring"
+          ],
+          "severity_families": [],
+          "intact_fraction_across_construction_checks": 0.2222222222222222
+        },
+        {
+          "group": 3,
+          "members": [
+            "physician order",
+            "discharge summary",
+            "attending physician",
+            "medical director",
+            "electronic record",
+            "copied documentation",
+            "advance directive",
+            "patient rights",
+            "consent",
+            "terminal certification",
+            "signed orders"
+          ],
+          "severity_families": [],
+          "intact_fraction_across_construction_checks": 0.07407407407407407
+        },
+        {
+          "group": 4,
+          "members": [
+            "reassessment",
+            "medication profile",
+            "medication reconciliation",
+            "medication dose",
+            "drug interaction",
+            "pain assessment",
+            "symptom management",
+            "caregiver education",
+            "on-call response",
+            "pain medication"
+          ],
+          "severity_families": [],
+          "intact_fraction_across_construction_checks": 0.1728395061728395
+        },
+        {
+          "group": 5,
+          "members": [
+            "oxygen",
+            "infection control",
+            "hand hygiene",
+            "protective equipment",
+            "equipment cleaning",
+            "supplies",
+            "medical equipment",
+            "drug storage"
+          ],
+          "severity_families": [],
+          "intact_fraction_across_construction_checks": 0.8024691358024691
+        }
+      ],
+      "construction_checks": 81,
+      "ARI_min": 0.4489858867236499,
+      "ARI_median": 0.6633491416739029,
+      "ARI_max": 1.0,
+      "jitter_checks": 10,
+      "jitter_ARI_min": 1.0,
+      "jitter_ARI_median": 1.0
+    },
+    "severity": {
+      "base_edges": 209,
+      "visible_nodes": 73,
+      "groups": [
+        {
+          "group": 0,
+          "members": [
+            "advance directive",
+            "patient rights",
+            "consent",
+            "administrator",
+            "background check",
+            "Abuse",
+            "Neglect",
+            "Sexual / assault",
+            "Exploitation / theft / diversion",
+            "Restraint / seclusion",
+            "Injury",
+            "Harm",
+            "Grievance"
+          ],
+          "severity_families": [
+            "Abuse",
+            "Neglect",
+            "Sexual / assault",
+            "Exploitation / theft / diversion",
+            "Restraint / seclusion",
+            "Injury",
+            "Harm",
+            "Grievance"
+          ],
+          "intact_fraction_across_construction_checks": 0.6172839506172839
+        },
+        {
+          "group": 1,
+          "members": [
+            "care plan",
+            "assessment",
+            "patient goals",
+            "skilled nursing",
+            "wound care",
+            "return demonstration",
+            "fall risk",
+            "aspiration risk",
+            "skin integrity",
+            "catheter care",
+            "plan revision",
+            "patient choice"
+          ],
+          "severity_families": [],
+          "intact_fraction_across_construction_checks": 0.19753086419753085
+        },
+        {
+          "group": 2,
+          "members": [
+            "visit frequency",
+            "communication",
+            "interdisciplinary group",
+            "documentation",
+            "spiritual care",
+            "bereavement care",
+            "social work",
+            "service coordination",
+            "care refusal",
+            "change in condition",
+            "missed visits",
+            "physician notification"
+          ],
+          "severity_families": [],
+          "intact_fraction_across_construction_checks": 0.35802469135802467
+        },
+        {
+          "group": 3,
+          "members": [
+            "reassessment",
+            "medication profile",
+            "medication reconciliation",
+            "medication dose",
+            "drug interaction",
+            "pain assessment",
+            "symptom management",
+            "caregiver education",
+            "on-call response",
+            "pain medication",
+            "Elopement / overdose"
+          ],
+          "severity_families": [
+            "Elopement / overdose"
+          ],
+          "intact_fraction_across_construction_checks": 0.43209876543209874
+        },
+        {
+          "group": 4,
+          "members": [
+            "hospice aide",
+            "aide supervision",
+            "competency evaluation",
+            "staff training",
+            "volunteer services",
+            "quality improvement",
+            "governing body",
+            "assessment timeliness",
+            "performance monitoring"
+          ],
+          "severity_families": [],
+          "intact_fraction_across_construction_checks": 0.24691358024691357
+        },
+        {
+          "group": 5,
+          "members": [
+            "physician order",
+            "discharge summary",
+            "attending physician",
+            "medical director",
+            "electronic record",
+            "copied documentation",
+            "terminal certification",
+            "signed orders"
+          ],
+          "severity_families": [],
+          "intact_fraction_across_construction_checks": 0.5679012345679012
+        },
+        {
+          "group": 6,
+          "members": [
+            "oxygen",
+            "infection control",
+            "hand hygiene",
+            "protective equipment",
+            "equipment cleaning",
+            "supplies",
+            "medical equipment",
+            "drug storage"
+          ],
+          "severity_families": [],
+          "intact_fraction_across_construction_checks": 0.6172839506172839
+        }
+      ],
+      "construction_checks": 81,
+      "ARI_min": 0.4859490121927365,
+      "ARI_median": 0.6429593350945254,
+      "ARI_max": 1.0,
+      "jitter_checks": 10,
+      "jitter_ARI_min": 0.8146214385008592,
+      "jitter_ARI_median": 0.9455381273337015
+    }
+  }
+}

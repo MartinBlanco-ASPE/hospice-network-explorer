@@ -1,0 +1,111 @@
+{
+  "tested_utc": "2026-11-03T16:22:07.846898+00:00",
+  "artifact_sha256": "56c76a5fe87f9bd882019d6d124a1ea3d9b1b076ac7e1cfbda16be6e99b050f9",
+  "tests": [
+    {
+      "name": "general graph and summary identical to approved source",
+      "pass": true
+    },
+    {
+      "name": "severity graph and summary identical to approved source",
+      "pass": true
+    },
+    {
+      "name": "High-only graph and summary identical to approved source",
+      "pass": true
+    },
+    {
+      "name": "comparison A graph and summary identical to approved source",
+      "pass": true
+    },
+    {
+      "name": "comparison B graph and summary identical to approved source",
+      "pass": true
+    },
+    {
+      "name": "comparison severity graph and summary identical to approved source",
+      "pass": true
+    },
+    {
+      "name": "untrimmed graph and summary identical to approved source",
+      "pass": true
+    },
+    {
+      "name": "root opens dashboard",
+      "pass": true
+    },
+    {
+      "name": "summary and reading guide retained",
+      "pass": true
+    },
+    {
+      "name": "methods collapsed by default",
+      "pass": true
+    },
+    {
+      "name": "source-context buttons work",
+      "pass": true
+    },
+    {
+      "name": "all local methods links in scoped package",
+      "pass": true
+    },
+    {
+      "name": "no links to internal study reports",
+      "pass": true
+    },
+    {
+      "name": "mobile page fits",
+      "pass": true
+    },
+    {
+      "name": "methodology page available",
+      "pass": true
+    },
+    {
+      "name": "methodology anchor communities-size-and-comparisons",
+      "pass": true
+    },
+    {
+      "name": "methodology anchor communities-size-and-comparisons",
+      "pass": true
+    },
+    {
+      "name": "methodology anchor provisional-severity-scoring",
+      "pass": true
+    },
+    {
+      "name": "methodology anchor reading-coverage-and-validation",
+      "pass": true
+    },
+    {
+      "name": "methodology anchor reading-coverage-and-validation",
+      "pass": true
+    },
+    {
+      "name": "methodology anchor reading-coverage-and-validation",
+      "pass": true
+    },
+    {
+      "name": "methodology anchor reading-coverage-and-validation",
+      "pass": true
+    },
+    {
+      "name": "methodology discloses snapshot boundary",
+      "pass": true
+    },
+    {
+      "name": "no remote runtime requests",
+      "pass": true
+    },
+    {
+      "name": "no browser errors",
+      "pass": true
+    },
+    {
+      "name": "no workbook or study report binaries",
+      "pass": true
+    }
+  ],
+  "errors": []
+}

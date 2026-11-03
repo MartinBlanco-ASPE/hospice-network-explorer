@@ -1,0 +1,274 @@
+{
+  "tested_utc": "2026-11-03T16:00:21.510126+00:00",
+  "runtime": "isolated Playwright Chromium headless",
+  "html_mtime": 1793721579.0977373,
+  "html_sha256": "b190c037838a9dbb0d6f26d5d414c5592d086c38f9f161443fc739861d40eb10",
+  "suites": [
+    {
+      "suite": "guided_explorer",
+      "tests": [
+        {
+          "name": "guided default general",
+          "pass": true
+        },
+        {
+          "name": "Advanced starts collapsed",
+          "pass": true
+        },
+        {
+          "name": "only four main selectors in general view",
+          "pass": true
+        },
+        {
+          "name": "diagnostics in Advanced",
+          "pass": true
+        },
+        {
+          "name": "single hospice size and current identity denominator",
+          "pass": true
+        },
+        {
+          "name": "exact PPMI preset threshold",
+          "pass": true
+        },
+        {
+          "name": "172 links independently reproduced",
+          "pass": true
+        },
+        {
+          "name": "general groups match independent Python fit",
+          "pass": true
+        },
+        {
+          "name": "current community fill colors",
+          "pass": true
+        },
+        {
+          "name": "groups distinguished from severity terms",
+          "pass": true
+        },
+        {
+          "name": "community assessment link",
+          "pass": true
+        },
+        {
+          "name": "summary source buttons and top three",
+          "pass": true
+        },
+        {
+          "name": "two consolidated cards in summary-first order",
+          "pass": true
+        },
+        {
+          "name": "technical detail collapsed and retained",
+          "pass": true
+        },
+        {
+          "name": "visible reading guide distinguishes color from severity",
+          "pass": true
+        },
+        {
+          "name": "general summary has no repeated color explanation",
+          "pass": true
+        },
+        {
+          "name": "summary source context works",
+          "pass": true
+        },
+        {
+          "name": "neighborhood focus retained",
+          "pass": true
+        },
+        {
+          "name": "floating legend retained",
+          "pass": true
+        },
+        {
+          "name": "neutral color option",
+          "pass": true
+        },
+        {
+          "name": "IJ main option",
+          "pass": true
+        },
+        {
+          "name": "severity share main option",
+          "pass": true
+        },
+        {
+          "name": "Advanced override marks custom",
+          "pass": true
+        },
+        {
+          "name": "explicit reset restores preset",
+          "pass": true
+        },
+        {
+          "name": "resolution override refits current groups",
+          "pass": true
+        },
+        {
+          "name": "preset reset preserves main source filters",
+          "pass": true
+        },
+        {
+          "name": "severity preset shape and scope",
+          "pass": true
+        },
+        {
+          "name": "severity links independently reproduced",
+          "pass": true
+        },
+        {
+          "name": "severity groups independently reproduced",
+          "pass": true
+        },
+        {
+          "name": "severity summary ranks severity families only",
+          "pass": true
+        },
+        {
+          "name": "severity reading guide explains weights and diamonds",
+          "pass": true
+        },
+        {
+          "name": "diamonds are lexicon not communities",
+          "pass": true
+        },
+        {
+          "name": "three main severity options",
+          "pass": true
+        },
+        {
+          "name": "High filter retains provisional corpus subset",
+          "pass": true
+        },
+        {
+          "name": "general does not inherit hidden High filter",
+          "pass": true
+        },
+        {
+          "name": "grouped surveyor membership and count",
+          "pass": true
+        },
+        {
+          "name": "unknown surveyor fails closed",
+          "pass": true
+        },
+        {
+          "name": "record TF-IDF retained as Advanced comparison",
+          "pass": true
+        },
+        {
+          "name": "legacy colors do not change edge set",
+          "pass": true
+        },
+        {
+          "name": "hospice incidence retained with correct units",
+          "pass": true
+        },
+        {
+          "name": "untrimmed robustness option",
+          "pass": true
+        },
+        {
+          "name": "global deduplication still explicit",
+          "pass": true
+        },
+        {
+          "name": "comparison A uses State Agency",
+          "pass": true
+        },
+        {
+          "name": "comparison locks frame",
+          "pass": true
+        },
+        {
+          "name": "comparison B uses grouped accreditors",
+          "pass": true
+        },
+        {
+          "name": "comparison uses shared area reference",
+          "pass": true
+        },
+        {
+          "name": "comparison uses same positions",
+          "pass": true
+        },
+        {
+          "name": "comparison camera scale matches",
+          "pass": true
+        },
+        {
+          "name": "comparison describes denominators and limitations",
+          "pass": true
+        },
+        {
+          "name": "comparison coverage uses each saved selection denominator",
+          "pass": true
+        },
+        {
+          "name": "comparison summary identifies active pairs and overlap",
+          "pass": true
+        },
+        {
+          "name": "comparison selections save independently",
+          "pass": true
+        },
+        {
+          "name": "comparison severity lens",
+          "pass": true
+        },
+        {
+          "name": "export records view and comparison state",
+          "pass": true
+        },
+        {
+          "name": "empty subset explicit",
+          "pass": true
+        },
+        {
+          "name": "pilot tab scope clear",
+          "pass": true
+        },
+        {
+          "name": "pilot IJ is source row status",
+          "pass": true
+        },
+        {
+          "name": "methods tab works",
+          "pass": true
+        },
+        {
+          "name": "return to phrase restores preset",
+          "pass": true
+        },
+        {
+          "name": "compact summary has a small heading",
+          "pass": true
+        },
+        {
+          "name": "methods disclosure state survives redraw",
+          "pass": true
+        },
+        {
+          "name": "supporting trace counts retained",
+          "pass": true
+        },
+        {
+          "name": "mobile main controls and legend fit",
+          "pass": true
+        },
+        {
+          "name": "mobile tables stack",
+          "pass": true
+        },
+        {
+          "name": "no browser script errors",
+          "pass": true,
+          "errors": []
+        }
+      ]
+    }
+  ]
+}
