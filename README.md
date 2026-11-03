@@ -8,7 +8,7 @@ A browser-based explorer of wording in hospice QCOR survey narratives. The websi
 
 Nodes represent selected phrases, with nine additional severity-family diamonds in the severity view. Phrase-node area represents distinct identified hospices with matching wording. Lines describe text relationships, not relationships between providers. The compact summary reports leading phrases or severity families, their strongest partners, the strongest displayed pairs, and a short interpretation. Source comparison shows each selection's hospice counts and percentages using separate denominators.
 
-Community colors identify exploratory wording groups fitted to the displayed connections. They are different from the predefined severity families and are not validated study themes. Severity share, source Immediate Jeopardy (IJ), and condition-level association are separate indicators. Advanced controls retain TF-IDF, hospice-incidence connections, text-processing sensitivities, and earlier community colors.
+Community colors identify exploratory wording clusters fitted to the displayed connections. They are different from the predefined severity families and are not validated study themes. Severity share, source Immediate Jeopardy (IJ), and condition-level association are separate indicators. Advanced controls retain TF-IDF, hospice-incidence connections, text-processing sensitivities, and earlier community colors.
 
 ## Data and analytical scope
 
@@ -45,7 +45,7 @@ Severity share is the proportion of matching identified hospices with at least o
 
 ## Communities, size, and comparisons
 
-Exploratory wording groups use deterministic weighted greedy modularity, with resolution 1 by default. Groups are fitted to the displayed graph; group numbers and hues can change with filters, sources, and settings. Diamond shape identifies a severity family even when community colors are selected. Group colors do not convert ordinary phrases into severity terms.
+Wording clusters use deterministic weighted greedy modularity, with resolution 1 by default. Groups are fitted to the displayed graph; group numbers and hues can change with filters, sources, and settings. Diamond shape identifies a severity family even when community colors are selected. Group colors do not convert ordinary phrases into severity terms.
 
 Node area follows distinct-hospice count with a minimum visible radius. Ordinary views rescale sizes within the view. Source comparison saves two selections, switches a single map between them, and uses a common hospice-size reference, fixed 73-node full-corpus reference positions, and common camera bounds. The same hospice can appear in both source groups. Matching hues do not establish matching groups, and screen distance adds no analytical evidence.
 
