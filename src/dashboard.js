@@ -136,11 +136,12 @@ $('phraseTab').onclick=()=>setMode('phrase');$('pilotTab').onclick=()=>setMode('
 const filteredGraphCache=new Map();
 function filterKey(){return ['surveyorFilter','contextFilter','yearFilter','textFilter'].map(id=>$(id).value).join('|');}
 function filterSelection(){return {org:$('surveyorFilter').value,context:$('contextFilter').value,year:$('yearFilter').value,text:$('textFilter').value};}
-function currentGraph(){const s=filterSelection(),selected=[s.org,s.context,s.year].filter(v=>v!=='all').length;if(!selected)return DATA.views[s.text];if(selected===1&&s.text==='all')return DATA.views[s.org!=='all'?'org:'+s.org:s.context!=='all'?'purpose:'+s.context:'year:'+s.year];const key=filterKey();if(!filteredGraphCache.has(key)){if(filteredGraphCache.size>=12)filteredGraphCache.delete(filteredGraphCache.keys().next().value);filteredGraphCache.set(key,aggregateFilteredGraph(s));}return filteredGraphCache.get(key);}
+function hospiceYearMatches(selection,index){return selection==='all'||String(selection).split(',').includes(DATA.filterRows.years[index]);}
+function currentGraph(){const s=filterSelection(),selected=[s.org,s.context,s.year].filter(v=>v!=='all').length;if(!selected)return DATA.views[s.text];if(selected===1&&s.text==='all'&&!s.year.includes(','))return DATA.views[s.org!=='all'?'org:'+s.org:s.context!=='all'?'purpose:'+s.context:'year:'+s.year];const key=filterKey();if(!filteredGraphCache.has(key)){if(filteredGraphCache.size>=12)filteredGraphCache.delete(filteredGraphCache.keys().next().value);filteredGraphCache.set(key,aggregateFilteredGraph(s));}return filteredGraphCache.get(key);}
 function aggregateFilteredGraph(selection){
   const F=DATA.filterRows,N=DATA.views.all.nodes.length;
   const org=F.surveyors.indexOf(selection.org),context=F.contexts.indexOf(selection.context),year=F.years.indexOf(selection.year);
-  const rows=F.rows.filter(r=>surveyorMatches(selection.org,r[3])&&(context<0||r[4]===context)&&(year<0||r[5]===year)&&(selection.text!=='deduplicated'||r[12]));
+  const rows=F.rows.filter(r=>surveyorMatches(selection.org,r[3])&&(context<0||r[4]===context)&&hospiceYearMatches(selection.year,r[5])&&(selection.text!=='deduplicated'||r[12]));
   const df=new Uint32Array(N),tf=new Uint32Array(N),conditions=new Uint32Array(N),standards=new Uint32Array(N),pending=new Uint32Array(N);
   const surveys=Array.from({length:N},()=>new Set()),members=Array.from({length:N},()=>new Map()),examples=Array.from({length:N},()=>[]);
   const ij=Array.from({length:N},()=>({Yes:0,No:0,Missing:0})),totalIJ={Yes:0,No:0,Missing:0},providerDates=new Map();let unassigned=0;
@@ -219,7 +220,7 @@ const scoreFor=r=>infoFor(r)[rawSeverity()?1:0];
 const familiesFor=r=>infoFor(r)[rawSeverity()?5:4];
 function selectedSeverityRows(){
   const F=DATA.filterRows,s=filterSelection(),org=F.surveyors.indexOf(s.org),ctx=F.contexts.indexOf(s.context),year=F.years.indexOf(s.year),severity=$('severityFilter').value;
-  return F.rows.filter(r=>surveyorMatches(s.org,r[3])&&(ctx<0||r[4]===ctx)&&(year<0||r[5]===year)&&(s.text!=='deduplicated'||r[12])&&(severity==='all'||severity==='any'&&scoreFor(r)>0||severity==='moderate'&&scoreFor(r)>=1||severity==='high'&&scoreFor(r)>=2||severity==='paperwork'&&infoFor(r)[rawSeverity()?3:2]));
+  return F.rows.filter(r=>surveyorMatches(s.org,r[3])&&(ctx<0||r[4]===ctx)&&hospiceYearMatches(s.year,r[5])&&(s.text!=='deduplicated'||r[12])&&(severity==='all'||severity==='any'&&scoreFor(r)>0||severity==='moderate'&&scoreFor(r)>=1||severity==='high'&&scoreFor(r)>=2||severity==='paperwork'&&infoFor(r)[rawSeverity()?3:2]));
 }
 filterKey=function(){return legacyFilterKey()+'|severity='+$('severityFilter').value+'|terms='+Number($('severityTerms').checked);};
 function severityPpmi(rows,weighted){
@@ -591,6 +592,7 @@ function resetGuidedPreset(view=guidedState.view,draw=true){
  $('guidedView').value=view;guidedState.comparisonKey=null;syncGuidedControls();if(draw)render();
 }
 function syncGuidedControls(){
+ syncHospiceYearPicker();
  const severityView=guidedState.view==='severity'||guidedState.view==='comparison'&&guidedState.lens==='severity';
  $('severityMainField').hidden=!severityView||mode!=='phrase';$('comparisonControls').hidden=guidedState.view!=='comparison'||mode!=='phrase';
  for(const [id,actual,main] of [['color','colorLayer','guidedColor'],['severity','severityFilter','severityChoice']]){const select=$(main),option=[...select.options].find(o=>o.value===$(actual).value);select.value=option?option.value:'custom';select.querySelector('option[value="custom"]').hidden=!!option;}
@@ -680,6 +682,35 @@ setMode=function(next){
  if(next==='phrase'&&guidedState.phraseState){writeGuidedSettings(guidedState.phraseState);guidedState.phraseState=null;render();}
  syncGuidedControls();
 };
+function setHospiceYears(values){
+ const years=[...new Set(values.map(String))].filter(y=>DATA.filterRows.years.includes(y)).sort();
+ const value=!years.length||years.length===DATA.filterRows.years.length?'all':years.join(',');
+ // Retain the existing scalar filter contract for caches, saved presets and CSV.
+ const select=$('yearFilter');for(const option of [...select.options])if(option.value.includes(','))option.remove();
+ if(value.includes(',')){const option=elem('option','',years.join(', '));option.value=value;select.append(option);}
+ select.value=value;render();
+}
+function syncHospiceYearPicker(){
+ if(!$('calendarYearDropdown'))return;
+ const all=$('yearFilter').value==='all',years=all?[]:$('yearFilter').value.split(','),disabled=mode!=='phrase';
+ $('calendarYearSummary').textContent=all?'All years':years.join(', ');$('calendarAllYears').checked=all;
+ for(const input of $('calendarYearChoices').querySelectorAll('input'))input.checked=years.includes(input.value);
+ for(const input of $('calendarYearDropdown').querySelectorAll('input'))input.disabled=disabled;
+ const summary=$('calendarYearDropdown').querySelector('summary');summary.setAttribute('aria-disabled',String(disabled));summary.tabIndex=disabled?-1:0;
+ if(disabled)$('calendarYearDropdown').open=false;
+}
+function makeHospiceYearPicker(select){
+ const field=elem('div','guided-field hospice-year-picker'),label=elem('div','hospice-year-label','Calendar year');label.id='calendarYearLabel';
+ const dropdown=elem('details');dropdown.id='calendarYearDropdown';const summary=elem('summary'),text=elem('span','','All years');text.id='calendarYearSummary';summary.setAttribute('aria-labelledby','calendarYearLabel calendarYearSummary');summary.append(text);dropdown.append(summary);
+ const options=elem('div','hospice-year-options'),allLabel=elem('label'),all=elem('input');all.type='checkbox';all.id='calendarAllYears';all.checked=true;allLabel.append(all,document.createTextNode('All years'));options.append(allLabel);
+ const choices=elem('div');choices.id='calendarYearChoices';for(const year of [...DATA.filterRows.years].sort()){const item=elem('label'),input=elem('input');input.type='checkbox';input.value=year;item.append(input,document.createTextNode(year));choices.append(item);}options.append(choices);dropdown.append(options);
+ select.hidden=true;select.tabIndex=-1;select.setAttribute('aria-hidden','true');field.append(label,dropdown,elem('p','subtle','Check one or more years. Calendar endpoints are partial years.'),select);
+ all.onchange=()=>setHospiceYears([]);choices.onchange=()=>setHospiceYears([...choices.querySelectorAll('input:checked')].map(input=>input.value));
+ summary.addEventListener('click',e=>{if(mode!=='phrase')e.preventDefault();});
+ document.addEventListener('click',e=>{if(!dropdown.contains(e.target))dropdown.open=false;});
+ document.addEventListener('keydown',e=>{if(e.key==='Escape'&&dropdown.open){dropdown.open=false;summary.focus();}});
+ return field;
+}
 function installGuidedControls(){
  const ids=['surveyorFilter','contextFilter','yearFilter','textFilter','severityFilter','severityTerms','colorLayer','edgeUnit','edgeNote','threshold','thresholdLabel','shared','neighbors','isolates','showCounts','csvBtn','pngBtn','cohortNote','nodeSizeNote'],saved=Object.fromEntries(ids.map(id=>[id,$(id)])),panel=document.querySelector('.controls');
  panel.classList.add('guided-controls');panel.replaceChildren(elem('h2','','Explore the evidence'));
@@ -691,10 +722,11 @@ function installGuidedControls(){
  const group=elem('option','','Accrediting organizations · ACHC + CHAP + TJC');group.value='accreditors';saved.surveyorFilter.append(group);
  panel.append(field(saved.surveyorFilter,'Surveyor'),field(saved.contextFilter,'Survey context'));
  const colors=select('guidedColor',[['community','Wording Cluster'],['none','None · neutral color'],['ij','IJ share'],['severity','Severity share · provisional'],['custom','Advanced color active']]);colors.lastChild.disabled=true;colors.lastChild.hidden=true;panel.append(field(colors,'Node color'));
+ panel.append(makeHospiceYearPicker(saved.yearFilter));
  saved.colorLayer.querySelector('option[value="community"]').textContent='Wording Cluster';for(const [value,label] of [['none','None · neutral color'],['legacyCommunity','Original record communities · legacy']]){const o=elem('option','',label);o.value=value;saved.colorLayer.append(o);}
  const severity=select('severityChoice',[['all','All records'],['any','Any positive severity score'],['high','High only'],['custom','Advanced diagnostic active']]);severity.lastChild.disabled=true;severity.lastChild.hidden=true;const severityField=field(severity,'Severity · provisional');severityField.id='severityMainField';panel.append(severityField,saved.nodeSizeNote,saved.cohortNote);
  const advanced=elem('details','guided-advanced');advanced.id='advancedSettings';advanced.append(elem('summary','','Advanced · robustness & comparisons'),elem('p','','Overrides are marked as custom. Legacy connections and colors remain available for diagnostic comparison. Calendar endpoints are partial years.'));
- for(const [id,label] of [['yearFilter','Calendar year'],['textFilter','Text handling'],['severityFilter','Severity subset / diagnostics'],['colorLayer','Color comparison'],['edgeUnit','Connection comparison'],['threshold','Minimum connection strength '],['shared','Minimum shared records'],['neighbors','Strongest neighbors per node']]){advanced.append(field(saved[id],label));if(id==='edgeUnit')advanced.append(saved.edgeNote);}
+ for(const [id,label] of [['textFilter','Text handling'],['severityFilter','Severity subset / diagnostics'],['colorLayer','Color comparison'],['edgeUnit','Connection comparison'],['threshold','Minimum connection strength '],['shared','Minimum shared records'],['neighbors','Strongest neighbors per node']]){advanced.append(field(saved[id],label));if(id==='edgeUnit')advanced.append(saved.edgeNote);}
  const resolution=select('groupResolution',[['.8','0.8 · broader groups'],['1','1.0 · default'],['1.2','1.2 · finer groups']]);advanced.append(field(resolution,'Wording-group resolution'));
  for(const [id,label] of [['severityTerms','Show severity-word families'],['isolates','Show isolated nodes'],['showCounts','Show hospice counts on nodes']]){const l=elem('label','check');l.append(saved[id],document.createTextNode(label));advanced.append(l);}
  saved.cohortNote.className='subtle';saved.cohortNote.textContent='Surveyor and context filters combine.';

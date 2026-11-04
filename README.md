@@ -35,6 +35,10 @@ The severity view uses the same PPMI structure with record weight 1 + provisiona
 
 Advanced TF-IDF connections use cosine similarity between phrase features after frequency/rarity weighting. Hospice-incidence cosine uses binary phrase-presence vectors over identified hospices, allowing phrases to appear in different records or surveys. The separate pilot graph uses sample-fitted TF-IDF cosine between narratives. Cosine equals the vector dot product divided by the product of vector lengths.
 
+## Calendar year filtering
+
+The Calendar year checkbox dropdown sits directly below Node color, outside Advanced. Select one year, multiple years together (for example 2025 and 2026), or All years. The graph, hospice coverage, repeat appearances and exports use the selected years, combined with the surveyor, survey context, text-handling and severity filters. Both source-comparison selections use the same year set. Resetting the view or clearing the last specific year restores All years. The 2021 and 2026 endpoints are partial years. Repeated wording across survey dates does not establish new failures or recurrence rates.
+
 ## Provisional severity scoring
 
 Nine predefined, policy-informed lexical families identify Abuse; Neglect; Sexual/assault; Exploitation/theft/diversion; Restraint/seclusion; Injury; Harm; Elopement/overdose; and Grievance. Policy informs category selection; the numerical weights are research choices. This page describes measurement rather than conducting policy analysis.
@@ -53,7 +57,7 @@ Node area follows distinct-hospice count with a minimum visible radius. Ordinary
 
 Full-corpus phrase matching is separate from close reading. AI-assisted reading/coding decisions cover 96 selected narratives; the dashboard's coding tab contains the original 48. Independent human validation and final reconciliation remain pending. There is no claim of thematic saturation, clinical validation, causal effects, national prevalence, or representative provider-quality comparisons.
 
-Computational checks reproduce current communities in independent Python and JavaScript implementations. For each baseline, 81 settings vary lift, support, strongest-neighbor count, and modularity resolution; ten additional seeded checks perturb edge weights by ±5%. The general baseline has six groups and median construction adjusted Rand agreement 0.663; the severity baseline has seven groups and median agreement 0.643. Sensitivity describes algorithmic behavior, not validated meaning. The published snapshot passed 65 source-dashboard browser checks; publication-specific checks verify the packaged dashboard, methods links, A/B counts, and mobile layout. Check the files in `validation/` for the exact tested artifact and results.
+Computational checks reproduce current communities in independent Python and JavaScript implementations. For each baseline, 81 settings vary lift, support, strongest-neighbor count, and modularity resolution; ten additional seeded checks perturb edge weights by ±5%. The general baseline has six groups and median construction adjusted Rand agreement 0.663; the severity baseline has seven groups and median agreement 0.643. Sensitivity describes algorithmic behavior, not validated meaning. The published snapshot passed 66 source-dashboard browser checks and 27 targeted year-filter checks; publication-specific checks verify the packaged dashboard, methods links, A/B counts, and mobile layout. Check the files in `validation/` for the exact tested artifact and results.
 
 ## How this was built
 

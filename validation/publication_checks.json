@@ -1,6 +1,6 @@
 {
-  "tested_utc": "2026-11-03T16:22:07.846898+00:00",
-  "artifact_sha256": "56c76a5fe87f9bd882019d6d124a1ea3d9b1b076ac7e1cfbda16be6e99b050f9",
+  "tested_utc": "2026-11-04T18:35:47.105945+00:00",
+  "artifact_sha256": "164509e6ecb5da4cc1bee61bcb0f7806f73cb141b8404ba18a58d4dab7ace41a",
   "tests": [
     {
       "name": "general graph and summary identical to approved source",
@@ -27,7 +27,19 @@
       "pass": true
     },
     {
+      "name": "multiple years graph and summary identical to approved source",
+      "pass": true
+    },
+    {
+      "name": "multiple years High-only graph and summary identical to approved source",
+      "pass": true
+    },
+    {
       "name": "untrimmed graph and summary identical to approved source",
+      "pass": true
+    },
+    {
+      "name": "Calendar year directly below Node color and outside Advanced",
       "pass": true
     },
     {

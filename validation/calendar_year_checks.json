@@ -1,0 +1,114 @@
+{
+  "tested_utc": "2026-11-04T18:32:40.061606+00:00",
+  "checks": [
+    {
+      "name": "Calendar year checkbox dropdown is directly below Node color and outside Advanced",
+      "pass": true
+    },
+    {
+      "name": "All-year default graph unchanged",
+      "pass": true
+    },
+    {
+      "name": "Single-year membership and canonical hospice counts",
+      "pass": true
+    },
+    {
+      "name": "Single-year summary",
+      "pass": true
+    },
+    {
+      "name": "2025 and 2026 union membership and hospice counts",
+      "pass": true
+    },
+    {
+      "name": "Multiple checkmarks and summary persist",
+      "pass": true
+    },
+    {
+      "name": "Every wording node coverage and repeat count matches Python",
+      "pass": true
+    },
+    {
+      "name": "Selected years respected by connection method record",
+      "pass": true
+    },
+    {
+      "name": "Selected years respected by connection method hospice",
+      "pass": true
+    },
+    {
+      "name": "Selected years respected by connection method ppmi",
+      "pass": true
+    },
+    {
+      "name": "Selected years respected by connection method severity",
+      "pass": true
+    },
+    {
+      "name": "CSV records both selected years",
+      "pass": true
+    },
+    {
+      "name": "Multiple years intersect with High filter",
+      "pass": true
+    },
+    {
+      "name": "Multiple years intersect with global text deduplication",
+      "pass": true
+    },
+    {
+      "name": "Reset restores all years",
+      "pass": true
+    },
+    {
+      "name": "Comparison 0 honors selected years",
+      "pass": true
+    },
+    {
+      "name": "Comparison 1 honors selected years",
+      "pass": true
+    },
+    {
+      "name": "Comparison shares size reference, positions and zoom",
+      "pass": true
+    },
+    {
+      "name": "Unchecking one year retains 2026",
+      "pass": true
+    },
+    {
+      "name": "Unchecking final year restores All years",
+      "pass": true
+    },
+    {
+      "name": "All years checkbox clears specific selection",
+      "pass": true
+    },
+    {
+      "name": "Year controls disabled in pilot mode",
+      "pass": true
+    },
+    {
+      "name": "Returning from pilot restores multiple-year selection",
+      "pass": true
+    },
+    {
+      "name": "Year dropdown fits mobile width",
+      "pass": true
+    },
+    {
+      "name": "Escape closes dropdown",
+      "pass": true
+    },
+    {
+      "name": "No browser errors",
+      "pass": true
+    },
+    {
+      "name": "All saved analytical input hashes unchanged",
+      "pass": true
+    }
+  ],
+  "errors": []
+}

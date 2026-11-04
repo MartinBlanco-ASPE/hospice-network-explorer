@@ -1,6 +1,6 @@
 {
-  "snapshot_date": "2026-11-03",
-  "source_dashboard_sha256": "b190c037838a9dbb0d6f26d5d414c5592d086c38f9f161443fc739861d40eb10",
+  "snapshot_date": "2026-11-04",
+  "source_dashboard_sha256": "76c30f74ad4d665c1758eb21f528fa4338e18569ab8ca75ebe9d38b5a9a0035b",
   "source_rows": 67594,
   "canonical_assigned_ccns": 6486,
   "publication_scope": "Dashboard, descriptive methodology, implementation, and validation only; no policy analysis",

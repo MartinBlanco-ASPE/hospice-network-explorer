@@ -1,8 +1,8 @@
 {
-  "tested_utc": "2026-11-03T16:00:21.510126+00:00",
+  "tested_utc": "2026-11-04T18:32:02.903779+00:00",
   "runtime": "isolated Playwright Chromium headless",
-  "html_mtime": 1793721579.0977373,
-  "html_sha256": "b190c037838a9dbb0d6f26d5d414c5592d086c38f9f161443fc739861d40eb10",
+  "html_mtime": 1793817090.152817,
+  "html_sha256": "76c30f74ad4d665c1758eb21f528fa4338e18569ab8ca75ebe9d38b5a9a0035b",
   "suites": [
     {
       "suite": "guided_explorer",
@@ -13,6 +13,10 @@
         },
         {
           "name": "Advanced starts collapsed",
+          "pass": true
+        },
+        {
+          "name": "Calendar year directly below Node color and outside Advanced",
           "pass": true
         },
         {
