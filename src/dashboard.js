@@ -1017,7 +1017,7 @@ function createPolicySunburst({host,make,button,sections,titles,state,onSection,
  }
  function clearHover(){preview=null;if(tooltip)tooltip.hidden=true;paint();}
  function interactive(path,label,activate,lines,key){
-  path.setAttribute('role','button');path.setAttribute('tabindex','0');path.setAttribute('aria-label',label);path.append(el('title',{},lines.join('\n')));
+  path.setAttribute('role','button');path.setAttribute('tabindex','0');path.setAttribute('aria-label',label);
   const choose=()=>{pin(key,lines);activate();};path.onclick=choose;
   path.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();choose();if(path.dataset.kind==='issue')document.querySelector('#pmIssueHeading')?.focus({preventScroll:true});}else if(['ArrowRight','ArrowDown','ArrowLeft','ArrowUp','Home','End'].includes(e.key)){e.preventDefault();const items=[...svg.querySelectorAll('.pm-arc')],at=items.indexOf(path),next=e.key==='Home'?0:e.key==='End'?items.length-1:(at+(['ArrowLeft','ArrowUp'].includes(e.key)?-1:1)+items.length)%items.length;items[next].focus();}else if(e.key==='Escape'){e.preventDefault();clearPinned();}};
   const hover=e=>{if(locked||suppressHover&&e)return;preview=key;paint();showTip(path,lines,e);};
@@ -1036,9 +1036,9 @@ function createPolicySunburst({host,make,button,sections,titles,state,onSection,
   const breadcrumb=make('div','pm-breadcrumb');breadcrumb.append(button('All policy anchors',()=>{clearPinned();onSection('all');},'pm-breadcrumb-root'));if(state.section!=='all')breadcrumb.append(make('span','','/'),make('span','','§ '+state.section+' · '+titles[state.section]));else breadcrumb.append(make('span','','/'),make('span','','Hover to preview · click to lock'));host.append(breadcrumb);
   selectionCard=make('div','pm-selection-card');selectionCard.hidden=true;selectionCard.setAttribute('role','status');host.append(selectionCard);
   stage=make('div','pm-sunburst-stage');
-  svg=el('svg',{id:'pmSunburst',viewBox:'0 0 900 900',role:'group','aria-labelledby':'pmSunburstTitle pmSunburstDesc'});
+  svg=el('svg',{id:'pmSunburst',viewBox:'0 0 900 900',role:'group','aria-label':'Hospice issues mapped to federal regulatory sections','aria-describedby':'pmSunburstDesc'});
   svg.dataset.connections=total;
-  svg.append(el('title',{id:'pmSunburstTitle'},'Hospice issues mapped to federal regulatory sections'),el('desc',{id:'pmSunburstDesc'},`${visible.length} unique issues in ${total} issue–section relationships. Hover to preview; click or press Enter to lock the highlighted branch without filtering. Other branches become lighter. Click the center or press Escape to clear the highlight. Arrow keys move between sectors. Issues may appear in multiple branches.`));
+  svg.append(el('desc',{id:'pmSunburstDesc'},`${visible.length} unique issues in ${total} issue–section relationships. Hover to preview; click or press Enter to lock the highlighted branch without filtering. Other branches become lighter. Click the center or press Escape to clear the highlight. Arrow keys move between sectors. Issues may appear in multiple branches.`));
   svg.append(el('circle',{cx:450,cy:450,r:399,fill:'none',stroke:'#edf3f2','stroke-width':1}));
   let start=0;
   for(const branch of branches){
