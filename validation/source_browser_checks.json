@@ -1,12 +1,32 @@
 {
-  "tested_utc": "2026-11-04T18:32:02.903779+00:00",
+  "tested_utc": "2026-11-06T14:30:14.207850+00:00",
   "runtime": "isolated Playwright Chromium headless",
-  "html_mtime": 1793817090.152817,
-  "html_sha256": "76c30f74ad4d665c1758eb21f528fa4338e18569ab8ca75ebe9d38b5a9a0035b",
+  "html_mtime": 1793975215.998515,
+  "html_sha256": "4c2314690ad2cd838b53c658ec0ad0b7e419b07636373c369e7b8ae0517af033",
   "suites": [
     {
       "suite": "guided_explorer",
       "tests": [
+        {
+          "name": "lift hover explains probabilities and joint mentions",
+          "pass": true
+        },
+        {
+          "name": "formula guide pins on click",
+          "pass": true
+        },
+        {
+          "name": "Escape closes formula guide",
+          "pass": true
+        },
+        {
+          "name": "grouping hover explains gain weights resolution and shapes",
+          "pass": true
+        },
+        {
+          "name": "text-rule focus explains anchor and slicing",
+          "pass": true
+        },
         {
           "name": "guided default general",
           "pass": true
@@ -72,7 +92,23 @@
           "pass": true
         },
         {
-          "name": "general summary has no repeated color explanation",
+          "name": "general summary has no Interpretation paragraph",
+          "pass": true
+        },
+        {
+          "name": "requested Connections wording without node-size sentence",
+          "pass": true
+        },
+        {
+          "name": "lift formula immediately follows Connections",
+          "pass": true
+        },
+        {
+          "name": "grouping formula inline with Colors and shapes",
+          "pass": true
+        },
+        {
+          "name": "text rule inline with Text handling",
           "pass": true
         },
         {
@@ -128,7 +164,7 @@
           "pass": true
         },
         {
-          "name": "severity summary ranks severity families only",
+          "name": "severity summary ranks severity families without Interpretation paragraph",
           "pass": true
         },
         {
@@ -212,7 +248,7 @@
           "pass": true
         },
         {
-          "name": "comparison summary identifies active pairs and overlap",
+          "name": "comparison summary identifies active pairs without Interpretation paragraph",
           "pass": true
         },
         {
@@ -232,7 +268,7 @@
           "pass": true
         },
         {
-          "name": "pilot tab scope clear",
+          "name": "original pilot scope clear after policy tab replacement",
           "pass": true
         },
         {
@@ -256,7 +292,7 @@
           "pass": true
         },
         {
-          "name": "supporting trace counts retained",
+          "name": "simple node description without wording cards or boilerplate",
           "pass": true
         },
         {
@@ -265,6 +301,10 @@
         },
         {
           "name": "mobile tables stack",
+          "pass": true
+        },
+        {
+          "name": "mobile formula guide opens on tap and fits viewport",
           "pass": true
         },
         {

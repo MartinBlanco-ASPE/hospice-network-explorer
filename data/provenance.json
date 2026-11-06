@@ -1,9 +1,9 @@
 {
-  "snapshot_date": "2026-11-04",
-  "source_dashboard_sha256": "76c30f74ad4d665c1758eb21f528fa4338e18569ab8ca75ebe9d38b5a9a0035b",
+  "snapshot_date": "2026-11-06",
+  "source_dashboard_sha256": "4c2314690ad2cd838b53c658ec0ad0b7e419b07636373c369e7b8ae0517af033",
   "source_rows": 67594,
   "canonical_assigned_ccns": 6486,
-  "publication_scope": "Dashboard, descriptive methodology, implementation, and validation only; no policy analysis",
+  "publication_scope": "Dashboard, regulatory reference sunburst, descriptive methodology, implementation and validation; no policy-effectiveness or gap analysis",
   "embedded_declarations": [
     "DATA",
     "PILOT",

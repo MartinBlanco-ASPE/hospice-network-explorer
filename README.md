@@ -2,11 +2,19 @@
 
 [Open the interactive dashboard](https://MartinBlanco-ASPE.github.io/hospice-network-explorer/) · [Detailed methodology](https://MartinBlanco-ASPE.github.io/hospice-network-explorer/methodology.html)
 
-A browser-based explorer of wording in hospice QCOR survey narratives. The website opens directly to the dashboard. It includes general wording patterns, provisional severity wording, source comparison, and a separate first-round coding view. This repository documents descriptive methods and the dashboard implementation; it contains no policy-effectiveness analysis or policy recommendations.
+A browser-based explorer of wording in hospice QCOR survey narratives. The website opens directly to the dashboard. It includes general wording patterns, provisional severity wording, source comparison, and an Issues & policy sunburst with links to federal regulations. The original first-round coding view remains available from that tab. This repository documents descriptive methods, regulatory reference mappings and the dashboard implementation; it contains no policy-effectiveness analysis or policy recommendations.
 
 ## What the dashboard shows
 
-Nodes represent selected phrases, with nine additional severity-family diamonds in the severity view. Phrase-node area represents distinct identified hospices with matching wording. Lines describe text relationships, not relationships between providers. The compact summary reports leading phrases or severity families, their strongest partners, the strongest displayed pairs, and a short interpretation. Source comparison shows each selection's hospice counts and percentages using separate denominators.
+Nodes represent selected phrases, with nine additional severity-family diamonds in the severity view. Phrase-node area represents distinct identified hospices with matching wording. Lines describe text relationships, not relationships between providers. The compact summary reports leading phrases or severity families, their strongest partners and the strongest displayed pairs. Source comparison shows each selection's hospice counts and percentages using separate denominators. Compact formulas beside the reading guide explain lift, color grouping and text handling; hover, focus or tap to read their symbol definitions.
+
+## Issues and policy reference map
+
+The sunburst places 17 federal regulatory sections in the inner ring and 96 issue-to-section relationships in the outer ring, covering 64 care-wording features and nine provisional severity families. Each outer slice has equal weight. Issues can appear under several sections, so the 73 unique issues differ from the 96 displayed relationships. Arc size represents mapping counts, not hospice coverage, clinical severity or policy importance.
+
+Click a branch to lock its highlight and information while the other branches become lighter; the whole chart stays visible. Select an issue for its plain-language policy description, exact paragraph links, hospice/record coverage and illustrative source passages. Clear highlight, the center or Escape restores the colors. Search, vocabulary and regulatory-section controls provide explicit filtering; an accessible companion list and CSV export are included. Colors follow the user's rainbow reference, with adaptive label text for contrast.
+
+The links are current regulatory references, not adjudicated source citations or a completed survey-date legal crosswalk. Some provisions have setting-specific scope, and the general immediate-jeopardy definition supplies context for two severity families. Historical applicability and independent semantic validation remain pending. This is a descriptive reference map; it does not assess policy effectiveness or establish policy gaps.
 
 Community colors identify exploratory wording clusters fitted to the displayed connections. They are different from the predefined severity families and are not validated study themes. Severity share, source Immediate Jeopardy (IJ), and condition-level association are separate indicators. Advanced controls retain TF-IDF, hospice-incidence connections, text-processing sensitivities, and earlier community colors.
 
@@ -39,6 +47,12 @@ Advanced TF-IDF connections use cosine similarity between phrase features after 
 
 The Calendar year checkbox dropdown sits directly below Node color, outside Advanced. Select one year, multiple years together (for example 2025 and 2026), or All years. The graph, hospice coverage, repeat appearances and exports use the selected years, combined with the surveyor, survey context, text-handling and severity filters. Both source-comparison selections use the same year set. Resetting the view or clearing the last specific year restores All years. The 2021 and 2026 endpoints are partial years. Repeated wording across survey dates does not establish new failures or recurrence rates.
 
+## Edge workbook and report traceability
+
+The Network graph tab's Export edges button downloads an Excel workbook with three sheets: Edges, CCN and year, and Export settings. Edges retains the visible graph's weights, support counts and filter metadata and adds an edge_id. CCN and year lists each supporting workbook record once, with assigned CCN, survey-end date/year, source Excel row, source document and derived survey-group identifiers, tag, surveyor, context, matched features and semicolon-separated supported_edge_ids. Use those IDs to join the reports to Edges. CCNs are explicit text cells, preserving leading zeros; blank identifiers are labeled Pending identity rather than inferred.
+
+For record-based connections, a supporting record contains both endpoint topics. For same-hospice incidence connections, both topics occur at the CCN somewhere in the selected data; they may occur in different records or survey dates. The supporting sheet lists relevant endpoint records and labels that distinction. Pilot-similarity exports list the endpoint narratives. Exports honor current year, surveyor/context, text and severity settings, including saved comparison selections and the global exact-text sensitivity. Edges CSV remains available for the original single-sheet format. The workbook is generated locally in the browser without a server request or external spreadsheet library.
+
 ## Provisional severity scoring
 
 Nine predefined, policy-informed lexical families identify Abuse; Neglect; Sexual/assault; Exploitation/theft/diversion; Restraint/seclusion; Injury; Harm; Elopement/overdose; and Grievance. Policy informs category selection; the numerical weights are research choices. This page describes measurement rather than conducting policy analysis.
@@ -55,9 +69,9 @@ Node area follows distinct-hospice count with a minimum visible radius. Ordinary
 
 ## Reading coverage and validation
 
-Full-corpus phrase matching is separate from close reading. AI-assisted reading/coding decisions cover 96 selected narratives; the dashboard's coding tab contains the original 48. Independent human validation and final reconciliation remain pending. There is no claim of thematic saturation, clinical validation, causal effects, national prevalence, or representative provider-quality comparisons.
+Full-corpus phrase matching is separate from close reading. AI-assisted reading/coding decisions cover 96 selected narratives; the original coding view contains the first 48. Independent human validation and final reconciliation remain pending. There is no claim of thematic saturation, clinical validation, causal effects, national prevalence, or representative provider-quality comparisons.
 
-Computational checks reproduce current communities in independent Python and JavaScript implementations. For each baseline, 81 settings vary lift, support, strongest-neighbor count, and modularity resolution; ten additional seeded checks perturb edge weights by ±5%. The general baseline has six groups and median construction adjusted Rand agreement 0.663; the severity baseline has seven groups and median agreement 0.643. Sensitivity describes algorithmic behavior, not validated meaning. The published snapshot passed 66 source-dashboard browser checks and 27 targeted year-filter checks; publication-specific checks verify the packaged dashboard, methods links, A/B counts, and mobile layout. Check the files in `validation/` for the exact tested artifact and results.
+Computational checks reproduce current communities in independent Python and JavaScript implementations. For each baseline, 81 settings vary lift, support, strongest-neighbor count, and modularity resolution; ten additional seeded checks perturb edge weights by ±5%. The general baseline has six groups and median construction adjusted Rand agreement 0.663; the severity baseline has seven groups and median agreement 0.643. Sensitivity describes algorithmic behavior, not validated meaning. The published snapshot passed 76 source-dashboard browser checks, 53 sunburst/policy checks and 27 targeted year-filter checks; publication-specific checks verify the packaged dashboard, methods links, A/B counts, and mobile layout. Check the files in `validation/` for the exact tested artifact and results.
 
 ## How this was built
 

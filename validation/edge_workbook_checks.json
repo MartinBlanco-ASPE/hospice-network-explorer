@@ -1,0 +1,119 @@
+{
+  "tested_utc": "2026-11-06T14:28:31.020735+00:00",
+  "workbook_bytes": 3241051,
+  "tests": [
+    {
+      "name": "tab renamed Network graph",
+      "pass": true
+    },
+    {
+      "name": "CSV alternative retained",
+      "pass": true
+    },
+    {
+      "name": "download is an Excel workbook",
+      "pass": true
+    },
+    {
+      "name": "ZIP CRCs valid",
+      "pass": true
+    },
+    {
+      "name": "three named sheets present",
+      "pass": true
+    },
+    {
+      "name": "all displayed edges exported",
+      "pass": true
+    },
+    {
+      "name": "edge identifiers unique",
+      "pass": true
+    },
+    {
+      "name": "CCN dates years and source identifiers match saved metadata",
+      "pass": true
+    },
+    {
+      "name": "leading-zero CCNs preserved",
+      "pass": true
+    },
+    {
+      "name": "supporting sheet has one row per source record",
+      "pass": true
+    },
+    {
+      "name": "each edge reference has both topics in the same source record",
+      "pass": true
+    },
+    {
+      "name": "supporting counts reconcile with every displayed edge",
+      "pass": true
+    },
+    {
+      "name": "settings explain join and pending identities",
+      "pass": true
+    },
+    {
+      "name": "multi-year record support reconciles",
+      "pass": true
+    },
+    {
+      "name": "report years honor selected union",
+      "pass": true
+    },
+    {
+      "name": "High-only severity-family support reconciles",
+      "pass": true
+    },
+    {
+      "name": "untrimmed source support reconciles",
+      "pass": true
+    },
+    {
+      "name": "exact-text collapsed source support reconciles",
+      "pass": true
+    },
+    {
+      "name": "deduplicated export uses saved global first records",
+      "pass": true
+    },
+    {
+      "name": "TF-IDF source support reconciles",
+      "pass": true
+    },
+    {
+      "name": "same-hospice support reconciles unique CCNs",
+      "pass": true
+    },
+    {
+      "name": "same-hospice records explicitly allow different reports",
+      "pass": true
+    },
+    {
+      "name": "comparison A source support reconciles",
+      "pass": true
+    },
+    {
+      "name": "comparison A reports honor surveyor",
+      "pass": true
+    },
+    {
+      "name": "comparison B source support reconciles",
+      "pass": true
+    },
+    {
+      "name": "comparison B reports honor grouped accreditors",
+      "pass": true
+    },
+    {
+      "name": "original pilot export links endpoint narratives",
+      "pass": true
+    },
+    {
+      "name": "no browser errors",
+      "pass": true
+    }
+  ],
+  "errors": []
+}

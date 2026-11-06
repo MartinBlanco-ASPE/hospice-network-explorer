@@ -1,0 +1,219 @@
+{
+  "tested_utc": "2026-11-06T14:30:06.228176+00:00",
+  "checks": [
+    {
+      "name": "graph default preserved",
+      "pass": true
+    },
+    {
+      "name": "policy map starts hidden",
+      "pass": true
+    },
+    {
+      "name": "73 mapped features and complete source links",
+      "pass": true
+    },
+    {
+      "name": "all 64 phrase coverage counts reproduce main graph",
+      "pass": true
+    },
+    {
+      "name": "all nine severity coverage counts reproduce existing layer",
+      "pass": true
+    },
+    {
+      "name": "coverage bounded by corpus denominator",
+      "pass": true
+    },
+    {
+      "name": "every segment label meets 4.5 contrast in overview and all 17 zoom branches",
+      "pass": true
+    },
+    {
+      "name": "contrast measured against actual rendered segment colors",
+      "pass": true
+    },
+    {
+      "name": "hover and focus preserve opaque readable backgrounds",
+      "pass": true
+    },
+    {
+      "name": "reference rainbow retains 17 distinct regulation colors",
+      "pass": true
+    },
+    {
+      "name": "replacement tab opens policy view",
+      "pass": true
+    },
+    {
+      "name": "sunburst replaces matrix",
+      "pass": true
+    },
+    {
+      "name": "sunburst all issues and exact relationship count",
+      "pass": true
+    },
+    {
+      "name": "equal mapping weights rather than duplicated hospice totals",
+      "pass": true
+    },
+    {
+      "name": "issue slices have equal angular allocation",
+      "pass": true
+    },
+    {
+      "name": "section angles aggregate mapped relationships",
+      "pass": true
+    },
+    {
+      "name": "every issue appears under exactly its mapped sections",
+      "pass": true
+    },
+    {
+      "name": "sunburst paths have valid geometry",
+      "pass": true
+    },
+    {
+      "name": "arcs accessible by keyboard",
+      "pass": true
+    },
+    {
+      "name": "initial care-plan policy and examples",
+      "pass": true
+    },
+    {
+      "name": "scope and source dates visible",
+      "pass": true
+    },
+    {
+      "name": "section keyboard activation locks without filtering",
+      "pass": true
+    },
+    {
+      "name": "section lock preserves keyboard focus",
+      "pass": true
+    },
+    {
+      "name": "only locked branch remains vivid",
+      "pass": true
+    },
+    {
+      "name": "locked information remains visible",
+      "pass": true
+    },
+    {
+      "name": "moving pointer does not replace locked highlight",
+      "pass": true
+    },
+    {
+      "name": "unrelated colors become lighter without hiding paths",
+      "pass": true
+    },
+    {
+      "name": "Escape releases highlight and restores colors",
+      "pass": true
+    },
+    {
+      "name": "clear button releases locked highlight",
+      "pass": true
+    },
+    {
+      "name": "center has no rectangle after clear-button focus transfer",
+      "pass": true
+    },
+    {
+      "name": "center clears selection without changing chart geometry",
+      "pass": true
+    },
+    {
+      "name": "pointer-focused center has no rectangular outline",
+      "pass": true
+    },
+    {
+      "name": "keyboard center focus uses a circular indicator",
+      "pass": true
+    },
+    {
+      "name": "pointer-selected slice has no focus rectangle or heavy dark border",
+      "pass": true
+    },
+    {
+      "name": "keyboard focus remains visible along the arc without a box",
+      "pass": true
+    },
+    {
+      "name": "search filters issues",
+      "pass": true
+    },
+    {
+      "name": "nine severity families kept separate",
+      "pass": true
+    },
+    {
+      "name": "harm retains general IJ context",
+      "pass": true
+    },
+    {
+      "name": "issue keyboard selection transfers focus to evidence heading",
+      "pass": true
+    },
+    {
+      "name": "regulation-first filter matches mapped issues",
+      "pass": true
+    },
+    {
+      "name": "inpatient scope visible",
+      "pass": true
+    },
+    {
+      "name": "empty state clears detail",
+      "pass": true
+    },
+    {
+      "name": "empty state removes stale sunburst",
+      "pass": true
+    },
+    {
+      "name": "CSV preserves every paragraph link and limitations",
+      "pass": true
+    },
+    {
+      "name": "regulation legend locks without filtering",
+      "pass": true
+    },
+    {
+      "name": "source passages expand",
+      "pass": true
+    },
+    {
+      "name": "network restored unchanged",
+      "pass": true
+    },
+    {
+      "name": "methods navigation intact",
+      "pass": true
+    },
+    {
+      "name": "original coding view retained",
+      "pass": true
+    },
+    {
+      "name": "mobile sunburst fits viewport",
+      "pass": true
+    },
+    {
+      "name": "mobile accessible issue list selects source detail",
+      "pass": true
+    },
+    {
+      "name": "dashboard uses no external runtime requests",
+      "pass": true,
+      "requests": []
+    },
+    {
+      "name": "no browser errors",
+      "pass": true,
+      "errors": []
+    }
+  ]
+}
