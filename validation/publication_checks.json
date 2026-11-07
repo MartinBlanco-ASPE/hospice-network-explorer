@@ -1,6 +1,6 @@
 {
-  "tested_utc": "2026-11-06T14:32:24.671296+00:00",
-  "artifact_sha256": "0433b159902b08f5064a87c5e0c71a898f38c5e2007718d63846c8dc56f57533",
+  "tested_utc": "2026-11-07T15:35:33.996947+00:00",
+  "artifact_sha256": "1b963fb364c6cafbcf1b7b6e1ee17ca53fbe9d984bd965843d5b9ae5dc6eb039",
   "tests": [
     {
       "name": "general graph and summary identical to approved source",

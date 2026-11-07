@@ -1,0 +1,299 @@
+[
+  {
+    "name": "default simulation off",
+    "pass": true
+  },
+  {
+    "name": "toggle preserves map position and dimensions",
+    "pass": true
+  },
+  {
+    "name": "filters stay on left",
+    "pass": true
+  },
+  {
+    "name": "baseline descriptions and footer hidden during simulation",
+    "pass": true
+  },
+  {
+    "name": "right card replaces node information",
+    "pass": true
+  },
+  {
+    "name": "zero removals preserve positions",
+    "pass": true
+  },
+  {
+    "name": "wording view has its own playable simulation",
+    "pass": true
+  },
+  {
+    "name": "wording method replaces diamond-specific math",
+    "pass": true
+  },
+  {
+    "name": "reviewer wording comparisons precomputed",
+    "pass": true
+  },
+  {
+    "name": "wording removals split the original graph without new links",
+    "pass": true
+  },
+  {
+    "name": "wording pieces fit and have a component key",
+    "pass": true
+  },
+  {
+    "name": "wording slider capped at 20",
+    "pass": true
+  },
+  {
+    "name": "off restores original context",
+    "pass": true
+  },
+  {
+    "name": "severity uses the former neutral teal by default",
+    "pass": true
+  },
+  {
+    "name": "color label is Neutral in main and Advanced",
+    "pass": true
+  },
+  {
+    "name": "None color option removed from main and Advanced",
+    "pass": true
+  },
+  {
+    "name": "reference topology recognized",
+    "pass": true
+  },
+  {
+    "name": "target strategy is default",
+    "pass": true
+  },
+  {
+    "name": "route contains only distinct phrases",
+    "pass": true
+  },
+  {
+    "name": "not all diamonds disconnected before reference endpoint",
+    "pass": true
+  },
+  {
+    "name": "18-phrase endpoint disconnects all diamonds",
+    "pass": true
+  },
+  {
+    "name": "disconnected pieces receive distinct colors",
+    "pass": true
+  },
+  {
+    "name": "links share the color of their connected piece",
+    "pass": true
+  },
+  {
+    "name": "component legend identifies connected pieces",
+    "pass": true
+  },
+  {
+    "name": "below-map severity methods include objective and constraints",
+    "pass": true
+  },
+  {
+    "name": "methods cite primary research and solver documentation",
+    "pass": true
+  },
+  {
+    "name": "reference math status matches current target",
+    "pass": true
+  },
+  {
+    "name": "diamonds stay visible and bright red after split",
+    "pass": true
+  },
+  {
+    "name": "hover preserves red diamond emphasis",
+    "pass": true
+  },
+  {
+    "name": "numbered pills reflect removals",
+    "pass": true
+  },
+  {
+    "name": "packed endpoint fits map",
+    "pass": true
+  },
+  {
+    "name": "severity deleted links drawn as background only",
+    "pass": true
+  },
+  {
+    "name": "40-removal limit leaves nine diamonds",
+    "pass": true
+  },
+  {
+    "name": "isolates and components fit map at 40",
+    "pass": true
+  },
+  {
+    "name": "programmatic seeking also respects cap",
+    "pass": true
+  },
+  {
+    "name": "cannot manually exceed 40",
+    "pass": true
+  },
+  {
+    "name": "rewind restores teal and baseline legend",
+    "pass": true
+  },
+  {
+    "name": "map click removes one phrase",
+    "pass": true
+  },
+  {
+    "name": "pill restore is accessible",
+    "pass": true
+  },
+  {
+    "name": "pill restores exactly its phrase",
+    "pass": true
+  },
+  {
+    "name": "diamonds protected from manual removal",
+    "pass": true
+  },
+  {
+    "name": "dropdown supports manual removal",
+    "pass": true
+  },
+  {
+    "name": "hover cannot resurrect removed node",
+    "pass": true
+  },
+  {
+    "name": "reset clears manual path and pills",
+    "pass": true
+  },
+  {
+    "name": "removed pill hover shows existing node definition",
+    "pass": true
+  },
+  {
+    "name": "pill tooltip fits viewport",
+    "pass": true
+  },
+  {
+    "name": "Escape dismisses pill tooltip",
+    "pass": true
+  },
+  {
+    "name": "keyboard focus shows tooltip without restoring node",
+    "pass": true
+  },
+  {
+    "name": "play stops at shortest-route goal",
+    "pass": true
+  },
+  {
+    "name": "playing disables manual dropdown removal and restore pills",
+    "pass": true
+  },
+  {
+    "name": "programmatic manual edits blocked while playing",
+    "pass": true
+  },
+  {
+    "name": "clicking nodes and disabled pills neither edits nor pauses",
+    "pass": true
+  },
+  {
+    "name": "canvas drag and wheel pan and zoom during playback",
+    "pass": true
+  },
+  {
+    "name": "playback preserves user camera across deletion steps",
+    "pass": true
+  },
+  {
+    "name": "Fit works during playback without pausing",
+    "pass": true
+  },
+  {
+    "name": "pause stops playback",
+    "pass": true
+  },
+  {
+    "name": "pause immediately re-enables manual controls",
+    "pass": true
+  },
+  {
+    "name": "paused pills restore nodes",
+    "pass": true
+  },
+  {
+    "name": "paused map clicks remove nodes again",
+    "pass": true
+  },
+  {
+    "name": "random replay preserves path",
+    "pass": true
+  },
+  {
+    "name": "filter change resets experiment",
+    "pass": true
+  },
+  {
+    "name": "filtered severity controls stay compact with labeled method",
+    "pass": true
+  },
+  {
+    "name": "filtered math status drops the reference guarantee",
+    "pass": true
+  },
+  {
+    "name": "filtered graph pieces fit map",
+    "pass": true
+  },
+  {
+    "name": "off restores normal physics exports and details",
+    "pass": true
+  },
+  {
+    "name": "comparison remains fixed on return",
+    "pass": true
+  },
+  {
+    "name": "tab departure stops simulation",
+    "pass": true
+  },
+  {
+    "name": "wording autoplay stops at 20 and unlocks restoration",
+    "pass": true
+  },
+  {
+    "name": "Neutral red diamonds across general view",
+    "pass": true
+  },
+  {
+    "name": "Neutral red diamonds across severity view",
+    "pass": true
+  },
+  {
+    "name": "Neutral red diamonds across comparison view",
+    "pass": true
+  },
+  {
+    "name": "mobile pieces fit viewport",
+    "pass": true
+  },
+  {
+    "name": "mobile hides baseline descriptions and keeps simulation information",
+    "pass": true
+  },
+  {
+    "name": "no browser exceptions",
+    "pass": true,
+    "errors": []
+  }
+]

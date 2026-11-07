@@ -1,0 +1,147 @@
+[
+  {
+    "name": "default severity method and charts below map",
+    "pass": true
+  },
+  {
+    "name": "default severity series match controls",
+    "pass": true
+  },
+  {
+    "name": "default correct node denominator label",
+    "pass": true
+  },
+  {
+    "name": "default target every curve point matches live components",
+    "pass": true
+  },
+  {
+    "name": "default target marker follows removal count",
+    "pass": true
+  },
+  {
+    "name": "default target diamonds retained",
+    "pass": true
+  },
+  {
+    "name": "default target appropriate curve endpoint",
+    "pass": true
+  },
+  {
+    "name": "default degree every curve point matches live components",
+    "pass": true
+  },
+  {
+    "name": "default degree marker follows removal count",
+    "pass": true
+  },
+  {
+    "name": "default degree diamonds retained",
+    "pass": true
+  },
+  {
+    "name": "default degree appropriate curve endpoint",
+    "pass": true
+  },
+  {
+    "name": "default random every curve point matches live components",
+    "pass": true
+  },
+  {
+    "name": "default random marker follows removal count",
+    "pass": true
+  },
+  {
+    "name": "default random diamonds retained",
+    "pass": true
+  },
+  {
+    "name": "default random appropriate curve endpoint",
+    "pass": true
+  },
+  {
+    "name": "default reference guarantee matches graph",
+    "pass": true
+  },
+  {
+    "name": "filtered severity method and charts below map",
+    "pass": true
+  },
+  {
+    "name": "filtered severity series match controls",
+    "pass": true
+  },
+  {
+    "name": "filtered correct node denominator label",
+    "pass": true
+  },
+  {
+    "name": "filtered target every curve point matches live components",
+    "pass": true
+  },
+  {
+    "name": "filtered target marker follows removal count",
+    "pass": true
+  },
+  {
+    "name": "filtered target diamonds retained",
+    "pass": true
+  },
+  {
+    "name": "filtered target appropriate curve endpoint",
+    "pass": true
+  },
+  {
+    "name": "filtered degree every curve point matches live components",
+    "pass": true
+  },
+  {
+    "name": "filtered degree marker follows removal count",
+    "pass": true
+  },
+  {
+    "name": "filtered degree diamonds retained",
+    "pass": true
+  },
+  {
+    "name": "filtered degree appropriate curve endpoint",
+    "pass": true
+  },
+  {
+    "name": "filtered random every curve point matches live components",
+    "pass": true
+  },
+  {
+    "name": "filtered random marker follows removal count",
+    "pass": true
+  },
+  {
+    "name": "filtered random diamonds retained",
+    "pass": true
+  },
+  {
+    "name": "filtered random appropriate curve endpoint",
+    "pass": true
+  },
+  {
+    "name": "filtered reference guarantee matches graph",
+    "pass": true
+  },
+  {
+    "name": "mobile charts fit width",
+    "pass": true
+  },
+  {
+    "name": "wording restores its own series and denominator",
+    "pass": true
+  },
+  {
+    "name": "charts hidden outside simulation",
+    "pass": true
+  },
+  {
+    "name": "no browser exceptions",
+    "pass": true,
+    "errors": []
+  }
+]

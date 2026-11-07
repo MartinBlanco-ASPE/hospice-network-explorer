@@ -1,0 +1,143 @@
+[
+  {
+    "name": "all packed frames fit opt_fragmentation width 1560",
+    "pass": true,
+    "failures": []
+  },
+  {
+    "name": "no per-step recentering opt_fragmentation width 1560",
+    "pass": true
+  },
+  {
+    "name": "playback reaches limit and pauses opt_fragmentation width 1560",
+    "pass": true
+  },
+  {
+    "name": "shared compact card opt_fragmentation width 1560",
+    "pass": true
+  },
+  {
+    "name": "all packed frames fit opt_largest width 1560",
+    "pass": true,
+    "failures": []
+  },
+  {
+    "name": "no per-step recentering opt_largest width 1560",
+    "pass": true
+  },
+  {
+    "name": "playback reaches limit and pauses opt_largest width 1560",
+    "pass": true
+  },
+  {
+    "name": "shared compact card opt_largest width 1560",
+    "pass": true
+  },
+  {
+    "name": "all packed frames fit records width 1560",
+    "pass": true,
+    "failures": []
+  },
+  {
+    "name": "no per-step recentering records width 1560",
+    "pass": true
+  },
+  {
+    "name": "playback reaches limit and pauses records width 1560",
+    "pass": true
+  },
+  {
+    "name": "shared compact card records width 1560",
+    "pass": true
+  },
+  {
+    "name": "all packed frames fit random width 1560",
+    "pass": true,
+    "failures": []
+  },
+  {
+    "name": "no per-step recentering random width 1560",
+    "pass": true
+  },
+  {
+    "name": "playback reaches limit and pauses random width 1560",
+    "pass": true
+  },
+  {
+    "name": "shared compact card random width 1560",
+    "pass": true
+  },
+  {
+    "name": "all packed frames fit opt_fragmentation width 390",
+    "pass": true,
+    "failures": []
+  },
+  {
+    "name": "no per-step recentering opt_fragmentation width 390",
+    "pass": true
+  },
+  {
+    "name": "playback reaches limit and pauses opt_fragmentation width 390",
+    "pass": true
+  },
+  {
+    "name": "shared compact card opt_fragmentation width 390",
+    "pass": true
+  },
+  {
+    "name": "all packed frames fit opt_largest width 390",
+    "pass": true,
+    "failures": []
+  },
+  {
+    "name": "no per-step recentering opt_largest width 390",
+    "pass": true
+  },
+  {
+    "name": "playback reaches limit and pauses opt_largest width 390",
+    "pass": true
+  },
+  {
+    "name": "shared compact card opt_largest width 390",
+    "pass": true
+  },
+  {
+    "name": "all packed frames fit records width 390",
+    "pass": true,
+    "failures": []
+  },
+  {
+    "name": "no per-step recentering records width 390",
+    "pass": true
+  },
+  {
+    "name": "playback reaches limit and pauses records width 390",
+    "pass": true
+  },
+  {
+    "name": "shared compact card records width 390",
+    "pass": true
+  },
+  {
+    "name": "all packed frames fit random width 390",
+    "pass": true,
+    "failures": []
+  },
+  {
+    "name": "no per-step recentering random width 390",
+    "pass": true
+  },
+  {
+    "name": "playback reaches limit and pauses random width 390",
+    "pass": true
+  },
+  {
+    "name": "shared compact card random width 390",
+    "pass": true
+  },
+  {
+    "name": "no browser exceptions",
+    "pass": true,
+    "errors": []
+  }
+]

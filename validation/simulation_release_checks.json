@@ -1,0 +1,84 @@
+{
+  "checked_utc": "2026-11-07T15:35:30.698633+00:00",
+  "site": "http://127.0.0.1:54420/",
+  "artifact_sha256": "1b963fb364c6cafbcf1b7b6e1ee17ca53fbe9d984bd965843d5b9ae5dc6eb039",
+  "checks": [
+    {
+      "name": "dashboard returns 200",
+      "pass": true
+    },
+    {
+      "name": "correct study-specific wording graph",
+      "pass": true
+    },
+    {
+      "name": "wording limit and compact controls",
+      "pass": true
+    },
+    {
+      "name": "removed pills and view-specific chart marker",
+      "pass": true
+    },
+    {
+      "name": "three requested wording chart series",
+      "pass": true
+    },
+    {
+      "name": "pill hover definition works",
+      "pass": true
+    },
+    {
+      "name": "correct exact reference and protected diamonds",
+      "pass": true
+    },
+    {
+      "name": "study-specific minimum reaches separation",
+      "pass": true
+    },
+    {
+      "name": "bright-red protected markers",
+      "pass": true
+    },
+    {
+      "name": "severity curves and explicit simulation condition",
+      "pass": true
+    },
+    {
+      "name": "playing blocks manual removal",
+      "pass": true
+    },
+    {
+      "name": "playback preserves pan/zoom",
+      "pass": true
+    },
+    {
+      "name": "pause enables edits",
+      "pass": true
+    },
+    {
+      "name": "formula hover works",
+      "pass": true
+    },
+    {
+      "name": "mobile has no horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "mobile separated components fit map",
+      "pass": true
+    },
+    {
+      "name": "off restores original descriptions",
+      "pass": true
+    },
+    {
+      "name": "methodology includes new simulation description",
+      "pass": true
+    },
+    {
+      "name": "no browser exceptions",
+      "pass": true,
+      "errors": []
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "core_sha256": "d3e4991bdf799c5181a4b099c88c97cb637e7042a8659c18244b3d1bf5003f13",
+  "input_sha256": "9f785589a47d82e244241e6f2de106617367886288aad25a14cf27e96c8399be",
+  "settings": {
+    "exactUpTo": 3,
+    "restarts": 12,
+    "seed": 20261106,
+    "randomSeeds": [
+      5001,
+      5060
+    ]
+  },
+  "hospice_only": true
+}

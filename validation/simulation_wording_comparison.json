@@ -1,0 +1,323 @@
+[
+  {
+    "name": "precomputed default opens immediately",
+    "pass": true
+  },
+  {
+    "name": "eight reviewer strategies",
+    "pass": true
+  },
+  {
+    "name": "wording slider maximum 20",
+    "pass": true
+  },
+  {
+    "name": "opt_fragmentation snapshot 0",
+    "pass": true
+  },
+  {
+    "name": "opt_fragmentation snapshot 1",
+    "pass": true
+  },
+  {
+    "name": "opt_fragmentation snapshot 2",
+    "pass": true
+  },
+  {
+    "name": "opt_fragmentation snapshot 3",
+    "pass": true
+  },
+  {
+    "name": "opt_fragmentation snapshot 8",
+    "pass": true
+  },
+  {
+    "name": "opt_fragmentation snapshot 13",
+    "pass": true
+  },
+  {
+    "name": "opt_fragmentation snapshot 20",
+    "pass": true
+  },
+  {
+    "name": "opt_largest snapshot 0",
+    "pass": true
+  },
+  {
+    "name": "opt_largest snapshot 1",
+    "pass": true
+  },
+  {
+    "name": "opt_largest snapshot 2",
+    "pass": true
+  },
+  {
+    "name": "opt_largest snapshot 3",
+    "pass": true
+  },
+  {
+    "name": "opt_largest snapshot 8",
+    "pass": true
+  },
+  {
+    "name": "opt_largest snapshot 13",
+    "pass": true
+  },
+  {
+    "name": "opt_largest snapshot 20",
+    "pass": true
+  },
+  {
+    "name": "adaptive_betweenness snapshot 0",
+    "pass": true
+  },
+  {
+    "name": "adaptive_betweenness snapshot 1",
+    "pass": true
+  },
+  {
+    "name": "adaptive_betweenness snapshot 2",
+    "pass": true
+  },
+  {
+    "name": "adaptive_betweenness snapshot 3",
+    "pass": true
+  },
+  {
+    "name": "adaptive_betweenness snapshot 8",
+    "pass": true
+  },
+  {
+    "name": "adaptive_betweenness snapshot 13",
+    "pass": true
+  },
+  {
+    "name": "adaptive_betweenness snapshot 20",
+    "pass": true
+  },
+  {
+    "name": "adaptive_degree snapshot 0",
+    "pass": true
+  },
+  {
+    "name": "adaptive_degree snapshot 1",
+    "pass": true
+  },
+  {
+    "name": "adaptive_degree snapshot 2",
+    "pass": true
+  },
+  {
+    "name": "adaptive_degree snapshot 3",
+    "pass": true
+  },
+  {
+    "name": "adaptive_degree snapshot 8",
+    "pass": true
+  },
+  {
+    "name": "adaptive_degree snapshot 13",
+    "pass": true
+  },
+  {
+    "name": "adaptive_degree snapshot 20",
+    "pass": true
+  },
+  {
+    "name": "static_degree snapshot 0",
+    "pass": true
+  },
+  {
+    "name": "static_degree snapshot 1",
+    "pass": true
+  },
+  {
+    "name": "static_degree snapshot 2",
+    "pass": true
+  },
+  {
+    "name": "static_degree snapshot 3",
+    "pass": true
+  },
+  {
+    "name": "static_degree snapshot 8",
+    "pass": true
+  },
+  {
+    "name": "static_degree snapshot 13",
+    "pass": true
+  },
+  {
+    "name": "static_degree snapshot 20",
+    "pass": true
+  },
+  {
+    "name": "records snapshot 0",
+    "pass": true
+  },
+  {
+    "name": "records snapshot 1",
+    "pass": true
+  },
+  {
+    "name": "records snapshot 2",
+    "pass": true
+  },
+  {
+    "name": "records snapshot 3",
+    "pass": true
+  },
+  {
+    "name": "records snapshot 8",
+    "pass": true
+  },
+  {
+    "name": "records snapshot 13",
+    "pass": true
+  },
+  {
+    "name": "records snapshot 20",
+    "pass": true
+  },
+  {
+    "name": "random snapshot 0",
+    "pass": true
+  },
+  {
+    "name": "random snapshot 1",
+    "pass": true
+  },
+  {
+    "name": "random snapshot 2",
+    "pass": true
+  },
+  {
+    "name": "random snapshot 3",
+    "pass": true
+  },
+  {
+    "name": "random snapshot 8",
+    "pass": true
+  },
+  {
+    "name": "random snapshot 13",
+    "pass": true
+  },
+  {
+    "name": "random snapshot 20",
+    "pass": true
+  },
+  {
+    "name": "right-card metrics and explanatory note omitted",
+    "pass": true
+  },
+  {
+    "name": "both charts show only the requested three strategies",
+    "pass": true
+  },
+  {
+    "name": "comparison table removed while method and curves remain",
+    "pass": true
+  },
+  {
+    "name": "non-nested snapshot restores previous removals",
+    "pass": true
+  },
+  {
+    "name": "no protected or top-three leading controls",
+    "pass": true
+  },
+  {
+    "name": "manual removal can still apply the reference splitting pair",
+    "pass": true
+  },
+  {
+    "name": "manual uses an explicit selector and stops automatic playback",
+    "pass": true
+  },
+  {
+    "name": "manual restoration updates network without adding chart series",
+    "pass": true
+  },
+  {
+    "name": "manual removal remains available for every ordinary phrase",
+    "pass": true
+  },
+  {
+    "name": "deleted links absent from the active graph",
+    "pass": true
+  },
+  {
+    "name": "wording deleted links visible only as background lines",
+    "pass": true
+  },
+  {
+    "name": "pull pieces apart is checked by default",
+    "pass": true
+  },
+  {
+    "name": "removed diagnostic controls are absent",
+    "pass": true
+  },
+  {
+    "name": "packed surviving nodes remain in map",
+    "pass": true
+  },
+  {
+    "name": "breakpoint calculation retained without right-card text",
+    "pass": true
+  },
+  {
+    "name": "requested wording explanations removed",
+    "pass": true
+  },
+  {
+    "name": "math hover wordingFragmentationFormula",
+    "pass": true
+  },
+  {
+    "name": "formula guide supports keyboard and Escape",
+    "pass": true
+  },
+  {
+    "name": "wording playback continues past three and pauses",
+    "pass": true
+  },
+  {
+    "name": "wording playback stops only at maximum",
+    "pass": true
+  },
+  {
+    "name": "filtered graph enters background computing state",
+    "pass": true
+  },
+  {
+    "name": "page stays responsive while worker calculates",
+    "pass": true
+  },
+  {
+    "name": "worker result matches latest filter and resets removals",
+    "pass": true
+  },
+  {
+    "name": "filtered result is cached on reopening",
+    "pass": true
+  },
+  {
+    "name": "mobile comparison contained in viewport",
+    "pass": true
+  },
+  {
+    "name": "mobile math guide fits viewport",
+    "pass": true
+  },
+  {
+    "name": "severity reference route remains unchanged",
+    "pass": true
+  },
+  {
+    "name": "no browser exceptions",
+    "pass": true,
+    "errors": []
+  }
+]

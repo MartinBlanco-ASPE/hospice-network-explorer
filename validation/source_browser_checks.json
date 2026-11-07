@@ -1,8 +1,8 @@
 {
-  "tested_utc": "2026-11-06T14:30:14.207850+00:00",
+  "tested_utc": "2026-11-07T14:11:47.340572+00:00",
   "runtime": "isolated Playwright Chromium headless",
-  "html_mtime": 1793975215.998515,
-  "html_sha256": "4c2314690ad2cd838b53c658ec0ad0b7e419b07636373c369e7b8ae0517af033",
+  "html_mtime": 1794060683.6396613,
+  "html_sha256": "18eb0c06a15439d3d1811dcce491288a0b6efb8a45f17972a770f2fbf634bed4",
   "suites": [
     {
       "suite": "guided_explorer",
@@ -40,7 +40,7 @@
           "pass": true
         },
         {
-          "name": "only four main selectors in general view",
+          "name": "view in title bar and three main selectors in left controls",
           "pass": true
         },
         {
@@ -153,6 +153,14 @@
         },
         {
           "name": "severity preset shape and scope",
+          "pass": true
+        },
+        {
+          "name": "Neutral severity diamonds are all bright red",
+          "pass": true
+        },
+        {
+          "name": "Neutral diamonds never dim on hover",
           "pass": true
         },
         {

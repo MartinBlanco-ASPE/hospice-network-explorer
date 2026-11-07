@@ -18,6 +18,23 @@ The links are current regulatory references, not adjudicated source citations or
 
 Community colors identify exploratory wording clusters fitted to the displayed connections. They are different from the predefined severity families and are not validated study themes. Severity share, source Immediate Jeopardy (IJ), and condition-level association are separate indicators. Advanced controls retain TF-IDF, hospice-incidence connections, text-processing sensitivities, and earlier community colors.
 
+## Removal simulations
+
+Turn Simulation on in the map title bar. Floating Play/Pause, Reset and a removal slider work alongside the left filters and compact right-hand controls. Removed phrases have definition tooltips; click a care phrase or use the dropdown while paused, and use × to restore it. Manual edits are blocked during playback. Pull pieces apart starts checked. Play fits the remaining sequence once, then preserves user pan and zoom between steps. Fit reframes explicitly. Deleted links are faint visual traces, excluded from connectivity calculations. Turning simulation off restores the original graph and evidence cards.
+
+Wording simulation runs through 0–20 removals. It uses the frozen reviewer engine: exhaustive best-set search through three removals, then best-found sets using greedy/bridge/hub starts and 12 seeded random starts with swap improvement. Each count has its own set, so phrases can return between snapshots. Eight strategy choices remain available; the charts show only Best set to shatter it, Best set to shrink the largest piece and Most common phrases. Filtered results calculate in a cached background worker.
+
+```text
+Largest-piece share = max(component sizes) / starting node count
+Fragmentation = 1 - sum(s_i * (s_i - 1)) / (n * (n - 1))
+```
+
+Here s_i is a surviving connected-component size and n is the surviving node count. Wording uses all starting phrases as its largest-piece denominator. The protected-diamond view uses all starting nodes, including diamonds. Wording follows the reviewer engine's F=1 convention when fewer than two nodes remain; the protected-diamond view uses F=0 in that edge case.
+
+The severity view retains nine diamonds and removes only care phrases, up to 40. Its saved integer-program reference requires 18 removals on the matching 73-node/209-link default graph, leaving 55 nodes and a diamond-free main component of 28. Filtered graphs use a labeled greedy route rather than a new minimum claim. For this simulation, separation succeeds when all diamonds sit outside a main component containing more than half the remaining nodes. That majority rule is a simulation-specific constraint, not a general requirement of network fragmentation theory. The target curve ends when separation succeeds; adaptive-degree and fixed-random comparisons continue to the removal limit. Neutral colors use teal care phrases and uniformly bright-red severity diamonds.
+
+[Borgatti (2006)](https://doi.org/10.1007/s10588-006-7084-x) provides node-set disruption and fragmentation context; [Braunstein et al. (2016)](https://pmc.ncbi.nlm.nih.gov/articles/PMC5098660/) studies network dismantling. This simulation describes text connectivity, not clinical effects of eliminating an issue or an intervention recommendation.
+
 ## Data and analytical scope
 
 The source is a hospice QCOR workbook covering October 2021 through September 2026. The initial care-analysis corpus contains 67,594 candidate records and 6,486 case-normalized assigned CCNs. Earlier source artifacts contain 6,487 raw CCN keys; the derived dashboard merges a case-only key variant. The 1,211 Pending-identity records contribute to record-based analysis but not identified-hospice counts. Seventy uncertain records and separately scoped emergency-preparedness/life-safety material are outside the initial analysis. Survey-purpose and surveying-organization differences remain explicit; this is hospice-only work.
