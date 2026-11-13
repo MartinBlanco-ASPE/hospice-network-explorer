@@ -29,7 +29,7 @@ def methodology():
 
 def outputs():
     page=(ROOT/'src/page.html').read_text(encoding='utf-8');runtime=(ROOT/'src/dashboard.js').read_text(encoding='utf-8')
-    for name in ['DATA','PILOT','CODING','READ','SEVERITY']:
+    for name in ['DATA','PILOT','CODING','READ','CMS_DATA']:
         raw=(ROOT/'data'/f'{name.lower()}.json').read_text(encoding='utf-8');json.loads(raw)
         assert runtime.count('__'+name+'__')==1,name
         runtime=runtime.replace('__'+name+'__',raw)
@@ -43,8 +43,9 @@ def main():
     for name,text in generated.items():
         if args.check:assert (ROOT/name).read_bytes()==text.encode('utf-8'),'Rebuild needed: '+name
         else:(ROOT/name).write_text(text,encoding='utf-8',newline='\n')
-    paths=['build.py','README.md','src/page.html','src/dashboard.js','vendor/vis-network-9.1.9.min.js']+['data/'+n+'.json' for n in ['data','pilot','coding','read','severity','provenance']]+list(generated)
-    manifest={name:hashlib.sha256((ROOT/name).read_bytes()).hexdigest() for name in sorted(paths)}
+    paths=['build.py','README.md','THIRD_PARTY_NOTICES.md']+list(generated)
+    paths+=sorted(p.relative_to(ROOT).as_posix() for folder in ['src','data','methods','vendor'] for p in (ROOT/folder).rglob('*') if p.is_file() and '__pycache__' not in p.parts)
+    manifest={name:hashlib.sha256((ROOT/name).read_bytes()).hexdigest() for name in sorted(set(paths))}
     target=ROOT/'build_manifest.json'
     if args.check:assert json.loads(target.read_text(encoding='utf-8'))==manifest,'Build manifest differs'
     else:target.write_text(json.dumps(manifest,indent=2)+'\n',encoding='utf-8',newline='\n')

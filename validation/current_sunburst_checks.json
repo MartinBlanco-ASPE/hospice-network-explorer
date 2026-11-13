@@ -1,0 +1,122 @@
+{
+  "checks": [
+    {
+      "name": "care vocabulary and agency metric fixed",
+      "pass": true
+    },
+    {
+      "name": "only expected care phrases displayed",
+      "pass": true
+    },
+    {
+      "name": "top filter controls removed from DOM",
+      "pass": true
+    },
+    {
+      "name": "every care-policy mapping remains",
+      "pass": true
+    },
+    {
+      "name": "full labels on all rays",
+      "pass": true
+    },
+    {
+      "name": "agency frequency controls exact ray extension",
+      "pass": true
+    },
+    {
+      "name": "fixed scale uses care vocabulary only",
+      "pass": true
+    },
+    {
+      "name": "every policy section has its full visible in-ring label",
+      "pass": true
+    },
+    {
+      "name": "compact policy ring and narrow labels fit",
+      "pass": true
+    },
+    {
+      "name": "ray explanation names distinct agencies",
+      "pass": true
+    },
+    {
+      "name": "agency counts independently match study row metadata",
+      "pass": true
+    },
+    {
+      "name": "shade encodes matching records within each policy range",
+      "pass": true
+    },
+    {
+      "name": "higher record counts never produce a lighter category shade",
+      "pass": true
+    },
+    {
+      "name": "all visible labels meet 4.5 contrast on their shaded backgrounds",
+      "pass": true
+    },
+    {
+      "name": "record-frequency explanation is visible",
+      "pass": true
+    },
+    {
+      "name": "hover shows exact counts",
+      "pass": true
+    },
+    {
+      "name": "hover adds visible focus and fades unrelated branches",
+      "pass": true
+    },
+    {
+      "name": "highlight layer cannot block chart pointer events",
+      "pass": true
+    },
+    {
+      "name": "ray selection shows evidence and locks highlight",
+      "pass": true
+    },
+    {
+      "name": "clear restores chart",
+      "pass": true
+    },
+    {
+      "name": "clear removes the temporary highlight layer",
+      "pass": true
+    },
+    {
+      "name": "policy legend highlights without removing care rays",
+      "pass": true
+    },
+    {
+      "name": "highlight preserves quantitative frequency shades",
+      "pass": true
+    },
+    {
+      "name": "locked policy highlight persists after pointer leaves",
+      "pass": true
+    },
+    {
+      "name": "keyboard clears highlight",
+      "pass": true
+    },
+    {
+      "name": "all-policy navigation keeps agency scale",
+      "pass": true
+    },
+    {
+      "name": "mobile fits viewport",
+      "pass": true
+    },
+    {
+      "name": "mobile phrase list works",
+      "pass": true
+    },
+    {
+      "name": "no browser errors",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "failures": []
+}

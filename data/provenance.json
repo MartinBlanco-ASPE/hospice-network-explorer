@@ -1,16 +1,16 @@
 {
-  "snapshot_date": "2026-11-07",
-  "source_dashboard_sha256": "0ed84f7d0e6d28b2ec7419db54ec333e7c376b44a20be4a18672d0026efa525f",
+  "snapshot_date": "2026-11-13",
+  "source_dashboard_sha256": "c1683b65b61f10d8681aed757bbf5b560fb911d00cf04eb61197920e8a96799c",
   "source_rows": 67594,
   "canonical_assigned_ccns": 6486,
-  "publication_scope": "Dashboard, regulatory reference sunburst, descriptive methodology, implementation and validation; no policy-effectiveness or gap analysis",
   "embedded_declarations": [
     "DATA",
     "PILOT",
     "CODING",
     "READ",
-    "SEVERITY"
+    "CMS_DATA"
   ],
+  "publication_scope": "Current reviewed CMS-classified dashboard, descriptive methods, derived snapshot and validation; no policy synthesis",
   "source_data_excluded": [
     "original workbook",
     "full narrative corpus",

@@ -1,0 +1,54 @@
+{
+  "checks": [
+    {
+      "name": "general graph matches current local dashboard",
+      "pass": true
+    },
+    {
+      "name": "standard graph matches current local dashboard",
+      "pass": true
+    },
+    {
+      "name": "condition graph matches current local dashboard",
+      "pass": true
+    },
+    {
+      "name": "ij graph matches current local dashboard",
+      "pass": true
+    },
+    {
+      "name": "wording removal strategies and playback match local",
+      "pass": true
+    },
+    {
+      "name": "target choices match current local simulation",
+      "pass": true
+    },
+    {
+      "name": "target dismantling endpoint matches local",
+      "pass": true
+    },
+    {
+      "name": "methodology identifies current public release",
+      "pass": true
+    },
+    {
+      "name": "all rendered local documentation links resolve",
+      "pass": true
+    },
+    {
+      "name": "no workbooks full-corpus containers or internal study documents",
+      "pass": true
+    },
+    {
+      "name": "all individual release files below GitHub 100 MiB limit",
+      "pass": true
+    },
+    {
+      "name": "no browser errors",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "failures": []
+}
