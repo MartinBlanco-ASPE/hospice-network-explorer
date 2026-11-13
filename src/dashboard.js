@@ -1086,7 +1086,7 @@ function createPolicySunburst({host,make,button,sections,titles,state,nodes,onSe
  function textFor(background){const dark='#111111',light='#FFFFFF',best=contrast(background,dark)>=contrast(background,light)?dark:light;return contrast(background,best)>=4.5?best:'#000000';}
  function leafColor(hex,strength){return tint(hex,.78*(1-strength));}
  function recordRange(section){const values=nodes.filter(n=>!n.isSeverity&&n.sections.includes(section)).map(n=>n.recordCount);return {min:Math.min(...values),max:Math.max(...values)};}
- let svg,tooltip,stage,selectionCard,locked=null,preview=null,suppressHover=false;
+ let svg,tooltip,stage,clearButton,locked=null,preview=null,suppressHover=false;
  const tint=(hex,amount)=>'#'+rgb(hex).map(v=>Math.round(v+(255-v)*amount).toString(16).padStart(2,'0')).join('');
  function matches(e,key){const kind=e.dataset.kind||e.dataset.labelKind;return key.kind==='section'?e.dataset.section===key.section:kind==='issue'&&e.dataset.issue===key.issue||kind==='section'&&key.sections.includes(e.dataset.section);}
  function paint(){
@@ -1105,8 +1105,8 @@ function createPolicySunburst({host,make,button,sections,titles,state,nodes,onSe
   }
   const note=svg.querySelector('.pm-center-note');if(note)note.textContent=locked?'Click center to clear highlight':svg.dataset.connections+' mapped connections';
  }
- function clearPinned(){const refocus=selectionCard?.contains(document.activeElement);locked=null;preview=null;suppressHover=true;if(selectionCard){selectionCard.hidden=true;selectionCard.replaceChildren();}if(tooltip)tooltip.hidden=true;paint();if(refocus)host.querySelector('#pmSunburstBack')?.focus();}
- function pin(key,lines){locked={key,lines};preview=null;if(tooltip)tooltip.hidden=true;selectionCard.replaceChildren();const text=make('div');text.append(make('div','pm-selection-kicker','Highlight locked'));for(const [i,line]of lines.entries())text.append(make(i?'span':'strong','',line));const clear=button('Clear highlight',clearPinned,'pm-button');clear.id='pmClearHighlight';selectionCard.append(text,clear);selectionCard.hidden=false;paint();}
+ function clearPinned(){const refocus=document.activeElement===clearButton;locked=null;preview=null;suppressHover=true;if(clearButton)clearButton.hidden=true;if(tooltip)tooltip.hidden=true;paint();if(refocus)host.querySelector('#pmSunburstBack')?.focus();}
+ function pin(key,lines){locked={key,lines};preview=null;if(tooltip)tooltip.hidden=true;if(clearButton)clearButton.hidden=false;paint();}
  function focusZoom(){host.querySelector('#pmSunburstBack[role="button"]')?.focus();}
  function focusSection(s){host.querySelector('.pm-section-arc[data-section="'+s+'"]')?.focus();}
  function el(tag,attrs={},text){const e=document.createElementNS(NS,tag);for(const [k,v]of Object.entries(attrs))e.setAttribute(k,String(v));if(text!==undefined)e.textContent=text;return e;}
@@ -1127,8 +1127,8 @@ function createPolicySunburst({host,make,button,sections,titles,state,nodes,onSe
   path.setAttribute('role','button');path.setAttribute('tabindex','0');path.setAttribute('aria-label',label);
   const choose=()=>{pin(key,lines);activate();};path.onclick=choose;
   path.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();choose();if(path.dataset.kind==='issue')document.querySelector('#pmIssueHeading')?.focus({preventScroll:true});}else if(['ArrowRight','ArrowDown','ArrowLeft','ArrowUp','Home','End'].includes(e.key)){e.preventDefault();const items=[...svg.querySelectorAll('.pm-arc')],at=items.indexOf(path),next=e.key==='Home'?0:e.key==='End'?items.length-1:(at+(['ArrowLeft','ArrowUp'].includes(e.key)?-1:1)+items.length)%items.length;items[next].focus();}else if(e.key==='Escape'){e.preventDefault();clearPinned();}};
-  const hover=e=>{if(locked||suppressHover&&e)return;preview=key;paint();showTip(path,lines,e);};
-  path.onpointerenter=hover;path.onpointermove=e=>{if(!locked){suppressHover=false;hover(e);}};path.onpointerleave=clearHover;path.onfocus=()=>hover();path.onblur=clearHover;
+  const hover=e=>{if(suppressHover&&e&&!locked)return;if(!locked){preview=key;paint();}showTip(path,lines,e);};
+  path.onpointerenter=hover;path.onpointermove=e=>{suppressHover=false;hover(e);};path.onpointerleave=clearHover;path.onfocus=()=>hover();path.onblur=clearHover;
  }
  function label(text,r,a,cls,background,section,issue){const deg=a*180/Math.PI,flip=deg>180&&deg<360,p=point(r,a);const t=el('text',{x:p[0],y:p[1],transform:`rotate(${deg-90+(flip?180:0)} ${p})`,'text-anchor':'middle','dominant-baseline':'middle',class:cls,'aria-hidden':'true','data-radius':r,'data-background':background,'data-section':section,'data-label-kind':issue?'issue':'section'},text);if(issue){t.dataset.issue=issue;const lines=wrap(text,22);t.textContent='';for(const [i,line] of lines.entries())t.append(el('tspan',{x:p[0],dy:i?12:-(lines.length-1)*6},line));}t.style.fill=textFor(background);svg.append(t);}
  function select(n){
@@ -1143,8 +1143,8 @@ function createPolicySunburst({host,make,button,sections,titles,state,nodes,onSe
   const branches=(state.section==='all'?sections:[state.section]).map(s=>({section:s,issues:visible.filter(n=>n.sections.includes(s))})).filter(b=>b.issues.length),total=branches.reduce((n,b)=>n+b.issues.length,0);
   if(locked&&!branches.some(b=>locked.key.kind==='section'?b.section===locked.key.section:b.issues.some(n=>n.label===locked.key.issue)))locked=null;
   const breadcrumb=make('div','pm-breadcrumb');breadcrumb.append(button('All policy anchors',()=>{clearPinned();onSection('all');},'pm-breadcrumb-root'));if(state.section!=='all')breadcrumb.append(make('span','','/'),make('span','','§ '+state.section+' · '+titles[state.section]));else breadcrumb.append(make('span','','/'),make('span','','Hover to preview · click to lock'));host.append(breadcrumb);
-  selectionCard=make('div','pm-selection-card');selectionCard.hidden=true;selectionCard.setAttribute('role','status');host.append(selectionCard);
   stage=make('div','pm-sunburst-stage');
+  clearButton=button('Clear highlight',clearPinned,'pm-button pm-clear-highlight');clearButton.id='pmClearHighlight';clearButton.hidden=!locked;stage.append(clearButton);
   svg=el('svg',{id:'pmSunburst',viewBox:'-100 -100 1100 1100',role:'group','aria-label':'Hospice issues mapped to federal regulatory sections','aria-describedby':'pmSunburstDesc'});
   svg.dataset.connections=total;
   svg.append(el('desc',{id:'pmSunburstDesc'},`${visible.length} ${entryLabel()} in ${total} policy mappings. Each ray has an equal label base, with additional length proportional to ${unit}, on a fixed full-corpus scale from zero to ${count(maximum)}. Darker rays indicate more matching records within each regulatory category; shade ranges are independent across categories. Equal angles represent mappings. Hover to preview; click or press Enter to lock a branch. Escape clears the highlight. Arrow keys move between sectors. Repeated issues have the same corpus-wide frequency in every policy branch, not policy-specific citation counts.`));

@@ -48,7 +48,6 @@
 .pm-panel-head .pm-cfr-link{display:inline-block;margin-left:10px;font-size:12px;font-weight:400;color:#08736f;text-decoration:underline;text-underline-offset:2px;white-space:nowrap}
 
 .pm-chart-host{min-width:0;background:linear-gradient(180deg,#fff 0%,#fafcfb 100%)}
-.pm-selection-card{display:flex;align-items:center;justify-content:space-between;gap:16px;margin:14px 22px 0;padding:14px 16px;border:1px solid #b9d4cc;background:#f0f7f4;border-radius:9px;color:#224852}.pm-selection-card[hidden]{display:none}.pm-selection-card>div{min-width:0}.pm-selection-card strong,.pm-selection-card span{display:block;font-size:12px;line-height:1.7}.pm-selection-card strong{font-size:15px}.pm-selection-card .pm-selection-kicker{font-size:10px;text-transform:uppercase;letter-spacing:1.3px;font-weight:700;color:#32685f;margin-bottom:4px}.pm-selection-card button{flex-shrink:0}
 .pm-breadcrumb{display:flex;align-items:center;flex-wrap:wrap;gap:9px;padding:16px 22px 0;font-size:11px;color:#627983;min-height:38px}.pm-breadcrumb-root{background:transparent;border:0;padding:0;color:#147e78;font-size:11px!important;font-weight:650!important;text-decoration:underline;text-underline-offset:3px}
 .pm-sunburst-stage{position:relative;width:90%;max-width:846px;margin:0 auto;isolation:isolate}
 #pmSunburst{display:block;width:100%;height:auto;overflow:visible}
@@ -82,6 +81,11 @@
 @media(max-width:600px){.pm-section-label{font-size:14px}}
 
 #pmSunburst .pm-section-label-narrow{font-size:10px}
+
+/* Contextual clear action floats over the plot without changing its layout. */
+.pm-clear-highlight{position:absolute;top:10px;right:10px;z-index:5;background:#fff;box-shadow:0 2px 9px #173d481c;border-color:#b9d4cc}
+.pm-clear-highlight[hidden]{display:none}
+@media(max-width:600px){.pm-clear-highlight{top:6px;right:6px;min-height:34px;font-size:11px!important}}
 </style><style>.workspace{grid-template-columns:220px minmax(0,1fr) 340px!important;align-items:start}
 .map-heading{flex-wrap:wrap;padding:10px 14px;gap:8px}.map-heading .title-view{margin:0;display:flex;align-items:center;gap:8px;flex:1;min-width:180px}
 .title-view>label{margin:0;font-size:12px}.title-view select{width:auto;max-width:250px;font-size:12px;padding:7px}.map-heading .map-tools{margin-left:auto}
