@@ -1,0 +1,302 @@
+tag,section,paragraph_modal,tag_level,title,family,family_label,mapping_basis,plan_of_care_thread,citations,survey_groups,ccns,first_year,last_year
+L0625,418.76,418.76(g)(1),Standard,Hospice Aide Assignments And Duties,AIDE,"Aide and homemaker assignments, services and supervision",section default,no,2578,2577,2157,2021,2026
+L0626,418.76,418.76(g)(2),Standard,Hospice Aide Assignments And Duties,AIDE,"Aide and homemaker assignments, services and supervision",section default,no,2279,2258,1906,2021,2026
+L0629,418.76,418.76(h)(1)(i),Standard,Supervision Of Hospice Aides,AIDE,"Aide and homemaker assignments, services and supervision",section default,no,1210,1209,1115,2021,2026
+L0628,418.76,418.76(g)(4),Standard,Hospice Aide Assignments And Duties,AIDE,"Aide and homemaker assignments, services and supervision",section default,no,441,441,412,2021,2026
+L0632,418.76,418.76(h)(2),Standard,Supervision Of Hospice Aides,AIDE,"Aide and homemaker assignments, services and supervision",section default,no,95,95,91,2022,2026
+L0607,418.76,418.76,Condition,Hospice Aide And Homemaker Services,AIDE,"Aide and homemaker assignments, services and supervision",section default,no,88,88,81,2021,2026
+L0633,418.76,418.76(h)(3),Standard,Supervision Of Hospice Aides,AIDE,"Aide and homemaker assignments, services and supervision",section default,no,85,80,79,2021,2026
+L0630,418.76,418.76(h)(1)(ii),Standard,Supervision Of Hospice Aides,AIDE,"Aide and homemaker assignments, services and supervision",section default,no,6,6,6,2022,2026
+L0627,418.76,418.76(g)(3),Standard,Hospice Aide Assignments And Duties,AIDE,"Aide and homemaker assignments, services and supervision",section default,no,5,5,5,2021,2025
+L0637,418.76,418.76(j),Standard,Homemaker Qualifications,AIDE,"Aide and homemaker assignments, services and supervision",section default,no,2,2,2,2022,2025
+L0638,418.76,418.76(k)(1),Standard,Homemaker Supervision And Duties,AIDE,"Aide and homemaker assignments, services and supervision",section default,no,2,2,2,2024,2025
+L0608,418.76,418.76,Standard,Hospice Aide And Homemaker Services,AIDE,"Aide and homemaker assignments, services and supervision",section default,no,1,1,1,2021,2021
+L0631,418.76,418.76(h)(1)(iii),Standard,Supervision Of Hospice Aides,AIDE,"Aide and homemaker assignments, services and supervision",section default,no,1,1,1,2024,2024
+L0636,418.76,418.76(i)(3),Standard,Medicaid Personal Care Aide Services,AIDE,"Aide and homemaker assignments, services and supervision",section default,no,1,1,1,2024,2024
+L0531,418.54,418.54(c)(7),Standard,Content Of Comprehensive Assessment,ASSESS,Patient assessment,section default,no,1804,1802,1606,2021,2026
+L0523,418.54,418.54(b),Standard,Timeframe For Completion Of Assessment,ASSESS,Patient assessment,section default,no,1506,1506,1351,2021,2026
+L0533,418.54,418.54(d),Standard,Update Of Comprehensive Assessment,ASSESS,Patient assessment,section default,no,1000,999,876,2021,2026
+L0524,418.54,418.54(c),Standard,Content Of Comprehensive Assessment,ASSESS,Patient assessment,section default,no,852,847,769,2021,2026
+L0520,418.54,418.54,Condition,Initial & Comprehensive Assessment Of Patient,ASSESS,Patient assessment,section default,no,326,326,291,2021,2026
+L0529,418.54,418.54(c)(5),Standard,Content Of Comprehensive Assessment,ASSESS,Patient assessment,section default,no,287,287,261,2021,2026
+L0535,418.54,418.54(e)(2),Standard,Patient Outcome Measures,ASSESS,Patient assessment,section default,no,239,239,210,2021,2026
+L0528,418.54,418.54(c)(4),Standard,Content Of Comprehensive Assessment,ASSESS,Patient assessment,section default,no,192,192,185,2021,2026
+L0522,418.54,418.54(a),Standard,Initial Assessment,ASSESS,Patient assessment,section default,no,188,188,178,2021,2026
+L0521,418.54,418.54,Standard,Initial & Comprehensive Assessment Of Patient,ASSESS,Patient assessment,section default,no,140,140,133,2021,2023
+L0532,418.54,418.54(c)(8),Standard,Content Of Comprehensive Assessment,ASSESS,Patient assessment,section default,no,100,100,95,2022,2026
+L0525,418.54,418.54(c)(1),Standard,Content Of Comprehensive Assessment,ASSESS,Patient assessment,section default,no,24,24,22,2022,2026
+L0534,418.54,418.54(e)(1),Standard,Patient Outcome Measures,ASSESS,Patient assessment,section default,no,22,22,22,2021,2025
+L0526,418.54,418.54(c)(2),Standard,Content Of Comprehensive Assessment,ASSESS,Patient assessment,section default,no,13,13,13,2022,2026
+L0527,418.54,418.54(c)(3),Standard,Content Of Comprehensive Assessment,ASSESS,Patient assessment,section default,no,4,4,3,2023,2024
+L0557,418.56,418.56(e)(4),Standard,Coordination Of Services,COORD,Coordination of care and services,paragraph override: coordination of services,no,420,420,385,2021,2026
+L0556,418.56,418.56(e)(3),Standard,Coordination Of Services,COORD,Coordination of care and services,paragraph override: coordination of services,no,265,264,253,2021,2026
+L0554,418.56,418.56(e)(1),Standard,Coordination Of Services,COORD,Coordination of care and services,paragraph override: coordination of services,no,250,250,223,2021,2026
+L0558,418.56,418.56(e)(5),Standard,Coordination Of Services,COORD,Coordination of care and services,paragraph override: coordination of services,no,122,122,114,2021,2026
+L0555,418.56,418.56(e)(2),Standard,Coordination Of Services,DELIVER,Delivery of ordered and planned services,paragraph override: services provided per plan of care,yes,2687,2686,2155,2021,2026
+L0651,418.100,418.100(b),Standard,Governing Body And Administrator,DELIVER,Delivery of ordered and planned services,"paragraph override: serving patients, service availability",yes,944,917,765,2021,2026
+L0652,418.100,418.100(c)(1),Standard,Services,DELIVER,Delivery of ordered and planned services,"paragraph override: serving patients, service availability",yes,182,182,173,2021,2026
+L0653,418.100,418.100(c)(2),Standard,Services,DELIVER,Delivery of ordered and planned services,"paragraph override: serving patients, service availability",yes,99,99,96,2021,2026
+L0667,418.102,418.102(b),Standard,Initial Certification Of Terminal Illness,ELIGIBILITY,Hospice certification of terminal illness,paragraph override: certification of terminal illness,no,602,594,523,2021,2026
+L0668,418.102,418.102(c),Standard,Recertification Of The Terminal Illness,ELIGIBILITY,Hospice certification of terminal illness,paragraph override: certification of terminal illness,no,358,358,326,2021,2026
+L0781,418.112,418.112(e)(3),Standard,Coordination Of Services,FACILITY,Hospice care for nursing-facility (SNF/NF/ICF) residents,section default,no,493,421,399,2021,2026
+L0774,418.112,418.112(d)(1),Standard,Hospice Plan Of Care,FACILITY,Hospice care for nursing-facility (SNF/NF/ICF) residents,section default,no,460,460,423,2021,2026
+L0773,418.112,418.112(d),Standard,Hospice Plan Of Care,FACILITY,Hospice care for nursing-facility (SNF/NF/ICF) residents,section default,no,293,293,271,2021,2026
+L0771,418.112,418.112(c)(8),Standard,Written Agreement,FACILITY,Hospice care for nursing-facility (SNF/NF/ICF) residents,section default,no,99,99,97,2021,2026
+L0782,418.112,418.112(f),Standard,Orientation And Training Of Staff,FACILITY,Hospice care for nursing-facility (SNF/NF/ICF) residents,section default,no,84,84,81,2021,2026
+L0778,418.112,418.112(e)(1)(i),Standard,Coordination Of Services,FACILITY,Hospice care for nursing-facility (SNF/NF/ICF) residents,section default,no,64,64,60,2021,2026
+L0772,418.112,418.112(c)(9),Standard,Written Agreement,FACILITY,Hospice care for nursing-facility (SNF/NF/ICF) residents,section default,no,50,50,49,2021,2026
+L0762,418.112,418.112(b),Standard,Professional Management,FACILITY,Hospice care for nursing-facility (SNF/NF/ICF) residents,section default,no,49,49,48,2022,2026
+L0765,418.112,418.112(c)(2),Standard,Written Agreement,FACILITY,Hospice care for nursing-facility (SNF/NF/ICF) residents,section default,no,41,31,30,2021,2026
+L0775,418.112,418.112(d)(2),Standard,Hospice Plan Of Care,FACILITY,Hospice care for nursing-facility (SNF/NF/ICF) residents,section default,no,32,32,32,2021,2025
+L0764,418.112,418.112(c)(1),Standard,Written Agreement,FACILITY,Hospice care for nursing-facility (SNF/NF/ICF) residents,section default,no,26,26,26,2021,2026
+L0769,418.112,418.112(c)(6),Standard,Written Agreement,FACILITY,Hospice care for nursing-facility (SNF/NF/ICF) residents,section default,no,25,25,25,2022,2026
+L0759,418.112,418.112,Condition,Residents Of Snf/Nf Or Icf/Mr,FACILITY,Hospice care for nursing-facility (SNF/NF/ICF) residents,section default,no,24,24,24,2022,2026
+L0768,418.112,418.112(c)(5),Standard,Written Agreement,FACILITY,Hospice care for nursing-facility (SNF/NF/ICF) residents,section default,no,20,20,20,2021,2026
+L0770,418.112,418.112(c)(7),Standard,Written Agreement,FACILITY,Hospice care for nursing-facility (SNF/NF/ICF) residents,section default,no,20,20,20,2021,2026
+L0766,418.112,418.112(c)(3),Standard,Written Agreement,FACILITY,Hospice care for nursing-facility (SNF/NF/ICF) residents,section default,no,17,17,17,2021,2026
+L0763,418.112,418.112(c),Standard,Written Agreement,FACILITY,Hospice care for nursing-facility (SNF/NF/ICF) residents,section default,no,16,16,16,2022,2025
+L0780,418.112,418.112(e)(2),Standard,Coordination Of Services,FACILITY,Hospice care for nursing-facility (SNF/NF/ICF) residents,section default,no,15,15,15,2023,2026
+L0779,418.112,418.112(e)(1)(ii),Standard,Coordination Of Services,FACILITY,Hospice care for nursing-facility (SNF/NF/ICF) residents,section default,no,14,14,13,2021,2025
+L0767,418.112,418.112(c)(4),Standard,Written Agreement,FACILITY,Hospice care for nursing-facility (SNF/NF/ICF) residents,section default,no,11,11,11,2022,2026
+L0776,418.112,418.112(d)(3),Standard,Hospice Plan Of Care,FACILITY,Hospice care for nursing-facility (SNF/NF/ICF) residents,section default,no,9,9,9,2022,2025
+L0777,418.112,418.112(e)(1),Standard,Coordination Of Services,FACILITY,Hospice care for nursing-facility (SNF/NF/ICF) residents,section default,no,4,4,4,2024,2026
+L0761,418.112,418.112(a),Standard,Eligibility Criteria Facility Residents,FACILITY,Hospice care for nursing-facility (SNF/NF/ICF) residents,section default,no,4,4,3,2022,2023
+L0648,418.100,418.100,Condition,Organizational Environment,GOV,"Governance, administration, arrangements and legal compliance",section default,no,213,213,198,2021,2026
+L0655,418.100,418.100(e),Standard,Professional Management Responsibility,GOV,"Governance, administration, arrangements and legal compliance",section default,no,182,169,151,2021,2026
+L0664,418.102,418.102,Condition,Medical Director,GOV,"Governance, administration, arrangements and legal compliance",section default,no,172,171,158,2021,2026
+L0798,418.116,418.116,Standard,"Federal, State, Local Laws & Regulations",GOV,"Governance, administration, arrangements and legal compliance",section default,no,128,128,124,2021,2023
+L0797,418.116,418.116,Condition,"Federal, State, Local Laws & Regulations",GOV,"Governance, administration, arrangements and legal compliance",section default,no,107,107,101,2022,2026
+L0650,418.100,418.100(a),Standard,Serving The Hospice Patient And Family,GOV,"Governance, administration, arrangements and legal compliance",section default,no,85,85,78,2021,2026
+L0666,418.102,418.102(a),Standard,Medical Director Contract,GOV,"Governance, administration, arrangements and legal compliance",section default,no,65,65,62,2021,2026
+L0669,418.102,418.102(d),Standard,Medical Director Responsibility,GOV,"Governance, administration, arrangements and legal compliance",section default,no,61,61,56,2022,2026
+L0799,418.116,418.116(a),Standard,Multiple Locations,GOV,"Governance, administration, arrangements and legal compliance",section default,no,40,40,39,2022,2026
+L0656,418.100,418.100(f)(1)(i),Standard,Hospice Multiple Locations,GOV,"Governance, administration, arrangements and legal compliance",section default,no,28,28,26,2021,2026
+L0665,418.102,418.102,Standard,Medical Director,GOV,"Governance, administration, arrangements and legal compliance",section default,no,23,23,22,2021,2023
+L0657,418.100,418.100(f)(1)(ii),Standard,Hospice Multiple Locations,GOV,"Governance, administration, arrangements and legal compliance",section default,no,15,15,11,2021,2026
+L0649,418.100,418.100,Standard,Organization And Administration Of Services,GOV,"Governance, administration, arrangements and legal compliance",section default,no,14,14,14,2021,2023
+L0660,418.100,418.100(f)(2),Standard,Hospice Multiple Locations,GOV,"Governance, administration, arrangements and legal compliance",section default,no,14,14,14,2023,2026
+L0801,418.116,418.116(b)(2),Standard,Laboratory Services,GOV,"Governance, administration, arrangements and legal compliance",section default,no,11,11,11,2022,2026
+L0658,418.100,418.100(f)(1)(iii),Standard,Hospice Multiple Locations,GOV,"Governance, administration, arrangements and legal compliance",section default,no,11,11,10,2022,2026
+L0800,418.116,418.116(b)(1),Standard,Laboratory Services,GOV,"Governance, administration, arrangements and legal compliance",section default,no,7,7,7,2022,2025
+L0654,418.100,418.100(d),Standard,Continuation Of Care,GOV,"Governance, administration, arrangements and legal compliance",section default,no,2,2,2,2024,2025
+L0596,418.64,418.64(d)(1),Standard,Counseling Services,HOSPICE_SVC,"Hospice IDG, counseling, volunteer and non-core services",paragraph override: counseling services,no,1019,981,899,2021,2026
+L0647,418.78,418.78(e),Standard,Level Of Activity,HOSPICE_SVC,"Hospice IDG, counseling, volunteer and non-core services",section default,no,943,940,902,2021,2026
+L0540,418.56,418.56(a)(1),Standard,Approach To Service Delivery,HOSPICE_SVC,"Hospice IDG, counseling, volunteer and non-core services",paragraph override: interdisciplinary group,no,619,617,557,2021,2026
+L0645,418.78,418.78(c),Standard,Recruiting And Retaining,HOSPICE_SVC,"Hospice IDG, counseling, volunteer and non-core services",section default,no,302,302,289,2021,2026
+L0646,418.78,418.78(d),Standard,Cost Saving,HOSPICE_SVC,"Hospice IDG, counseling, volunteer and non-core services",section default,no,219,214,203,2021,2026
+L0598,418.64,418.64(d)(3),Standard,Counseling Services,HOSPICE_SVC,"Hospice IDG, counseling, volunteer and non-core services",paragraph override: counseling services,no,210,210,203,2021,2026
+L0644,418.78,418.78(b),Standard,Role,HOSPICE_SVC,"Hospice IDG, counseling, volunteer and non-core services",section default,no,198,198,187,2021,2026
+L0541,418.56,418.56(a)(1)(i)-(iv),Standard,Approach To Service Delivery,HOSPICE_SVC,"Hospice IDG, counseling, volunteer and non-core services",paragraph override: interdisciplinary group,no,159,153,143,2021,2026
+L0539,418.56,418.56(a)(1),Standard,Approach To Service Delivery,HOSPICE_SVC,"Hospice IDG, counseling, volunteer and non-core services",paragraph override: interdisciplinary group,no,108,108,104,2021,2026
+L0641,418.78,418.78,Condition,Volunteers,HOSPICE_SVC,"Hospice IDG, counseling, volunteer and non-core services",section default,no,103,103,98,2021,2026
+L0643,418.78,418.78(a),Standard,Training,HOSPICE_SVC,"Hospice IDG, counseling, volunteer and non-core services",section default,no,99,99,95,2021,2026
+L0603,418.72,418.72,Condition,"Phys, Occupnl Therapy & Speech-Lang Pathology",HOSPICE_SVC,"Hospice IDG, counseling, volunteer and non-core services",section default,no,35,35,35,2023,2026
+L0595,418.64,418.64(d),Standard,Counseling Services,HOSPICE_SVC,"Hospice IDG, counseling, volunteer and non-core services",paragraph override: counseling services,no,32,32,32,2021,2026
+L0601,418.70,418.70,Condition,Furnishing Of Non-Core Services,HOSPICE_SVC,"Hospice IDG, counseling, volunteer and non-core services",section default,no,27,27,26,2022,2026
+L0642,418.78,418.78,Standard,Volunteers,HOSPICE_SVC,"Hospice IDG, counseling, volunteer and non-core services",section default,no,27,27,27,2021,2023
+L0597,418.64,418.64(d)(2),Standard,Counseling Services,HOSPICE_SVC,"Hospice IDG, counseling, volunteer and non-core services",paragraph override: counseling services,no,11,11,11,2022,2026
+L0602,418.70,418.70,Standard,Furnishing Of Non-Core Services,HOSPICE_SVC,"Hospice IDG, counseling, volunteer and non-core services",section default,no,8,8,8,2022,2023
+L0604,418.72,418.72,Standard,"Phys, Occupnl Therapy & Speech-Lang Pathology",HOSPICE_SVC,"Hospice IDG, counseling, volunteer and non-core services",section default,no,6,6,6,2021,2023
+L0606,418.74,418.74(a),Standard,"Waiver Pt, Ot, Slp & Dietary",HOSPICE_SVC,"Hospice IDG, counseling, volunteer and non-core services",section default,no,1,1,1,2024,2024
+L0542,418.56,418.56(a)(2),Standard,Approach To Service Delivery,HOSPICE_SVC,"Hospice IDG, counseling, volunteer and non-core services",paragraph override: interdisciplinary group,no,1,1,1,2025,2025
+L0579,418.60,418.60(a),Standard,Prevention,INFECT,Infection prevention and control,section default,no,1956,1947,1709,2021,2026
+L0581,418.60,418.60(b)(2)(ii),Standard,Control,INFECT,Infection prevention and control,section default,no,300,243,220,2021,2026
+L0900,418.60,418.60(d)(1)-(3)(i)-(x),Standard,Covid-19 Vaccination Of Facility Staff,INFECT,Infection prevention and control,section default,no,211,112,109,2022,2023
+L0580,418.60,418.60(b)(1),Standard,Control,INFECT,Infection prevention and control,section default,no,178,175,171,2021,2026
+L0582,418.60,418.60(c),Standard,Education,INFECT,Infection prevention and control,section default,no,157,157,146,2021,2026
+L0577,418.60,418.60,Condition,Infection Control,INFECT,Infection prevention and control,section default,no,55,55,53,2021,2026
+L0578,418.60,418.60,Standard,Infection Control,INFECT,Infection prevention and control,section default,no,43,43,42,2021,2023
+L0827,418.110,418.110(d),Standard,N/A,INPATIENT,Hospice inpatient and respite care and inpatient facility,section default,no,163,108,107,2023,2026
+L0713,418.108,418.108(c)(3),Standard,Inpatient Care Provided Under Arrangements,INPATIENT,Hospice inpatient and respite care and inpatient facility,section default,no,96,96,92,2021,2026
+L0728,418.110,418.110(d)(1)(i),Standard,Fire Protection,INPATIENT,Hospice inpatient and respite care and inpatient facility,section default,no,63,61,58,2021,2023
+L0716,418.108,418.108(c)(6),Standard,Inpatient Care Provided Under Arrangements,INPATIENT,Hospice inpatient and respite care and inpatient facility,section default,no,50,50,50,2022,2026
+L0828,418.110,418.110(e),Standard,N/A,INPATIENT,Hospice inpatient and respite care and inpatient facility,section default,no,41,41,41,2023,2026
+L0715,418.108,418.108(c)(5),Standard,Inpatient Care Provided Under Arrangements,INPATIENT,Hospice inpatient and respite care and inpatient facility,section default,no,39,39,38,2021,2026
+L0839,418.110,418.110(m)(3),Standard,N/A,INPATIENT,Hospice inpatient and respite care and inpatient facility,section default,no,39,39,37,2023,2026
+L0725,418.110,418.110(c)(1),Standard,Safety Management,INPATIENT,Hospice inpatient and respite care and inpatient facility,section default,no,38,38,37,2021,2023
+L0834,418.110,418.110(k),Standard,N/A,INPATIENT,Hospice inpatient and respite care and inpatient facility,section default,no,31,31,31,2023,2026
+L0711,418.108,418.108(c)(1),Standard,Inpatient Care Provided Under Arrangements,INPATIENT,Hospice inpatient and respite care and inpatient facility,section default,no,29,29,29,2022,2026
+L0714,418.108,418.108(c)(4),Standard,Inpatient Care Provided Under Arrangements,INPATIENT,Hospice inpatient and respite care and inpatient facility,section default,no,28,28,28,2021,2026
+L0736,418.110,418.110(m),Standard,Meal Service And Menu Planning,INPATIENT,Hospice inpatient and respite care and inpatient facility,section default,no,27,27,27,2021,2023
+L0712,418.108,418.108(c)(2),Standard,Inpatient Care Provided Under Arrangements,INPATIENT,Hospice inpatient and respite care and inpatient facility,section default,no,26,26,25,2021,2026
+L0825,418.110,418.110(c)(1),Standard,N/A,INPATIENT,Hospice inpatient and respite care and inpatient facility,section default,no,24,24,23,2023,2026
+L0832,418.110,418.110(i),Standard,N/A,INPATIENT,Hospice inpatient and respite care and inpatient facility,section default,no,24,24,24,2023,2026
+L0833,418.110,418.110(j),Standard,Infection Control,INPATIENT,Hospice inpatient and respite care and inpatient facility,section default,no,21,21,20,2023,2026
+L0826,418.110,418.110(c)(2),Standard,N/A,INPATIENT,Hospice inpatient and respite care and inpatient facility,section default,no,20,19,18,2023,2026
+L0734,418.110,418.110(k),Standard,Sanitary Environment,INPATIENT,Hospice inpatient and respite care and inpatient facility,section default,no,19,19,19,2021,2023
+L0704,418.108,418.108,Condition,Short-Term Inpatient Care,INPATIENT,Hospice inpatient and respite care and inpatient facility,section default,no,19,19,17,2022,2026
+L0820,418.110,418.110,Condition,Hospices That Provide Inpatient Care Directly,INPATIENT,Hospice inpatient and respite care and inpatient facility,section default,no,17,17,17,2023,2026
+L0838,418.110,418.110(m)(2),Standard,N/A,INPATIENT,Hospice inpatient and respite care and inpatient facility,section default,no,17,17,17,2023,2026
+L0710,418.108,418.108(b)(2),Standard,Inpatient Care For Respite Purposes,INPATIENT,Hospice inpatient and respite care and inpatient facility,section default,no,13,13,13,2022,2026
+L0719,418.110,418.110,Condition,Hospices That Provide Inpatient Care Directly,INPATIENT,Hospice inpatient and respite care and inpatient facility,section default,no,11,11,11,2021,2022
+L0732,418.110,418.110(i),Standard,Plumbing Facilities,INPATIENT,Hospice inpatient and respite care and inpatient facility,section default,no,10,10,10,2021,2023
+L0709,418.108,418.108(b)(1)(ii),Standard,Inpatient Care For Respite Purposes,INPATIENT,Hospice inpatient and respite care and inpatient facility,section default,no,10,10,10,2022,2026
+L0724,418.110,418.110(c),Standard,Physical Environment,INPATIENT,Hospice inpatient and respite care and inpatient facility,section default,no,10,10,10,2021,2023
+L0733,418.110,418.110(i),Standard,Infection Control,INPATIENT,Hospice inpatient and respite care and inpatient facility,section default,no,9,9,8,2021,2023
+L0824,418.110,418.110(c),Standard,Physical Environment,INPATIENT,Hospice inpatient and respite care and inpatient facility,section default,no,9,9,9,2023,2026
+L0705,418.108,418.108,Condition,Short-Term Inpatient Care,INPATIENT,Hospice inpatient and respite care and inpatient facility,section default,no,8,8,7,2022,2023
+L0706,418.108,418.108(a)(1),Standard,Inpatient Care Pain & Symptom Control,INPATIENT,Hospice inpatient and respite care and inpatient facility,section default,no,8,8,7,2023,2026
+L0708,418.108,418.108(b)(1)(i),Standard,Inpatient Care For Respite Purposes,INPATIENT,Hospice inpatient and respite care and inpatient facility,section default,no,8,8,8,2023,2026
+L0707,418.108,418.108(a)(2),Standard,Inpatient Care Pain & Symptom Control,INPATIENT,Hospice inpatient and respite care and inpatient facility,section default,no,6,6,6,2023,2025
+L0729,418.110,418.110(e),Standard,Patient Areas,INPATIENT,Hospice inpatient and respite care and inpatient facility,section default,no,6,6,6,2021,2022
+L0835,418.110,418.110(l),Standard,N/A,INPATIENT,Hospice inpatient and respite care and inpatient facility,section default,no,5,5,5,2023,2026
+L0754,418.110,418.110(n)(1),Standard,Restraint Or Seclusion Staff Training Reqmts,INPATIENT,Hospice inpatient and respite care and inpatient facility,section default,no,5,5,4,2022,2023
+L0727,418.110,418.110(c)(2),Standard,Safety Management,INPATIENT,Hospice inpatient and respite care and inpatient facility,section default,no,4,4,4,2021,2022
+L0721,418.110,418.110(a),Condition,Staffing,INPATIENT,Hospice inpatient and respite care and inpatient facility,section default,no,4,4,4,2022,2023
+L0821,418.110,418.110(a),Standard,N/A,INPATIENT,Hospice inpatient and respite care and inpatient facility,section default,no,4,4,4,2023,2024
+L0829,418.110,418.110(f),Standard,Patient Areas,INPATIENT,Hospice inpatient and respite care and inpatient facility,section default,no,4,4,4,2023,2024
+L0840,418.110,418.110(n),Standard,N/A,INPATIENT,Hospice inpatient and respite care and inpatient facility,section default,no,4,4,4,2023,2026
+L0860,418.110,418.110(o)(4),Standard,N/A,INPATIENT,Hospice inpatient and respite care and inpatient facility,section default,no,4,4,4,2023,2025
+L0755,418.110,418.110(n)(2),Standard,Restraint Or Seclusion Staff Training Reqmts,INPATIENT,Hospice inpatient and respite care and inpatient facility,section default,no,4,4,3,2022,2023
+L0742,418.110,418.110(m)(5),Standard,Restraint Or Seclusion,INPATIENT,Hospice inpatient and respite care and inpatient facility,section default,no,3,3,3,2022,2022
+L0752,418.110,418.110(m)(15),Standard,Restraint Or Seclusion,INPATIENT,Hospice inpatient and respite care and inpatient facility,section default,no,3,3,3,2022,2022
+L0756,418.110,418.110(n)(3),Standard,Restraint Or Seclusion Staff Training Reqmts,INPATIENT,Hospice inpatient and respite care and inpatient facility,section default,no,3,3,2,2022,2022
+L0757,418.110,418.110(n)(4),Standard,Restraint Or Seclusion Staff Training Reqmts,INPATIENT,Hospice inpatient and respite care and inpatient facility,section default,no,3,3,2,2022,2022
+L0823,418.110,418.110(b)(2),Standard,Twenty-Four Hour Nursing Services,INPATIENT,Hospice inpatient and respite care and inpatient facility,section default,no,3,3,3,2023,2023
+L0723,418.110,418.110(b)(2),Standard,Twenty-Four Hour Nursing Services,INPATIENT,Hospice inpatient and respite care and inpatient facility,section default,no,3,3,3,2022,2023
+L0842,418.110,418.110(n)(2),Standard,N/A,INPATIENT,Hospice inpatient and respite care and inpatient facility,section default,no,2,2,2,2023,2025
+L0844,418.110,418.110(n)(4),Standard,N/A,INPATIENT,Hospice inpatient and respite care and inpatient facility,section default,no,2,2,2,2025,2026
+L0843,418.110,418.110(n)(3),Standard,N/A,INPATIENT,Hospice inpatient and respite care and inpatient facility,section default,no,2,2,2,2024,2026
+L0822,418.110,418.110(b)(1),Standard,N/A,INPATIENT,Hospice inpatient and respite care and inpatient facility,section default,no,2,2,2,2023,2026
+L0836,418.110,418.110(m),Standard,Meal Service And Menu Planning,INPATIENT,Hospice inpatient and respite care and inpatient facility,section default,no,2,2,2,2023,2023
+L0858,418.110,418.110(o)(2),Standard,Restraint Or Seclusion Staff Training Requirements,INPATIENT,Hospice inpatient and respite care and inpatient facility,section default,no,2,2,2,2024,2025
+L0857,418.110,418.110(o)(1),Standard,Restraint Or Seclusion Staff Training Requirements,INPATIENT,Hospice inpatient and respite care and inpatient facility,section default,no,2,2,2,2023,2024
+L0846,418.110,418.110(n)(6),Standard,N/A,INPATIENT,Hospice inpatient and respite care and inpatient facility,section default,no,1,1,1,2025,2025
+L0855,418.110,418.110(n)(15),Standard,N/A,INPATIENT,Hospice inpatient and respite care and inpatient facility,section default,no,1,1,1,2025,2025
+L0837,418.110,418.110(m)(1),Standard,N/A,INPATIENT,Hospice inpatient and respite care and inpatient facility,section default,no,1,1,1,2026,2026
+L0726,418.110,418.110(c)(1)(ii),Standard,Safety Management,INPATIENT,Hospice inpatient and respite care and inpatient facility,section default,no,1,1,1,2022,2022
+L0738,418.110,418.110(m)(1),Standard,Restraint Or Seclusion,INPATIENT,Hospice inpatient and respite care and inpatient facility,section default,no,1,1,1,2022,2022
+L0741,418.110,418.110(m)(4),Standard,Restraint Or Seclusion,INPATIENT,Hospice inpatient and respite care and inpatient facility,section default,no,1,1,1,2022,2022
+L0745,418.110,418.110(m)(8),Standard,Restraint Or Seclusion,INPATIENT,Hospice inpatient and respite care and inpatient facility,section default,no,1,1,1,2022,2022
+L0862,418.110,418.110(q)(1)(ix),Standard,N/A,INPATIENT,Hospice inpatient and respite care and inpatient facility,section default,no,1,1,1,2026,2026
+L0737,418.110,418.110(m),Standard,Restraint Or Seclusion,INPATIENT,Hospice inpatient and respite care and inpatient facility,section default,no,1,1,1,2021,2021
+L0735,418.110,418.110(l),Standard,Linen,INPATIENT,Hospice inpatient and respite care and inpatient facility,section default,no,1,1,1,2022,2022
+L0830,418.110,418.110(g),Standard,N/A,INPATIENT,Hospice inpatient and respite care and inpatient facility,section default,no,1,1,1,2023,2023
+L0717,418.108,418.108(d),Standard,Inpatient Care Limitation,INPATIENT,Hospice inpatient and respite care and inpatient facility,section default,no,1,1,1,2024,2024
+L0530,418.54,418.54(c)(6),Standard,Content Of Comprehensive Assessment,MEDS,"Medications, drugs, biologicals and equipment",paragraph override: drug profile,no,3528,3504,2761,2021,2026
+L0702,418.106,418.106(f)(2),Standard,Use And Mintenance Of Equipment And Supplies,MEDS,"Medications, drugs, biologicals and equipment",section default,no,315,315,295,2021,2026
+L0697,418.106,418.106(e)(2)(i)(C),Standard,Label Dispose Storage Drugs,MEDS,"Medications, drugs, biologicals and equipment",section default,no,171,171,169,2021,2026
+L0695,418.106,418.106(e)(2)(i)(A),Standard,Label Dispose Storage Drugs,MEDS,"Medications, drugs, biologicals and equipment",section default,no,166,166,164,2021,2026
+L0692,418.106,418.106(d)(1),Standard,Administration Of Drugs And Biologicals,MEDS,"Medications, drugs, biologicals and equipment",section default,no,95,95,93,2021,2026
+L0696,418.106,418.106(e)(2)(i)(B),Standard,Label Dispose Storage Drugs,MEDS,"Medications, drugs, biologicals and equipment",section default,no,82,82,80,2021,2026
+L0694,418.106,418.106(e)(2)(i),Standard,Label Dispose Storage Drugs,MEDS,"Medications, drugs, biologicals and equipment",section default,no,82,82,80,2021,2026
+L0693,418.106,418.106(e)(1),Standard,Label Dispose Storage Drugs,MEDS,"Medications, drugs, biologicals and equipment",section default,no,68,68,68,2021,2026
+L0690,418.106,418.106(b),Standard,Ordering Of Drugs,MEDS,"Medications, drugs, biologicals and equipment",section default,no,63,63,61,2021,2026
+L0687,418.106,418.106,Standard,Drugs Biologicals Medical Supplies & Dme,MEDS,"Medications, drugs, biologicals and equipment",section default,no,55,53,52,2021,2023
+L0686,418.106,418.106,Condition,Drugs Biologicals Medical Supplies & Dme,MEDS,"Medications, drugs, biologicals and equipment",section default,no,42,42,41,2021,2026
+L0703,418.106,418.106(f)(3),Standard,Use And Mintenance Of Equipment And Supplies,MEDS,"Medications, drugs, biologicals and equipment",section default,no,37,37,37,2021,2026
+L0700,418.106,418.106(e)(3)(ii),Standard,Label Dispose Storage Drugs,MEDS,"Medications, drugs, biologicals and equipment",section default,no,22,22,22,2021,2026
+L0701,418.106,418.106(f)(1),Standard,Use & Maintenance Of Equipment & Supplies,MEDS,"Medications, drugs, biologicals and equipment",section default,no,20,20,19,2022,2025
+L0691,418.106,418.106(c),Standard,Dispensing Of Drugs And Biologicals,MEDS,"Medications, drugs, biologicals and equipment",section default,no,16,16,16,2021,2025
+L0698,418.106,418.106(e)(2)(ii),Standard,Label Dispose Storage Drugs,MEDS,"Medications, drugs, biologicals and equipment",section default,no,13,13,13,2021,2025
+L0699,418.106,418.106(e)(3)(i),Standard,Label Dispose Storage Drugs,MEDS,"Medications, drugs, biologicals and equipment",section default,no,11,11,11,2021,2026
+L0688,418.106,418.106(a)(1),Standard,Managing Drugs And Biologicals,MEDS,"Medications, drugs, biologicals and equipment",section default,no,4,4,4,2023,2024
+L0590,418.64,418.64(a),Standard,Physician Services,ORDERS,Orders and physician/practitioner notification,paragraph override: physician services,yes,39,38,38,2022,2026
+L0545,418.56,418.56(c),Standard,Content Of Plan Of Care,PLAN,"Plan of care: content, development, review and revision",section default,yes,3799,3796,2910,2021,2026
+L0549,418.56,418.56(c)(4),Standard,Content Of Plan Of Care,PLAN,"Plan of care: content, development, review and revision",section default,yes,3214,3210,2495,2021,2026
+L0550,418.56,418.56(c)(5),Standard,Content Of Plan Of Care,PLAN,"Plan of care: content, development, review and revision",section default,yes,1462,1462,1247,2021,2026
+L0547,418.56,418.56(c)(2),Standard,Content Of Plan Of Care,PLAN,"Plan of care: content, development, review and revision",section default,yes,1322,1322,1176,2021,2026
+L0553,418.56,418.56(d),Standard,Review Of The Plan Of Care,PLAN,"Plan of care: content, development, review and revision",section default,yes,1072,1070,960,2021,2026
+L0543,418.56,418.56(b),Standard,Plan Of Care,PLAN,"Plan of care: content, development, review and revision",section default,yes,874,874,769,2021,2026
+L0552,418.56,418.56(d),Standard,Review Of The Plan Of Care,PLAN,"Plan of care: content, development, review and revision",section default,yes,780,780,693,2021,2026
+L0546,418.56,418.56(c)(1),Standard,Content Of Plan Of Care,PLAN,"Plan of care: content, development, review and revision",section default,yes,633,633,559,2021,2026
+L0548,418.56,418.56(c)(3),Standard,Content Of Plan Of Care,PLAN,"Plan of care: content, development, review and revision",section default,yes,582,582,532,2021,2026
+L0536,418.56,418.56,Condition,"Idg, Care Planning, Coordination Of Services",PLAN,"Plan of care: content, development, review and revision",section default,yes,453,453,408,2021,2026
+L0544,418.56,418.56(b),Standard,Plan Of Care,PLAN,"Plan of care: content, development, review and revision",section default,yes,284,284,266,2021,2026
+L0538,418.56,418.56,Standard,"Idg, Care Planning, Coordination Of Services",PLAN,"Plan of care: content, development, review and revision",section default,yes,127,127,123,2021,2024
+L0551,418.56,418.56(c)(6),Standard,Content Of Plan Of Care,PLAN,"Plan of care: content, development, review and revision",section default,yes,46,46,45,2021,2026
+L0537,418.56,418.56,Standard,"Idg, Care Planning, Coordination Of Services",PLAN,"Plan of care: content, development, review and revision",section default,yes,36,36,35,2021,2023
+L0564,418.58,418.58(b)(2)(ii),Standard,Program Data,QAPI,Quality assessment and performance improvement,section default,no,199,169,148,2021,2026
+L0559,418.58,418.58,Condition,Quality Assessment & Performance Improvement,QAPI,Quality assessment and performance improvement,section default,no,195,195,182,2021,2026
+L0574,418.58,418.58(e)(1),Standard,Executive Responsibilities,QAPI,Quality assessment and performance improvement,section default,no,189,188,170,2021,2026
+L0573,418.58,418.58(d)(2),Standard,Performance Improvement Projects,QAPI,Quality assessment and performance improvement,section default,no,161,161,151,2021,2026
+L0565,418.58,418.58(b)(3),Standard,Program Data,QAPI,Quality assessment and performance improvement,section default,no,159,157,139,2021,2026
+L0569,418.58,418.58(c)(2),Standard,Program Activities,QAPI,Quality assessment and performance improvement,section default,no,144,144,140,2021,2026
+L0562,418.58,418.58(a)(2),Standard,Program Scope,QAPI,Quality assessment and performance improvement,section default,no,129,129,124,2021,2026
+L0575,418.58,418.58(e)(2),Standard,Executive Responsibilities,QAPI,Quality assessment and performance improvement,section default,no,113,113,102,2021,2026
+L0561,418.58,418.58(a)(1),Standard,Program Scope,QAPI,Quality assessment and performance improvement,section default,no,109,109,99,2021,2026
+L0560,418.58,418.58,Condition,Quality Assessment & Performance Improvement,QAPI,Quality assessment and performance improvement,section default,no,105,105,97,2021,2023
+L0563,418.58,418.58(b)(1),Standard,Program Data,QAPI,Quality assessment and performance improvement,section default,no,97,97,93,2021,2026
+L0572,418.58,418.58(d)(1),Standard,Performance Improvement Projects,QAPI,Quality assessment and performance improvement,section default,no,80,80,72,2021,2026
+L0570,418.58,418.58(c)(3),Standard,Program Activities,QAPI,Quality assessment and performance improvement,section default,no,75,75,71,2021,2026
+L0571,418.58,418.58(d),Standard,Performance Improvement Projects,QAPI,Quality assessment and performance improvement,section default,no,66,66,65,2022,2026
+L0566,418.58,418.58(c)(1)(i),Standard,Program Activities,QAPI,Quality assessment and performance improvement,section default,no,63,63,59,2021,2026
+L0576,418.58,418.58(e)(3),Standard,Executive Responsibilities,QAPI,Quality assessment and performance improvement,section default,no,52,52,47,2021,2026
+L0568,418.58,418.58(c)(1)(iii),Standard,Program Activities,QAPI,Quality assessment and performance improvement,section default,no,40,40,37,2021,2026
+L0567,418.58,418.58(c)(1)(ii),Standard,Program Activities,QAPI,Quality assessment and performance improvement,section default,no,27,27,26,2021,2026
+L0679,418.104,418.104(b),Standard,Authentication,RECORDS,"Clinical records: content, authentication and protection",section default,no,1730,1728,1492,2021,2026
+L0678,418.104,418.104(a)(7),Standard,Content,RECORDS,"Clinical records: content, authentication and protection",section default,no,953,952,876,2021,2026
+L0673,418.104,418.104(a)(2),Standard,Content,RECORDS,"Clinical records: content, authentication and protection",section default,no,862,861,781,2021,2026
+L0674,418.104,418.104(a)(3),Standard,Content,RECORDS,"Clinical records: content, authentication and protection",section default,no,594,594,515,2021,2026
+L0672,418.104,418.104(a)(1),Standard,Content,RECORDS,"Clinical records: content, authentication and protection",section default,no,326,326,301,2021,2026
+L0677,418.104,418.104(a)(6),Standard,Content,RECORDS,"Clinical records: content, authentication and protection",section default,no,260,259,250,2021,2026
+L0676,418.104,418.104(a)(5),Standard,Content,RECORDS,"Clinical records: content, authentication and protection",section default,no,246,240,222,2021,2026
+L0670,418.104,418.104,Condition,Clinical Records,RECORDS,"Clinical records: content, authentication and protection",section default,no,198,198,177,2021,2026
+L0680,418.104,418.104(c),Standard,Protection Of Information,RECORDS,"Clinical records: content, authentication and protection",section default,no,149,149,136,2021,2026
+L0685,418.104,418.104(f),Standard,Retrieval Of Clinical Records,RECORDS,"Clinical records: content, authentication and protection",section default,no,125,125,120,2021,2026
+L0671,418.104,418.104,Standard,Clinical Records,RECORDS,"Clinical records: content, authentication and protection",section default,no,118,118,114,2021,2023
+L0681,418.104,418.104(d),Standard,Retention Of Records,RECORDS,"Clinical records: content, authentication and protection",section default,no,61,60,58,2022,2026
+L0675,418.104,418.104(a)(4),Standard,Content,RECORDS,"Clinical records: content, authentication and protection",section default,no,2,2,2,2023,2025
+L0505,418.52,418.52(b)(1)(i),Standard,Exercise Of Rights/Respect For Proprty/Person,RIGHTS,"Patient rights, notices, complaints and protection",section default,no,386,385,359,2021,2026
+L0512,418.52,418.52(c)(1),Standard,Rights Of The Patient,RIGHTS,"Patient rights, notices, complaints and protection",section default,no,327,327,306,2021,2026
+L0515,418.52,418.52(c)(4),Standard,Rights Of The Patient,RIGHTS,"Patient rights, notices, complaints and protection",section default,no,322,322,308,2021,2026
+L0503,418.52,418.52(a)(2),Standard,Notice Of Rights And Responsibilities,RIGHTS,"Patient rights, notices, complaints and protection",section default,no,256,255,242,2021,2026
+L0502,418.52,418.52(a)(1),Standard,Notice Of Rights And Responsibilities,RIGHTS,"Patient rights, notices, complaints and protection",section default,no,225,225,211,2021,2026
+L0500,418.52,418.52,Condition,Patients' Rights,RIGHTS,"Patient rights, notices, complaints and protection",section default,no,188,188,180,2021,2026
+L0518,418.52,418.52(c)(7),Standard,Rights Of The Patient,RIGHTS,"Patient rights, notices, complaints and protection",section default,no,164,164,155,2021,2026
+L0519,418.52,418.52(c)(8),Standard,Rights Of The Patient,RIGHTS,"Patient rights, notices, complaints and protection",section default,no,159,159,151,2021,2026
+L0504,418.52,418.52(a)(3),Standard,Notice Of Rights And Responsibilities,RIGHTS,"Patient rights, notices, complaints and protection",section default,no,155,155,145,2021,2026
+L0516,418.52,418.52(c)(5),Standard,Rights Of The Patient,RIGHTS,"Patient rights, notices, complaints and protection",section default,no,146,146,137,2021,2026
+L0513,418.52,418.52(c)(2),Standard,Rights Of The Patient,RIGHTS,"Patient rights, notices, complaints and protection",section default,no,137,137,131,2021,2026
+L0507,418.52,418.52(b)(3),Standard,Exercise Of Rights/Respect For Proprty/Person,RIGHTS,"Patient rights, notices, complaints and protection",section default,no,93,93,86,2021,2026
+L0517,418.52,418.52(c)(6),Standard,Rights Of The Patient,RIGHTS,"Patient rights, notices, complaints and protection",section default,no,75,75,75,2021,2026
+L0509,418.52,418.52(b)(4)(ii),Standard,Exercise Of Rights/Respect For Proprty/Person,RIGHTS,"Patient rights, notices, complaints and protection",section default,no,64,64,64,2021,2026
+L0508,418.52,418.52(b)(4)(i),Standard,Exercise Of Rights/Respect For Proprty/Person,RIGHTS,"Patient rights, notices, complaints and protection",section default,no,48,48,47,2021,2026
+L0501,418.52,418.52,Standard,Patients Rights,RIGHTS,"Patient rights, notices, complaints and protection",section default,no,43,43,43,2021,2023
+L0511,418.52,418.52(b)(4)(iv),Standard,Exercise Of Rights/Respect For Proprty/Person,RIGHTS,"Patient rights, notices, complaints and protection",section default,no,26,26,24,2022,2026
+L0514,418.52,418.52(c)(3),Standard,Rights Of The Patient,RIGHTS,"Patient rights, notices, complaints and protection",section default,no,15,15,15,2021,2026
+L0510,418.52,418.52(b)(4)(iii),Standard,Exercise Of Rights/Respect For Proprty/Person,RIGHTS,"Patient rights, notices, complaints and protection",section default,no,8,8,8,2022,2025
+L0506,418.52,418.52(b)(2),Standard,Exercise Of Rights/Respect For Proprty/Person,RIGHTS,"Patient rights, notices, complaints and protection",section default,no,6,6,6,2023,2026
+L0591,418.64,418.64(b)(1),Standard,Nursing Services,SKILLED,Skilled and licensed professional services,section default,no,406,405,359,2021,2026
+L0587,418.64,418.64,Condition,Core Services,SKILLED,Skilled and licensed professional services,section default,no,221,218,208,2021,2026
+L0594,418.64,418.64(c),Standard,Medical Social Services,SKILLED,Skilled and licensed professional services,section default,no,200,200,182,2021,2026
+L0585,418.62,418.62(b),Standard,Licensed Professional Services,SKILLED,Skilled and licensed professional services,section default,no,78,78,73,2021,2026
+L0586,418.62,418.62(c),Standard,Licensed Professional Services,SKILLED,Skilled and licensed professional services,section default,no,66,66,64,2021,2026
+L0588,418.64,418.64,Standard,Core Services,SKILLED,Skilled and licensed professional services,section default,no,51,51,49,2021,2023
+L0584,418.62,418.62(a),Standard,Licensed Professional Services,SKILLED,Skilled and licensed professional services,section default,no,50,50,49,2021,2026
+L0583,418.62,418.62,Condition,Licensed Professional Services,SKILLED,Skilled and licensed professional services,section default,no,17,17,16,2021,2025
+L0589,418.64,418.64,Standard,Core Services,SKILLED,Skilled and licensed professional services,section default,no,3,3,3,2021,2023
+L0592,418.64,418.64(b)(2),Standard,Nursing Services,SKILLED,Skilled and licensed professional services,section default,no,2,2,2,2022,2023
+L0599,418.66,418.66,Condition,Nursing Services - Waiver Of Req,SKILLED,Skilled and licensed professional services,section default,no,2,2,2,2024,2024
+L0600,418.66,418.66,Standard,Nursing Services - Waiver Of Req,SKILLED,Skilled and licensed professional services,section default,no,2,2,2,2023,2024
+L0593,418.64,418.64(b)(3),Standard,Nursing Services,SKILLED,Skilled and licensed professional services,section default,no,1,1,1,2025,2025
+L0663,418.100,418.100(g)(3),Standard,Training,STAFF,"Staff qualifications, training, competency and supervision",paragraph override: training,no,847,846,754,2021,2026
+L0615,418.76,418.76(c),Standard,Competency Evaluation,STAFF,"Staff qualifications, training, competency and supervision","tag range: aide qualifications, training and competency",no,624,616,568,2021,2026
+L0795,418.114,418.114(d)(1),Standard,Criminal Background Checks,STAFF,"Staff qualifications, training, competency and supervision",section default,no,609,609,552,2021,2026
+L0796,418.114,418.114(d)(2),Standard,Criminal Background Checks,STAFF,"Staff qualifications, training, competency and supervision",section default,no,306,306,293,2021,2026
+L0662,418.100,418.100(g)(2),Standard,Training,STAFF,"Staff qualifications, training, competency and supervision",paragraph override: training,no,236,236,218,2021,2026
+L0661,418.100,418.100(g)(1),Standard,Training,STAFF,"Staff qualifications, training, competency and supervision",paragraph override: training,no,225,224,209,2021,2026
+L0784,418.114,418.114(a),Standard,Personnel Qualification,STAFF,"Staff qualifications, training, competency and supervision",section default,no,207,207,199,2021,2026
+L0620,418.76,418.76(d),Standard,In-Service Training,STAFF,"Staff qualifications, training, competency and supervision","tag range: aide qualifications, training and competency",no,107,107,102,2021,2026
+L0787,418.114,418.114(b)(3),Standard,Personnel Qualification,STAFF,"Staff qualifications, training, competency and supervision",section default,no,81,79,76,2021,2026
+L0788,418.114,418.114(b)(4),Standard,Personnel Qualification,STAFF,"Staff qualifications, training, competency and supervision",section default,no,75,75,70,2021,2026
+L0789,418.114,418.114(b)(5),Standard,Personnel Qualification,STAFF,"Staff qualifications, training, competency and supervision",section default,no,60,60,55,2021,2026
+L0619,418.76,418.76(c)(5),Standard,Competency Evaluation,STAFF,"Staff qualifications, training, competency and supervision","tag range: aide qualifications, training and competency",no,44,44,44,2021,2026
+L0791,418.114,418.114(b)(7),Standard,Personnel Qualification,STAFF,"Staff qualifications, training, competency and supervision",section default,no,40,40,37,2021,2026
+L0613,418.76,418.76(b)(3),Standard,Hospice Aide Training,STAFF,"Staff qualifications, training, competency and supervision","tag range: aide qualifications, training and competency",no,27,27,22,2021,2026
+L0609,418.76,418.76(a)(1),Standard,Hospice Aide Qualifications,STAFF,"Staff qualifications, training, competency and supervision","tag range: aide qualifications, training and competency",no,27,26,25,2021,2026
+L0617,418.76,418.76(c)(3),Standard,Competency Evaluation,STAFF,"Staff qualifications, training, competency and supervision","tag range: aide qualifications, training and competency",no,26,26,26,2021,2026
+L0783,418.114,418.114,Condition,Personnel Qualification,STAFF,"Staff qualifications, training, competency and supervision",section default,no,20,20,20,2021,2026
+L0622,418.76,418.76(d)(2),Standard,In-Service Training,STAFF,"Staff qualifications, training, competency and supervision","tag range: aide qualifications, training and competency",no,13,13,13,2023,2026
+L0614,418.76,418.76(b)(4),Standard,Hospice Aide Training,STAFF,"Staff qualifications, training, competency and supervision","tag range: aide qualifications, training and competency",no,10,10,10,2023,2026
+L0793,418.114,418.114(c)(1),Standard,Personnel Qualification,STAFF,"Staff qualifications, training, competency and supervision",section default,no,9,9,9,2023,2026
+L0623,418.76,418.76(e),Standard,Hospice Aide Instructor Qualifications,STAFF,"Staff qualifications, training, competency and supervision","tag range: aide qualifications, training and competency",no,7,7,6,2023,2026
+L0621,418.76,418.76(d)(1),Standard,In-Service Training,STAFF,"Staff qualifications, training, competency and supervision","tag range: aide qualifications, training and competency",no,6,6,6,2024,2026
+L0785,418.114,418.114(b)(1),Standard,Personnel Qualification,STAFF,"Staff qualifications, training, competency and supervision",section default,no,5,5,5,2022,2026
+L0616,418.76,418.76(c)(2),Standard,Competency Evaluation,STAFF,"Staff qualifications, training, competency and supervision","tag range: aide qualifications, training and competency",no,4,4,4,2023,2024
+L0786,418.114,418.114(b)(2),Standard,Personnel Qualification,STAFF,"Staff qualifications, training, competency and supervision",section default,no,4,4,4,2022,2026
+L0618,418.76,418.76(c)(4),Standard,Competency Evaluation,STAFF,"Staff qualifications, training, competency and supervision","tag range: aide qualifications, training and competency",no,1,1,1,2024,2024
+L0794,418.114,418.114(c)(2),Standard,Personnel Qualification,STAFF,"Staff qualifications, training, competency and supervision",section default,no,1,1,1,2025,2025
+L0684,418.104,418.104(e)(3),Standard,Discharge Or Transfer Of Care,TRANSITION,"Discharge, transfer and transitions",paragraph override: discharge or transfer of care,no,900,849,784,2021,2026
+L0683,418.104,418.104(e)(2),Standard,Discharge Or Transfer Of Care,TRANSITION,"Discharge, transfer and transitions",paragraph override: discharge or transfer of care,no,868,867,799,2021,2026
+L0682,418.104,418.104(e)(1)(i),Standard,Discharge Or Transfer Of Care,TRANSITION,"Discharge, transfer and transitions",paragraph override: discharge or transfer of care,no,607,606,545,2021,2026

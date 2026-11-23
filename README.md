@@ -1,84 +1,85 @@
-# Hospice Network Explorer
+# Hospice Citation Explorer
 
-[Open the interactive dashboard](https://martinblanco-aspe.github.io/hospice-network-explorer/) · [Detailed methodology](https://martinblanco-aspe.github.io/hospice-network-explorer/methodology.html)
+[Open dashboard](https://martinblanco-aspe.github.io/hospice-network-explorer/) · [Care area classification](https://martinblanco-aspe.github.io/hospice-network-explorer/classification.html) · [Methods & limits](https://martinblanco-aspe.github.io/hospice-network-explorer/methodology.html)
 
-An exploratory browser dashboard of wording in CMS hospice QCOR survey narratives. Release: November 13, 2026. The dashboard includes the current CMS-classified network views, targeted removal simulations, and the compact care-wording policy sunburst with agency-based ray extensions, record-frequency shading and layered highlights. This release supersedes the November 7 dashboard behavior. Home health is maintained in a separate repository; no observations are joined between studies.
+Updated November 23, 2026. This dashboard describes care-related findings in CMS Quality, Certification and Oversight Reports (QCOR) citation records. It shows which requirements were cited, which care topics appear together, and the failure patterns reported within each primary care area. Home health is maintained as a separate study; observations are not joined across studies.
 
-## Data and analytical scope
+## Explore the dashboard
 
-The source workbook covers October 2021–September 2026. The care corpus has 67,594 candidate records and 6,486 case-normalized assigned source CCNs. Pending identities contribute to record-based calculations but not assigned-hospice coverage. The 70 held records and separate emergency-preparedness/life-safety material remain outside this care analysis. Source CCNs are descriptive identifiers, not independently verified agency histories.
+- **Start here:** a short introduction to survey reports, deficiency tags and the data sources.
+- **Regulations & requirements:** a sunburst of source-cited regulation sections and requirement categories. Ray length shows distinct source agencies; shade compares citation counts within a regulation.
+- **Care area connections:** a network of care areas matched in the same summary. “Named together” shows shared citations; “Main → also named” shows the existing primary text label and other matches.
+- **Care issue heatmap:** primary care area × primary failure type. Percentages use each care-area row total. Hover or click a care-area cell to preview or lock its row.
+- **Methods & limits:** source definitions, counts, year and survey-type tables, classification procedures and limitations.
 
-This repository includes derived feature-incidence data, source classifications, pilot material, and bounded illustrative excerpts already embedded in the reviewed dashboard. The CMS-classified payload contains 29,568 excerpt entries across phrase/tag groups and evidence/untrimmed modes; these entries overlap and are not unique patients, records, or additional coded cases. Their purpose is filtered source inspection. The original workbook, full reconstructed narrative corpus, internal notes, policy-source archives and policy-result synthesis are excluded.
+The multiple-year filter applies to the dashboard charts and examples. The standalone [classification explorer](https://martinblanco-aspe.github.io/hospice-network-explorer/classification.html) opens on **Care areas** and includes requirement-category and failure-type trees. Its direct link shows all years; open classification beneath the dashboard sunburst to use selected years.
 
-Automated matching is distinct from complete-account reading. The study records AI-assisted reading/coding of 96 selected narratives; the original pilot view contains the first 48. Independent human semantic validation and saturation are not claimed. Counts cannot establish patient-harm prevalence, provider ties, national noncompliance rates, causation or policy effectiveness.
+## Data represented
 
-## Current network views and source classifications
+| Measure | All-years care dataset |
+|---|---:|
+| Citation rows | 67,594 |
+| Existing survey groups | 11,389 |
+| Distinct source agency identifiers | 6,488 |
+| Source-cited regulation sections | 22 |
+| Distinct deficiency tags | 301 |
+| Requirement categories | 19 |
+| Named care-area categories | 25, plus Other and the separate uncertainty handling |
+| Failure types | 12, plus Other |
+| Included survey dates | 2021-10-01 through 2026-09-25 |
 
-The four views are Wording patterns, Standard-level deficiency, Condition-level deficiency and IJ. The 64 care phrases use research-defined aliases. Standard and Condition use source deficiency-level fields; IJ uses source IJ Yes and overlaps those levels. Missing IJ remains missing. Within the care corpus, 64,310 records are Standard, 3,284 Condition, and 289 IJ Yes (35 Standard and 254 Condition).
+Survey groups use the study’s existing source identifiers. They are not a count of PDFs separately reviewed. Partial years and source coverage limit year-to-year comparisons. Full annual and exact survey-type counts are in [Methods & limits](https://martinblanco-aspe.github.io/hospice-network-explorer/methodology.html). Source dataset: `hospice-classification-v1.0 / existing Phase 2 care corpus`.
 
-Classified views rank five source deficiency tags by distinct assigned hospices, then matching records and tag code. Those tags are protected diamonds. Their plain-language names appear on the map and source tag codes remain in metadata/tooltips. Policy descriptions are explanatory references; source classifications are not reassigned by text severity keywords.
+## NLP and classification algorithms
 
-The general default shows 64 phrases and 172 connections. Nodes describe text features. Phrase magnitude counts distinct assigned source hospices with matching wording in the selected cohort. Lines describe text relationships, not actual provider connections. Year, surveyor, survey purpose, text and graph controls apply to network calculations; the policy sunburst uses the separate full-corpus reference view.
+The classification uses **deterministic, rule-based natural language processing (NLP)** and a source-linked tag mapping. It does not train a statistical or transformer classifier.
 
-## Connection mathematics
-
-For a selected record set, N is its record count, nA and nB count records containing each feature, and nAB counts records containing both. Each feature counts once per record for these presence-based calculations.
+1. **Normalize and extract text.** Existing rules clean whitespace, split sentences, locate deficiency cues such as “failed to” or “did not,” and extract the surveyor’s issue summary. They trim specified boilerplate, evidence framing and sample descriptions. This is summary extraction by rules, not generated summarization.
+2. **Map requirements.** Each deficiency tag inherits one requirement category from the existing section-based mapping, with specific tag, tag-range or paragraph exceptions. The [mapping table](methods/requirement_mapping.csv) preserves those assignments and their basis.
+3. **Match care areas.** Case-insensitive regular expressions match disclosed words and phrases in the issue text. A summary may match several areas. The primary care area generally follows the earliest matched topic, with fixed tie-breaking, governance/quality exceptions and existing fallback rules.
+4. **Match failure types.** Predefined regular expressions identify failure wording. Multiple patterns may match; a fixed check order chooses the primary type. “Other” retains unclassified records. Primary selection and uncertainty flags follow the existing code.
+5. **Count associations.** Each care area and pair counts at most once per citation. Lift compares observed co-occurrence with an independence baseline. Positive pointwise mutual information (PPMI) summarizes association strength. Default network lines require at least 25 shared citations, lift ≥ 1.5, and selection among either endpoint’s four strongest qualifying PPMI neighbors.
 
 ```text
-lift(A,B) = N * nAB / (nA * nB)
-PPMI(A,B) = max(0, log2(lift(A,B)))
+N   = eligible citation rows in the selected years
+nA  = rows mentioning care area A
+nB  = rows mentioning care area B
+nAB = rows mentioning both A and B
+
+expected shared rows = nA * nB / N
+lift(A,B)            = N * nAB / (nA * nB)
+PPMI(A,B)            = max(0, log2(lift(A,B)))
 ```
 
-The current CMS views use unweighted same-record PPMI. The default support is at least 25 shared records, with lift at least 1.5; strongest-neighbor pruning keeps the union of the four strongest qualifying neighbors at either endpoint. Phrase/tag links use the same displayed graph construction rather than lexical harm weighting. A zero marginal does not yield an edge. Feature definitions, support, pruning, cohort and resolution influence the result.
+Zero marginals do not create a link. Network layout uses D3 force-based positioning; positions arrange the display and do not quantify clinical similarity. Colors identify predefined topic groups. They are not evidence of machine-learned clusters or severity.
 
-Alternative feature constructions and text handling are exploratory sensitivities. Hospice-incidence connections use phrase presence across an assigned hospice's selected records and can connect wording appearing on different dates. Exact-text collapse is a text sensitivity, not a verified duplicate-event removal rule. Community colors identify algorithmic wording groups, not validated clinical themes. Screen positions and distances are browsing aids.
+The lexical classification does not use embeddings, semantic similarity, topic-model training or inferred synonym expansion. AI assistance in developing rules and reviewing selected material is separate from classifying the complete corpus with those fixed rules. Computational consistency does not establish independent human or clinical validation.
 
-## Removal simulations
+Inspect [the citation rules](methods/citation_rules.py), [requirement mapping](methods/requirement_mapping.csv), [label definitions](methods/label_definitions.json), and [aggregate data profile](methods/data_profile.json). The [classification explorer](https://martinblanco-aspe.github.io/hospice-network-explorer/classification.html) shows the words and phrases behind the labels. The dashboard adds the existing IDG uncertainty flags and display handling documented in Methods & limits.
 
-Turn Simulation on in the map. Four wording strategies are available: Separate the wording clusters; Best path to shatter it; Make the largest piece smaller; Most common phrases. Wording playback covers up to 40 removals. Cluster separation uses a vertex cover of the initial between-cluster links; the full default all-cluster cover has 23 phrases. Default exact results and filtered best-found results are labeled separately. Shatter/shrink playback follows fixed finish-line sets, with dotted per-count references distinguished from the solid sequential paths. A best-found set is not a general optimality claim.
+## Interpretation and limits
 
-In Standard, Condition and IJ, select one of the five protected source-tag targets. Stage 1 removes care phrases to leave that target outside a surviving strict-majority main component. All tag diamonds remain protected. Default stored target solutions have independent zero-gap integer-program checks; changed graph/filter settings invoke a qualified best-found search. No-link, already-separated and main-network-shift outcomes are distinguished. A route certificate for fixed endpoints does not independently prove the additional majority constraint.
+Citation rows, survey groups, agencies and patients are different units. The network includes all matched care areas, so pair counts overlap. The heatmap counts each citation once under its primary care area and primary failure type. Primary means the existing text-rule selection, not clinical importance.
 
-```text
-Stage 1: minimize |R|, subject to target not in C and 2*|C| > N0 - |R|
-Largest-piece share = largest surviving component size / starting node count
-Fragmentation = 1 - sum(s_i*(s_i-1)) / (n*(n-1))
-```
+This is descriptive text analysis of the selected extract. Associations do not establish causation, provider relationships, statistical significance, patient-harm prevalence or national noncompliance rates. Current regulation links do not resolve the policy version applicable to each historical survey. The existing hospice requirement mapping includes the documented L0651 governance-to-delivery assignment and related L0650 issue. IDG actor wording and quoted rule language also affect some topic matches. These issues are described in Methods & limits and have not been silently corrected.
 
-R contains removable care phrases; C is a complete surviving connected component; N0 includes all starting nodes, including protected tags. Component sizes s_i and surviving count n include surviving tags. The retained fragmentation engine uses 1 when n is at most 1.
+## Build and verification
 
-Stage 2 greedily removes additional phrases to fragment the graph; it has no minimum-removal guarantee. Protected links can obstruct complete dismantling. Paused map clicks and removed pills support manual exploration; there is no manual-removal dropdown. Target-neighbor links receive red emphasis. Playback preserves pan/zoom and Neutral colors retain teal phrase nodes and red diamonds. These simulations describe text topology, not effects of improving care or changing policy.
+Python 3 with the standard library is sufficient:
 
-## Issues and policy
-
-The compact sunburst shows the 64 care phrases in 86 phrase–policy mappings. References are primarily [42 CFR Part 418](https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-B/part-418), explained using the existing [CMS Appendix M](https://www.cms.gov/Regulations-and-Guidance/Guidance/Manuals/downloads/som107ap_m_hospice.pdf) reference material. Current reference links are not a complete historical finding-to-law crosswalk. Source tags remain available in network evidence and underlying data; the simplified sunburst displays care wording only.
-
-Every ray has equal label space plus an extension proportional to distinct assigned agencies: extension = 100 × agency count / largest care-phrase agency count. Full phrase labels wrap. Section labels remain present in the compact ring, with smaller text for narrow sectors. Equal angular widths count mappings; category hue identifies the policy section.
-
-Within each policy category, lighter shades mean fewer matching records and darker shades mean more. Shade position t = (records − minimum) / (maximum − minimum); the category-color contribution rises from 22% to 100% over a white background. A tied/single-value category uses its full color. Category scales are separate, so identical shades across categories do not imply equal counts. Legends show the record ranges.
-
-Hover previews and click locks a phrase/policy branch. A separate pointer-transparent layer outlines related sectors and temporarily fades unrelated ones. A small Clear highlight button appears at the top right of the map only while a highlight is locked. The former highlight-summary card is omitted; hover tooltips and source details supply the information. The floating button, center click or Escape restores the original frequency colors without shifting the chart. Agency lengths, raw counts and underlying fills do not change during highlighting. The accessible phrase list, policy legend, exact counts, saved evidence and pilot navigation remain. Top search/vocabulary/metric filters are omitted.
-
-A phrase linked to several policies repeats its corpus-wide value under each; do not add these as unique observations or interpret them as citations restricted to that policy. Neither frequency nor shade measures harm or policy importance.
-
-## Reading coverage and validation
-
-This is provisional descriptive text analysis. Survey selection, publication lag, partial calendar endpoints, source documentation differences, repeated wording and unresolved historical policy versions limit comparisons. Source findings, patients, providers, records and independent survey events are distinct units. No independent clinical validation, saturation, causal inference or Phase 4 policy-result synthesis is included in this public release.
-
-Release checks compare packaged network/source metadata and graph views to the approved local dashboard, verify sunburst geometry/counts/shading/highlight interactions on desktop/mobile, check local links and build hashes, and test the live Pages site. The scoped snapshot is a research presentation, not an official CMS reporting product or federal endorsement.
-
-## Communities, size, and comparisons
-
-Weighted community grouping is exploratory and varies with the displayed graph and controls. Node magnitude is assigned-hospice coverage, not patient harm. Cohorts can contain the same hospice across dates and are not independent random populations. Exact counts and denominators should be read with each graph. Historical severity method files, where retained under methods, describe earlier experiments; they do not define the current CMS-classified views.
-
-## Repository and reproducible build
-
-Download the repository ZIP, extract it, and open index.html, or use the public dashboard link. The page bundles its libraries and derived data; regulatory references open online.
-
-```text
+```sh
 python build.py
 python build.py --check
-python -m http.server 8000
 ```
 
-The standard-library build recreates index.html and methodology.html from src, data and vendor files. It does not rerun the original workbook audit or qualitative analysis. The manifest records published artifact hashes. Current source-classification and simulation implementation references are under methods; validation records describe their actual scope and release date. GitHub Pages serves main/root with .nojekyll. No original workbook or full corpus is required or included.
+`src/page.html` and `src/scripts/` reproduce the released dashboard byte for byte. The build also creates `classification.html` and `methodology.html`; `build_manifest.json` records source/output hashes. Files under `validation/` record release checks. Rebuilding this derived display snapshot does not reconstruct the original workbook or rerun the study’s data audit.
+
+The publication includes the reviewed derived display data and bounded source examples already embedded in the local dashboard. Original workbooks, full reconstructed narrative corpora, internal study notes, policy-source archives and policy-result synthesis are excluded. The previous public release is preserved under [`legacy/pre-2026-11-23/`](legacy/pre-2026-11-23/) and in Git history; its methods and counts describe that historical version.
+
+## Official sources
+
+- [CMS QCOR](https://qcor.cms.gov/)
+- [42 CFR Part 418 — Hospice Care](https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-B/part-418)
+- [CMS State Operations Manual, Appendix M — Hospice](https://www.cms.gov/Regulations-and-Guidance/Guidance/Manuals/downloads/som107ap_m_hospice.pdf)
+
+Third-party visualization licensing is recorded in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).

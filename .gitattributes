@@ -1,1 +1,4 @@
 * text=auto eol=lf
+index.html -text
+classification.html -text
+methodology.html -text

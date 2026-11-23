@@ -1,0 +1,33 @@
+/* Readable document styling, scoped to Methods and limits. */
+#methodsPage.methods-document{box-sizing:border-box;width:calc(100% - 48px);max-width:1400px;margin:16px auto;padding:24px 28px;background:white;border:1px solid #d9e5e8;border-radius:11px;color:#173c4b;font-size:14px;line-height:1.65}
+.methods-document .method-heading{background:transparent;color:inherit;padding:0 0 12px;border-bottom:1px solid #e1ebed}
+.methods-document .method-heading span{font-size:11px;text-transform:uppercase;letter-spacing:.8px;color:#087b78}
+.methods-document h2{font-size:25px;line-height:1.25;margin:3px 0 7px}
+.methods-document h3{font-size:19px;margin:0 0 10px;color:#123343}
+.methods-document p,.methods-document li,.methods-document dd{font-size:14px;line-height:1.65}
+.methods-document p{margin:0 0 12px}
+.methods-document .method-heading p{margin:0;color:#526f7b}
+.methods-document>section{padding:22px 0 6px;border-bottom:1px solid #e1ebed;scroll-margin-top:16px}
+.methods-document .method-contents{display:flex;gap:6px 18px;flex-wrap:wrap;padding:12px 0;border-bottom:1px solid #e1ebed}
+.methods-document a{color:#087b78;text-underline-offset:3px}
+.methods-document a:focus-visible,.methods-document summary:focus-visible{outline:3px solid #c88b1d;outline-offset:3px}
+.methods-document dl{margin:0}.methods-document dl>div{margin-bottom:13px}
+.methods-document dt{font-weight:700;color:#123343}.methods-document dd{margin:2px 0 0}
+.methods-document ul{padding-left:22px}.methods-document li{margin-bottom:12px}
+.methods-document .method-metrics{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px;margin:16px 0}
+.methods-document .method-metrics p{padding:12px;border:1px solid #d9e5e8;border-radius:7px;font-size:12px;line-height:1.4;margin:0;background:#f6f9fa}
+.methods-document .method-metrics strong{display:block;font-size:25px;color:#123343;margin-bottom:4px}
+.methods-document .method-data-tables{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:24px}
+.methods-document .method-data-tables>div{min-width:0}
+.methods-document .method-table-wrap{overflow-x:auto;margin:12px 0}
+.methods-document table{width:100%;border-collapse:collapse;font-size:13px}
+.methods-document caption{text-align:left;font-weight:700;margin-bottom:8px;color:#123343}
+.methods-document th,.methods-document td{padding:8px 10px;border-bottom:1px solid #e1ebed;text-align:right;font-variant-numeric:tabular-nums;vertical-align:top}
+.methods-document th:first-child{font-weight:500;text-align:left}
+.methods-document thead th{background:#edf4f5;color:#123343;font-weight:700!important}
+.methods-document details{margin:14px 0;padding:10px 12px;background:#f7fafb;border:1px solid #d9e5e8;border-radius:6px}
+.methods-document summary{cursor:pointer;font-weight:650;color:#123343}
+.methods-document details>p{margin:10px 0 0}
+.methods-document .method-note,.methods-document .year-scope-note{font-size:12px!important;color:#607984;line-height:1.6!important;margin:12px 0}
+@media(max-width:950px){.methods-document .method-data-tables{grid-template-columns:1fr}.methods-document .method-metrics{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:600px){#methodsPage.methods-document{width:calc(100% - 24px);padding:18px 16px;margin:12px auto}.methods-document .method-metrics{grid-template-columns:repeat(2,minmax(0,1fr))}.methods-document th,.methods-document td{padding:6px}.methods-document h3{font-size:18px}}

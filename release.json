@@ -1,0 +1,13 @@
+{
+  "release_date": "2026-11-23",
+  "study": "hospice",
+  "name": "Hospice",
+  "prefix": "HOSPICE",
+  "repository": "MartinBlanco-ASPE/hospice-network-explorer",
+  "dataset": "hospice-classification-v1.0 / existing Phase 2 care corpus",
+  "source_dashboard_sha256": "efaedf84c0df8b2922729649f3f53d477d3f02ec83a0e7cbac5d19fb04a19191",
+  "source_newline": "CRLF",
+  "scope": "Current separate dashboard, methods, aggregate classification explorer, derived display snapshot and inspectable classification rules. No original workbook, full narrative corpus, internal notes, or policy synthesis.",
+  "prior_release": "legacy/pre-2026-11-23/",
+  "statistics_scope": "All-years care-citation rows; current source-identifier counts; survey-group counts are not counts of PDF reports reviewed."
+}

@@ -1,0 +1,187 @@
+{
+  "study": "hospice",
+  "source_rows": 89041,
+  "citations": 67594,
+  "surveys": 11389,
+  "agencies": 6488,
+  "sections": [
+    "418.52",
+    "418.54",
+    "418.56",
+    "418.58",
+    "418.60",
+    "418.62",
+    "418.64",
+    "418.66",
+    "418.70",
+    "418.72",
+    "418.74",
+    "418.76",
+    "418.78",
+    "418.100",
+    "418.102",
+    "418.104",
+    "418.106",
+    "418.108",
+    "418.110",
+    "418.112",
+    "418.114",
+    "418.116"
+  ],
+  "tags": 301,
+  "first_date": "2021-10-01",
+  "last_date": "2026-09-25",
+  "years": {
+    "2021": {
+      "citations": 2500,
+      "surveys": 514,
+      "agencies": 492
+    },
+    "2022": {
+      "citations": 12755,
+      "surveys": 2463,
+      "agencies": 2235
+    },
+    "2023": {
+      "citations": 13273,
+      "surveys": 2224,
+      "agencies": 1932
+    },
+    "2024": {
+      "citations": 16497,
+      "surveys": 2463,
+      "agencies": 2167
+    },
+    "2025": {
+      "citations": 15013,
+      "surveys": 2429,
+      "agencies": 2151
+    },
+    "2026": {
+      "citations": 7556,
+      "surveys": 1296,
+      "agencies": 1102
+    }
+  },
+  "survey_types": {
+    "Reaccreditation": {
+      "citations": 34345,
+      "surveys": 4535,
+      "agencies": 3468
+    },
+    "Initial": {
+      "citations": 8043,
+      "surveys": 1847,
+      "agencies": 1514
+    },
+    "Recertification": {
+      "citations": 9009,
+      "surveys": 1792,
+      "agencies": 1435
+    },
+    "Complaint": {
+      "citations": 5307,
+      "surveys": 1192,
+      "agencies": 885
+    },
+    "Initial with CCN": {
+      "citations": 6228,
+      "surveys": 955,
+      "agencies": 943
+    },
+    "Follow-Up": {
+      "citations": 2794,
+      "surveys": 734,
+      "agencies": 575
+    },
+    "Complaint, Recertification": {
+      "citations": 1144,
+      "surveys": 176,
+      "agencies": 165
+    },
+    "Initial with CCN Follow-Up": {
+      "citations": 164,
+      "surveys": 48,
+      "agencies": 44
+    },
+    "Focused Infection Control, Recertification": {
+      "citations": 132,
+      "surveys": 36,
+      "agencies": 35
+    },
+    "Focused Infection Control, Other-Fed, Recertification": {
+      "citations": 209,
+      "surveys": 32,
+      "agencies": 31
+    },
+    "Initial Certification": {
+      "citations": 68,
+      "surveys": 16,
+      "agencies": 16
+    },
+    "Complaint, Sample Validation": {
+      "citations": 86,
+      "surveys": 7,
+      "agencies": 7
+    },
+    "Complaint, Focused Infection Control, Other-Fed": {
+      "citations": 6,
+      "surveys": 5,
+      "agencies": 5
+    },
+    "Complaint, Other-Fed": {
+      "citations": 21,
+      "surveys": 4,
+      "agencies": 4
+    },
+    "Complaint, Focused Infection Control, Recertification": {
+      "citations": 18,
+      "surveys": 3,
+      "agencies": 3
+    },
+    "Other-Fed": {
+      "citations": 13,
+      "surveys": 3,
+      "agencies": 3
+    },
+    "Other-Fed, Recertification": {
+      "citations": 5,
+      "surveys": 3,
+      "agencies": 3
+    },
+    "Complaint, Initial Certification": {
+      "citations": 2,
+      "surveys": 1,
+      "agencies": 1
+    }
+  },
+  "groups_with_multiple_types": 0,
+  "groups_with_multiple_years": 0,
+  "levels": {
+    "Standard": 64310,
+    "Condition": 3284
+  },
+  "requirement_categories": 19,
+  "failure_types": 12,
+  "care_areas": 25,
+  "uncertainty_flag_rows": 1967,
+  "mapping_basis": {
+    "section default": 263,
+    "paragraph override": 26,
+    "tag range": 12
+  },
+  "input_sha256": {
+    "backend\\phase2\\authoritative\\hospice-classification-v1.0\\manifest.json": "d96a4ab19ad324bd0edbab0ec2faeaed507800f9a8b1ad05b9395f1a040dcc1a",
+    "backend\\phase2\\artifact_manifest.json": "33fcbcea64e5a9193c39ff126b929bfe201d2db9569d726863e4100cdbae5806",
+    "backend\\phase2\\authoritative\\hospice-classification-v1.0\\tag_layer.csv": "5208ab70795d80da47bda31d69b506802ce6fc854911a31c2ca1cb7ce915771c",
+    "backend\\phase2\\audit\\audit_summary.json": "cacb8bdeb9912444c2570d8767bf3498e78ad2aeaa43f31a84c9ccc528c28eeb"
+  },
+  "counting_rules": "Existing study-specific group IDs, years, source CCNs and exact Survey Type combinations; no recoding.",
+  "source_buckets": {
+    "care_findings": 67594,
+    "context_and_exclusions": 14119,
+    "emergency_preparedness": 6311,
+    "life_safety_auxiliary": 947,
+    "review_required": 70
+  }
+}

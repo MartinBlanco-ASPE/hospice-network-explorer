@@ -1,0 +1,244 @@
+{
+  "family": {
+    "PLAN": {
+      "short": "Plan of care",
+      "full": "Plan of care: content, development, review and revision"
+    },
+    "ORDERS": {
+      "short": "Orders",
+      "full": "Orders and physician/practitioner notification"
+    },
+    "DELIVER": {
+      "short": "Delivery",
+      "full": "Delivery of ordered and planned services"
+    },
+    "COORD": {
+      "short": "Coordination",
+      "full": "Coordination of care and services"
+    },
+    "ASSESS": {
+      "short": "Assessment",
+      "full": "Patient assessment"
+    },
+    "HOSPICE_SVC": {
+      "short": "IDG & hospice services",
+      "full": "Hospice IDG, counseling, volunteer and non-core services"
+    },
+    "SKILLED": {
+      "short": "Skilled services",
+      "full": "Skilled and licensed professional services"
+    },
+    "AIDE": {
+      "short": "Aide",
+      "full": "Aide and homemaker assignments, services and supervision"
+    },
+    "STAFF": {
+      "short": "Staff",
+      "full": "Staff qualifications, training, competency and supervision"
+    },
+    "MEDS": {
+      "short": "Medications",
+      "full": "Medications, drugs, biologicals and equipment"
+    },
+    "INFECT": {
+      "short": "Infection",
+      "full": "Infection prevention and control"
+    },
+    "RECORDS": {
+      "short": "Records",
+      "full": "Clinical records: content, authentication and protection"
+    },
+    "RIGHTS": {
+      "short": "Rights",
+      "full": "Patient rights, notices, complaints and protection"
+    },
+    "TRANSITION": {
+      "short": "Transitions",
+      "full": "Discharge, transfer and transitions"
+    },
+    "ELIGIBILITY": {
+      "short": "Eligibility",
+      "full": "Hospice certification of terminal illness"
+    },
+    "INPATIENT": {
+      "short": "Inpatient",
+      "full": "Hospice inpatient and respite care and inpatient facility"
+    },
+    "FACILITY": {
+      "short": "Facility residents",
+      "full": "Hospice care for nursing-facility (SNF/NF/ICF) residents"
+    },
+    "QAPI": {
+      "short": "QAPI",
+      "full": "Quality assessment and performance improvement"
+    },
+    "GOV": {
+      "short": "Governance",
+      "full": "Governance, administration, arrangements and legal compliance"
+    }
+  },
+  "care": {
+    "plan_of_care": {
+      "short": "Plan of care",
+      "full": "Plan of care content and revision"
+    },
+    "orders_physician": {
+      "short": "Orders/physician",
+      "full": "Orders and physician/practitioner role"
+    },
+    "visits_services": {
+      "short": "Visits/services",
+      "full": "Visits, service frequency and availability"
+    },
+    "care_coordination": {
+      "short": "Coordination",
+      "full": "Care coordination and communication"
+    },
+    "assessment": {
+      "short": "Assessment",
+      "full": "Assessment and OASIS assessment content"
+    },
+    "hospice_idg_services": {
+      "short": "IDG services",
+      "full": "Hospice IDG, counseling, bereavement, spiritual and volunteer services"
+    },
+    "uncertain_idg": {
+      "short": "Uncertain (IDG wording)",
+      "full": "Care area uncertain: the summary names the IDG as the actor (\"the IDG ensures that...\"), so the rule read the actor as the subject"
+    },
+    "therapy_services": {
+      "short": "Therapy/social work",
+      "full": "Therapy and social work services"
+    },
+    "aide_services": {
+      "short": "Aide services",
+      "full": "Aide and homemaker services"
+    },
+    "staff_personnel": {
+      "short": "Staff/personnel",
+      "full": "Staff qualifications, training, supervision and personnel"
+    },
+    "medications": {
+      "short": "Medications",
+      "full": "Medications, drugs and pharmacy"
+    },
+    "infection": {
+      "short": "Infection control",
+      "full": "Infection prevention practice and program"
+    },
+    "records_documentation": {
+      "short": "Records",
+      "full": "Clinical records and documentation"
+    },
+    "rights_information": {
+      "short": "Rights/notices",
+      "full": "Patient rights, notices, complaints and confidentiality"
+    },
+    "discharge_transfer": {
+      "short": "Discharge/transfer",
+      "full": "Discharge, transfer and transitions"
+    },
+    "eligibility_election": {
+      "short": "Eligibility",
+      "full": "Hospice eligibility, election and certification"
+    },
+    "inpatient_facility": {
+      "short": "Inpatient/facility",
+      "full": "Inpatient, respite and facility-resident care"
+    },
+    "qapi_quality": {
+      "short": "QAPI/quality",
+      "full": "QAPI and quality data"
+    },
+    "governance_admin": {
+      "short": "Governance/admin",
+      "full": "Governance, administration, contracts and legal compliance"
+    },
+    "patient_education": {
+      "short": "Education",
+      "full": "Patient and caregiver education"
+    },
+    "falls_safety": {
+      "short": "Falls/safety",
+      "full": "Falls, safety, abuse and emergencies"
+    },
+    "devices_equipment": {
+      "short": "Devices/equipment",
+      "full": "Devices, equipment and supplies"
+    },
+    "pain_symptoms": {
+      "short": "Pain/symptoms",
+      "full": "Pain and symptom management"
+    },
+    "wound_skin": {
+      "short": "Wounds/skin",
+      "full": "Wounds, pressure injuries and skin"
+    },
+    "vital_signs_monitoring": {
+      "short": "Vital signs",
+      "full": "Vital signs, weights and clinical parameters"
+    },
+    "nutrition_hydration": {
+      "short": "Nutrition",
+      "full": "Nutrition, diet and hydration"
+    },
+    "other": {
+      "short": "Other",
+      "full": "No care-area keyword found"
+    }
+  },
+  "failure": {
+    "rights_information": {
+      "short": "Rights/info not given",
+      "full": "Patient rights, notices or information not provided"
+    },
+    "not_timely": {
+      "short": "Not timely",
+      "full": "Not done on time or at the required frequency"
+    },
+    "not_as_ordered": {
+      "short": "Not as ordered",
+      "full": "Not done as ordered or as the plan of care specified"
+    },
+    "orders_authorization": {
+      "short": "Orders/signatures missing",
+      "full": "Orders, signatures or consent not obtained"
+    },
+    "program_policy": {
+      "short": "Program/policy",
+      "full": "Program, policy or oversight not established, maintained or effective"
+    },
+    "staff_competency": {
+      "short": "Staff competency",
+      "full": "Staff qualification, training, competency or supervision not ensured"
+    },
+    "not_communicated": {
+      "short": "Not communicated",
+      "full": "Not communicated, reported or coordinated"
+    },
+    "not_reviewed_updated": {
+      "short": "Not reviewed/updated",
+      "full": "Not reviewed, revised or updated"
+    },
+    "not_documented": {
+      "short": "Not documented",
+      "full": "Not documented"
+    },
+    "missing_content": {
+      "short": "Missing content",
+      "full": "Required content missing or inaccurate (plan, assessment, record, form)"
+    },
+    "incorrect_practice": {
+      "short": "Done incorrectly",
+      "full": "Done incorrectly or not to accepted standards"
+    },
+    "not_done": {
+      "short": "Not done",
+      "full": "Not done or not provided"
+    },
+    "other": {
+      "short": "Other",
+      "full": "No failure keyword found"
+    }
+  }
+}

@@ -1,0 +1,86 @@
+[
+  {
+    "token": "<!--QCOR_SCRIPT_0-->",
+    "path": "src/scripts/000.js",
+    "open": "<script>",
+    "close": "</script>"
+  },
+  {
+    "token": "<!--QCOR_SCRIPT_1-->",
+    "path": "src/scripts/001.js",
+    "open": "<script>",
+    "close": "</script>"
+  },
+  {
+    "token": "<!--QCOR_SCRIPT_2-->",
+    "path": "src/scripts/002.js",
+    "open": "<script>",
+    "close": "</script>"
+  },
+  {
+    "token": "<!--QCOR_SCRIPT_3-->",
+    "path": "src/scripts/003.js",
+    "open": "<script>",
+    "close": "</script>"
+  },
+  {
+    "token": "<!--QCOR_SCRIPT_4-->",
+    "path": "src/scripts/004.js",
+    "open": "<script>",
+    "close": "</script>"
+  },
+  {
+    "token": "<!--QCOR_SCRIPT_5-->",
+    "path": "src/scripts/005.js",
+    "open": "<script>",
+    "close": "</script>"
+  },
+  {
+    "token": "<!--QCOR_SCRIPT_6-->",
+    "path": "src/scripts/006.js",
+    "open": "<script>",
+    "close": "</script>"
+  },
+  {
+    "token": "<!--QCOR_SCRIPT_7-->",
+    "path": "src/scripts/007.js",
+    "open": "<script>",
+    "close": "</script>"
+  },
+  {
+    "token": "<!--QCOR_SCRIPT_8-->",
+    "path": "src/scripts/008.js",
+    "open": "<script>",
+    "close": "</script>"
+  },
+  {
+    "token": "<!--QCOR_SCRIPT_9-->",
+    "path": "src/scripts/009.js",
+    "open": "<script>",
+    "close": "</script>"
+  },
+  {
+    "token": "<!--QCOR_SCRIPT_10-->",
+    "path": "src/scripts/010.js",
+    "open": "<script>",
+    "close": "</script>"
+  },
+  {
+    "token": "<!--QCOR_SCRIPT_11-->",
+    "path": "src/scripts/011.js",
+    "open": "<script>",
+    "close": "</script>"
+  },
+  {
+    "token": "<!--QCOR_SCRIPT_12-->",
+    "path": "src/scripts/012.js",
+    "open": "<script>",
+    "close": "</script>"
+  },
+  {
+    "token": "<!--QCOR_SCRIPT_13-->",
+    "path": "src/scripts/013.js",
+    "open": "<script>",
+    "close": "</script>"
+  }
+]
