@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-24",
+  "study": "hospice",
+  "status": "passed",
+  "source_dashboard_sha256": "f4fdf50077f55d0d7d04b10f3bbeb43687d3f6686864c02dad3940fd914abe10",
+  "study_specific_payloads": true,
+  "no_idg_arrow_exclusions": true,
+  "retired_uncertainty_absent_from_active_codebook": true,
+  "standalone_classification_checked": true,
+  "local_http_browser_checks": 28,
+  "idg_primary": 7953,
+  "idg_named": 15124,
+  "source_trace_flags_preserved": 1967,
+  "outgoing_idg_relationship_supports": 13666,
+  "independent_source_checks": 444
+}

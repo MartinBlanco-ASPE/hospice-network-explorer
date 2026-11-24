@@ -37,7 +37,7 @@
  }
  function sunPayload(indices){
   const t=clone(T),root=t.tree,bySection=new Map(),byPair=new Map(),members=new Set(indices);
-  const make=()=>({n:0,ag:new Set(),issues:new Set()});const profile=(p,i)=>{p.n++;p.ag.add(S.agy[i]);p.issues.add(((S.flg[i]&4)?S.uncertain:S.car[i])+'|'+S.fai[i]);};
+  const make=()=>({n:0,ag:new Set(),issues:new Set()});const profile=(p,i)=>{p.n++;p.ag.add(S.agy[i]);p.issues.add(S.car[i]+'|'+S.fai[i]);};
   const all=make();for(const i of indices){const s=sections[i],family=D.labels.family[S.families[S.fam[i]]].short,key=s+'|'+family;let a=bySection.get(s),b=byPair.get(key);if(!a)bySection.set(s,a=make());if(!b)byPair.set(key,b=make());profile(a,i);profile(b,i);profile(all,i);}
   const examples=D.context.examples.filter(e=>members.has(e.row_index));
   function update(node,p,sec,family){node.count=p.n;node.agencies=p.ag.size;if('issues'in node)node.issues=p.issues.size;for(const k of ['example','example_path','example_path_count','example_is_top'])delete node[k];const e=examples.find(e=>(sec===undefined||e.section===sec)&&(family===undefined||D.labels.family[S.families[e.f]].short===family));if(e){node.example=e;node.example_path={family:D.labels.family[S.families[e.f]],care:D.labels.care[S.care[e.c]],failure:D.labels.failure[S.failures[e.x]]};}}

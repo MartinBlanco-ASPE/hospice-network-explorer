@@ -2,7 +2,7 @@
 
 [Open dashboard](https://martinblanco-aspe.github.io/hospice-network-explorer/) · [Care area classification](https://martinblanco-aspe.github.io/hospice-network-explorer/classification.html) · [Methods & limits](https://martinblanco-aspe.github.io/hospice-network-explorer/methodology.html)
 
-Updated November 23, 2026. This dashboard describes care-related findings in CMS Quality, Certification and Oversight Reports (QCOR) citation records. It shows which requirements were cited, which care topics appear together, and the failure patterns reported within each primary care area. Home health is maintained as a separate study; observations are not joined across studies.
+Updated November 24, 2026. This dashboard describes care-related findings in CMS Quality, Certification and Oversight Reports (QCOR) citation records. It shows which requirements were cited, which care topics appear together, and the failure patterns reported within each primary care area. Home health is maintained as a separate study; observations are not joined across studies.
 
 ## Explore the dashboard
 
@@ -24,11 +24,11 @@ The multiple-year filter applies to the dashboard charts and examples. The stand
 | Source-cited regulation sections | 22 |
 | Distinct deficiency tags | 301 |
 | Requirement categories | 19 |
-| Named care-area categories | 25, plus Other and the separate uncertainty handling |
+| Named care-area categories | 25, plus Other |
 | Failure types | 12, plus Other |
 | Included survey dates | 2021-10-01 through 2026-09-25 |
 
-Survey groups use the study’s existing source identifiers. They are not a count of PDFs separately reviewed. Partial years and source coverage limit year-to-year comparisons. Full annual and exact survey-type counts are in [Methods & limits](https://martinblanco-aspe.github.io/hospice-network-explorer/methodology.html). Source dataset: `hospice-classification-v1.0 / existing Phase 2 care corpus`.
+Survey groups use the study’s existing source identifiers. They are not a count of PDFs separately reviewed. Partial years and source coverage limit year-to-year comparisons. Full annual and exact survey-type counts are in [Methods & limits](https://martinblanco-aspe.github.io/hospice-network-explorer/methodology.html). Source dataset: `hospice-classification-v1.0 / existing Phase 2 care corpus / HSP-IDG-DISPLAY-2026-11-24`.
 
 ## NLP and classification algorithms
 
@@ -37,7 +37,7 @@ The classification uses **deterministic, rule-based natural language processing 
 1. **Normalize and extract text.** Existing rules clean whitespace, split sentences, locate deficiency cues such as “failed to” or “did not,” and extract the surveyor’s issue summary. They trim specified boilerplate, evidence framing and sample descriptions. This is summary extraction by rules, not generated summarization.
 2. **Map requirements.** Each deficiency tag inherits one requirement category from the existing section-based mapping, with specific tag, tag-range or paragraph exceptions. The [mapping table](methods/requirement_mapping.csv) preserves those assignments and their basis.
 3. **Match care areas.** Case-insensitive regular expressions match disclosed words and phrases in the issue text. A summary may match several areas. The primary care area generally follows the earliest matched topic, with fixed tie-breaking, governance/quality exceptions and existing fallback rules.
-4. **Match failure types.** Predefined regular expressions identify failure wording. Multiple patterns may match; a fixed check order chooses the primary type. “Other” retains unclassified records. Primary selection and uncertainty flags follow the existing code.
+4. **Match failure types.** Predefined regular expressions identify failure wording. Multiple patterns may match; a fixed check order chooses the primary type. “Other” retains unclassified records. Primary selection follows the disclosed study-specific rules; original wording flags remain backend trace fields.
 5. **Count associations.** Each care area and pair counts at most once per citation. Lift compares observed co-occurrence with an independence baseline. Positive pointwise mutual information (PPMI) summarizes association strength. Default network lines require at least 25 shared citations, lift ≥ 1.5, and selection among either endpoint’s four strongest qualifying PPMI neighbors.
 
 ```text
@@ -55,13 +55,13 @@ Zero marginals do not create a link. Network layout uses D3 force-based position
 
 The lexical classification does not use embeddings, semantic similarity, topic-model training or inferred synonym expansion. AI assistance in developing rules and reviewing selected material is separate from classifying the complete corpus with those fixed rules. Computational consistency does not establish independent human or clinical validation.
 
-Inspect [the citation rules](methods/citation_rules.py), [requirement mapping](methods/requirement_mapping.csv), [label definitions](methods/label_definitions.json), and [aggregate data profile](methods/data_profile.json). The [classification explorer](https://martinblanco-aspe.github.io/hospice-network-explorer/classification.html) shows the words and phrases behind the labels. The dashboard adds the existing IDG uncertainty flags and display handling documented in Methods & limits.
+Inspect [the frozen citation rules](methods/citation_rules.py), [the study-specific classifier](methods/classify_summary.py), [classification versions and IDG decisions](methods/classification_contract.json), [requirement mapping](methods/requirement_mapping.csv), [label definitions](methods/label_definitions.json), and [aggregate data profile](methods/data_profile.json). The [classification explorer](https://martinblanco-aspe.github.io/hospice-network-explorer/classification.html) shows the words and phrases behind the labels. Hospice retains its adopted IDG services assignments; the original wording flag does not create a separate care-area category.
 
 ## Interpretation and limits
 
 Citation rows, survey groups, agencies and patients are different units. The network includes all matched care areas, so pair counts overlap. The heatmap counts each citation once under its primary care area and primary failure type. Primary means the existing text-rule selection, not clinical importance.
 
-This is descriptive text analysis of the selected extract. Associations do not establish causation, provider relationships, statistical significance, patient-harm prevalence or national noncompliance rates. Current regulation links do not resolve the policy version applicable to each historical survey. The existing hospice requirement mapping includes the documented L0651 governance-to-delivery assignment and related L0650 issue. IDG actor wording and quoted rule language also affect some topic matches. These issues are described in Methods & limits and have not been silently corrected.
+This is descriptive text analysis of the selected extract. Associations do not establish causation, provider relationships, statistical significance, patient-harm prevalence or national noncompliance rates. Current regulation links do not resolve the policy version applicable to each historical survey. The existing hospice requirement mapping retains the documented L0651 governance-to-delivery assignment and related L0650 issue. The owner retained IDG actor wording under the adopted IDG services care area; its original flag remains a backend trace field. Quoted rule language can also affect topic matches. Methods & limits records these decisions and limitations.
 
 ## Build and verification
 

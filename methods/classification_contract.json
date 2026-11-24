@@ -1,0 +1,14 @@
+{
+  "study": "hospice",
+  "frozen_rules_sha256": "bfef7d74bfdce2f89540a81e459fe6567e7f68fa62021599940a4ca6c06ea914",
+  "source_policy_assignments": "unchanged",
+  "counting": "One primary care area and failure type per citation; all-label topic associations overlap.",
+  "idg_display": "Adopted primary labels; backend wording flags do not remove or reassign citations.",
+  "classification_version": "hospice-classification-v1.0",
+  "classification_manifest_sha256": "d96a4ab19ad324bd0edbab0ec2faeaed507800f9a8b1ad05b9395f1a040dcc1a",
+  "display_alignment": "HSP-IDG-DISPLAY-2026-11-24",
+  "retired_display_categories": [
+    "uncertain_idg"
+  ],
+  "idg_rule": "The 1,967 summaries carrying the original actor-wording flag count under their adopted IDG services primary label. Named-together counts and original classification rules remain unchanged."
+}

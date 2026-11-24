@@ -102,10 +102,6 @@
       "short": "IDG services",
       "full": "Hospice IDG, counseling, bereavement, spiritual and volunteer services"
     },
-    "uncertain_idg": {
-      "short": "Uncertain (IDG wording)",
-      "full": "Care area uncertain: the summary names the IDG as the actor (\"the IDG ensures that...\"), so the rule read the actor as the subject"
-    },
     "therapy_services": {
       "short": "Therapy/social work",
       "full": "Therapy and social work services"
